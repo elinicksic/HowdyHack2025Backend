@@ -7,464 +7,653 @@
   ],
   "studysets": [
     {
-      "id": "1fa3a63b-d95c-47c7-b707-2dda8fc8e0d7",
+      "id": "477fedb5-ba7b-498b-881d-8ab1a54828c4",
       "status": "ready",
-      "prompt": "I would like to learn the following python concepts: comments, printing, variables, math operators, if/else, and functions",
-      "title": "Python basics",
+      "prompt": "I would like to learn about common polyatomic ions and their charges, acid-base reactions, and combustion reactions.",
+      "title": "Common reactions & ions",
       "topics": [
         {
-          "title": "Python basics",
+          "title": "Polyatomic ions",
           "sections": [
-            "Comments",
-            "Printing",
-            "Variables",
-            "Math operators",
-            "If/Else",
-            "Functions"
+            "Common ions",
+            "Sulfates",
+            "Nitrates & Nitrites",
+            "Carbonates & Phosphates",
+            "Hydroxide & Ammonium",
+            "Chlorates"
+          ]
+        },
+        {
+          "title": "Acid-base reactions",
+          "sections": [
+            "Bronsted-Lowry",
+            "Strong vs weak",
+            "Neutralization",
+            "Conjugate pairs",
+            "pH basics"
+          ]
+        },
+        {
+          "title": "Combustion reactions",
+          "sections": [
+            "Complete combustion",
+            "Incomplete combustion",
+            "Hydrocarbon types",
+            "Balancing combustion"
           ]
         }
       ],
       "question": [
         {
-          "title": "Comments — quick post",
-          "author": "code_cass",
+          "id": 1,
+          "title": "🧾 Charge check",
+          "author": "chem_bites",
           "topic": 0,
           "section": 0,
-          "likes": 142,
+          "likes": 152,
+          "background": "linear-gradient(135deg, #ff8a00 0%, #e52e71 100%)",
           "comments": [
             {
-              "author": "dev_dan",
+              "id": 1,
+              "author": "lab_rat_99",
+              "pfp_emoji": "🧪",
               "likes": 12,
-              "content": "wait so // works in Python? rn i'm confused 😂"
+              "content": "Wait is nitrate NO3- or NO2-? I'm always mixing them 😭"
             },
             {
-              "author": "py_noob",
-              "likes": 8,
-              "content": "triple quotes are comments tho, right? 🤔"
-            },
-            {
-              "author": "syntax_sam",
-              "likes": 4,
-              "content": "you can use # for single line, triple quotes are strings used as docstrings usually"
+              "id": 2,
+              "author": "periodic_pepe",
+              "pfp_emoji": "🧾",
+              "likes": 5,
+              "content": "Nitrate is NO3- (three oxygens). Nitrite is NO2- — literally one less O = different charge vibes."
             }
           ],
-          "question": "📌 Comments in Python — what to remember?",
+          "question": "Which of the following is the correct charge for sulfate (SO4)?",
           "choices": [
-            "Use // for single-line comments",
-            "Use # for single-line comments",
-            "Use <!-- --> for comments",
-            "Comments execute like code"
+            "0",
+            "-1",
+            "-2",
+            "+2"
           ],
-          "correct_idx": 1
+          "correct_idx": 2
         },
         {
-          "title": "Comments — quiz",
-          "author": "quiz_bot",
-          "topic": 0,
+          "id": 2,
+          "title": "🔥 Combustion product",
+          "author": "stoich_sam",
+          "topic": 2,
           "section": 0,
-          "likes": 47,
+          "likes": 98,
+          "background": "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
           "comments": [
             {
-              "author": "confused_cat",
-              "likes": 5,
-              "content": "I always forget if triple quotes are comments or not :sob:"
+              "id": 1,
+              "author": "flame_check",
+              "pfp_emoji": "🔥",
+              "likes": 8,
+              "content": "So complete combustion = CO2 + H2O right? not CO??"
             },
             {
-              "author": "fast_fix",
+              "id": 2,
+              "author": "ash_on_toast",
+              "pfp_emoji": "💨",
               "likes": 3,
-              "content": "Pro tip: triple quotes are strings; use them for docstrings"
+              "content": "Yes for complete. Incomplete gives CO or soot. Context matters lol."
             }
           ],
-          "question": "📝 Which of the following is a valid single-line comment in Python?",
+          "question": "What are the main products of complete combustion of a hydrocarbon?",
           "choices": [
-            "/* comment */",
-            "# this is a comment",
-            "// this is a comment",
-            "<!-- comment -->"
+            "CO and H2O",
+            "CO2 and H2O",
+            "CO2 and O2",
+            "C and H2O"
           ],
           "correct_idx": 1
         },
         {
-          "title": "Printing — quick post",
-          "author": "print_pat",
-          "topic": 0,
-          "section": 1,
+          "id": 3,
+          "title": "🧂 Neutralization check",
+          "author": "pH_pal",
+          "topic": 1,
+          "section": 2,
           "likes": 210,
+          "background": "linear-gradient(135deg, #a8ff78 0%, #78ffd6 100%)",
           "comments": [
             {
-              "author": "oldschool_dev",
-              "likes": 10,
-              "content": "print 'hello' was a thing in Python2, cringe 🧓"
+              "id": 1,
+              "author": "titration_tim",
+              "pfp_emoji": "⚗️",
+              "likes": 21,
+              "content": "Neutralization always gives salt + water, right??"
             },
             {
-              "author": "newb_alert",
-              "likes": 6,
-              "content": "so parentheses always? even for single word?"
-            },
-            {
-              "author": "pat_explains",
-              "likes": 5,
-              "content": "yes, Python3 requires print(...). f-strings are spicy for formatting 🔥"
-            }
-          ],
-          "question": "🖨️ Printing basics — short guide",
-          "choices": [
-            "print \"Hello\"  # same as Python3",
-            "print( \"Hello\" )",
-            "echo(\"Hello\")",
-            "cout << \"Hello\""
-          ],
-          "correct_idx": 1
-        },
-        {
-          "title": "Printing — quiz",
-          "author": "quiz_bot",
-          "topic": 0,
-          "section": 1,
-          "likes": 59,
-          "comments": [
-            {
-              "author": "js_dev_here",
-              "likes": 4,
-              "content": "I keep typing console.log out of habit 😂"
-            },
-            {
-              "author": "format_fan",
-              "likes": 2,
-              "content": "remember f\"{var}\" for inline vars"
-            }
-          ],
-          "question": "🖨️ Which line correctly prints Hello in Python 3?",
-          "choices": [
-            "print Hello",
-            "print('Hello')",
-            "println('Hello')",
-            "echo 'Hello'"
-          ],
-          "correct_idx": 1
-        },
-        {
-          "title": "Variables — quick post",
-          "author": "var_victor",
-          "topic": 0,
-          "section": 2,
-          "likes": 188,
-          "comments": [
-            {
-              "author": "name_thief",
+              "id": 2,
+              "author": "acidic_ally",
+              "pfp_emoji": "🍋",
               "likes": 7,
-              "content": "can var names start with numbers? i tried 2cool once lol"
-            },
-            {
-              "author": "py_snob",
-              "likes": 5,
-              "content": "avoid reserved words like 'class' or 'def' as variable names"
-            },
-            {
-              "author": "underscore_gal",
-              "likes": 3,
-              "content": "use snake_case for Pythonic vibes 🐍"
+              "content": "Yup, but watch conjugates and spectator ions — sometimes reaction looks the same but net ionic is just H+ + OH- -> H2O"
             }
           ],
-          "question": "🔤 Variables — what’s allowed?",
+          "question": "What is the net ionic equation for the neutralization of HCl by NaOH?",
           "choices": [
-            "2cool = 5",
-            "cool_2 = 5",
-            "cool-2 = 5",
-            "class = 5"
+            "HCl + NaOH -> NaCl + H2O",
+            "H+ + OH- -> H2O",
+            "Cl- + Na+ -> NaCl",
+            "H+ + Cl- + Na+ + OH- -> Na+ + Cl- + H2O"
           ],
           "correct_idx": 1
         },
         {
-          "title": "Variables — quiz",
-          "author": "quiz_bot",
-          "topic": 0,
-          "section": 2,
-          "likes": 36,
-          "comments": [
-            {
-              "author": "beginner_bean",
-              "likes": 3,
-              "content": "I always wanna use camelCase, is that bad?"
-            },
-            {
-              "author": "py_style",
-              "likes": 2,
-              "content": "camelCase is fine but PEP8 prefers snake_case"
-            }
-          ],
-          "question": "🔤 Which of these is a valid Python variable name?",
-          "choices": [
-            "2nd_place",
-            "my-var",
-            "my_var",
-            "def"
-          ],
-          "correct_idx": 2
-        },
-        {
-          "title": "Math operators — quick post",
-          "author": "ops_olivia",
-          "topic": 0,
+          "id": 4,
+          "title": "⚖️ Balancing vibe",
+          "author": "balance_queen",
+          "topic": 2,
           "section": 3,
-          "likes": 165,
+          "likes": 64,
+          "background": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
           "comments": [
             {
-              "author": "calc_kid",
-              "likes": 6,
-              "content": "why is // different from / tho 🤯"
-            },
-            {
-              "author": "floors_r_us",
+              "id": 1,
+              "author": "coeff_master",
+              "pfp_emoji": "📐",
               "likes": 4,
-              "content": "// is floor division, % is remainder"
-            }
-          ],
-          "question": "➗ Operators cheat-sheet",
-          "choices": [
-            "/  -> division (float)",
-            "// -> floor division (int if inputs int)",
-            "%  -> modulus (remainder)",
-            "All of the above"
-          ],
-          "correct_idx": 3
-        },
-        {
-          "title": "Math operators — quiz",
-          "author": "quiz_bot",
-          "topic": 0,
-          "section": 3,
-          "likes": 41,
-          "comments": [
-            {
-              "author": "maths_mike",
-              "likes": 5,
-              "content": "I keep mixing // and % lol"
+              "content": "Tip: balance C first, then H, then O. It saves brain cells 🙏"
             },
             {
-              "author": "clarity_queen",
+              "id": 2,
+              "author": "burn_it_down",
+              "pfp_emoji": "🔥",
               "likes": 2,
-              "content": "// gives integer floor, % gives remainder"
+              "content": "Also remember oxygen often comes from O2 gas — don't forget that 2 in diatomic!"
             }
           ],
-          "question": "🧮 What is the result of 7 // 2 in Python?",
+          "question": "When burning C3H8 (propane) completely, what is the coefficient in front of O2 in the balanced equation: C3H8 + ? O2 -> 3 CO2 + 4 H2O ?",
           "choices": [
-            "3.5",
-            "3",
+            "5",
             "4",
-            "3.0"
-          ],
-          "correct_idx": 1
-        },
-        {
-          "title": "If/Else — quick post",
-          "author": "branch_bry",
-          "topic": 0,
-          "section": 4,
-          "likes": 199,
-          "comments": [
-            {
-              "author": "indent_initiate",
-              "likes": 9,
-              "content": "tabs vs spaces war begins 😵‍💫"
-            },
-            {
-              "author": "py_mentor",
-              "likes": 6,
-              "content": "pick one and stay consistent — PEP8 prefers 4 spaces"
-            }
-          ],
-          "question": "🔀 Conditionals in a nutshell",
-          "choices": [
-            "Use braces {} like Java",
-            "Indentation defines blocks in Python",
-            "You need ; after if lines",
-            "if statements run in parallel"
-          ],
-          "correct_idx": 1
-        },
-        {
-          "title": "If/Else — quiz",
-          "author": "quiz_bot",
-          "topic": 0,
-          "section": 4,
-          "likes": 50,
-          "comments": [
-            {
-              "author": "edge_case_eli",
-              "likes": 4,
-              "content": "what if multiple ifs true? order matters"
-            },
-            {
-              "author": "short_and_sweet",
-              "likes": 3,
-              "content": "elif saves you from nested if hell"
-            }
-          ],
-          "question": "❓ Which block runs when all above conditions are false?",
-          "choices": [
-            "if:",
-            "elif:",
-            "else:",
-            "then:"
+            "7",
+            "10"
           ],
           "correct_idx": 2
         },
         {
-          "title": "Functions — quick post",
-          "author": "func_fu",
+          "id": 5,
+          "title": "🧾 Ion ID trap",
+          "author": "ion_ivy",
           "topic": 0,
-          "section": 5,
-          "likes": 231,
+          "section": 4,
+          "likes": 85,
+          "background": "linear-gradient(135deg, #c6ffdd 0%, #fbd786 100%)",
           "comments": [
             {
-              "author": "return_ron",
-              "likes": 7,
-              "content": "forgot return once and cried for 2 hours 😭"
-            },
-            {
-              "author": "param_pam",
-              "likes": 5,
-              "content": "default args are life-savers"
-            }
-          ],
-          "question": "🔁 Functions — key pieces",
-          "choices": [
-            "def name(params): -> defines a function",
-            "Use return to send a value back",
-            "You can have default parameters",
-            "All of the above"
-          ],
-          "correct_idx": 3
-        },
-        {
-          "title": "Functions — quiz",
-          "author": "quiz_bot",
-          "topic": 0,
-          "section": 5,
-          "likes": 63,
-          "comments": [
-            {
-              "author": "lambda_lover",
-              "likes": 3,
-              "content": "anonymous functions when??"
-            },
-            {
-              "author": "practical_pete",
-              "likes": 2,
-              "content": "use def for normal funcs, lambda for tiny one-liners"
-            }
-          ],
-          "question": "🔧 How do you define a function that doubles its input?",
-          "choices": [
-            "function double(x): return x*2",
-            "def double(x): return x * 2",
-            "double(x) => x*2",
-            "create double(x) { return x*2 }"
-          ],
-          "correct_idx": 1
-        },
-        {
-          "title": "Comments — mythbuster post",
-          "author": "myth_slayer",
-          "topic": 0,
-          "section": 0,
-          "likes": 86,
-          "comments": [
-            {
-              "author": "lazy_learner",
-              "likes": 4,
-              "content": "I comment nothing, code speaks for itself 🤷"
-            },
-            {
-              "author": "doc_dr",
+              "id": 1,
+              "author": "hydro_head",
+              "pfp_emoji": "💧",
               "likes": 6,
-              "content": "comments + docstrings = team-saver, not lazy-boxing"
-            }
-          ],
-          "question": "💬 Quick mythbusting: Are comments ignored by Python at runtime?",
-          "choices": [
-            "No — they run like code",
-            "Yes — Python ignores them at execution",
-            "Only comments with TODO run",
-            "They convert to docstrings automatically"
-          ],
-          "correct_idx": 1
-        },
-        {
-          "title": "Printing — formatting post",
-          "author": "fstring_frida",
-          "topic": 0,
-          "section": 1,
-          "likes": 157,
-          "comments": [
-            {
-              "author": "format_fiend",
-              "likes": 8,
-              "content": "f-strings > .format() fight me 😤"
+              "content": "Ammonium is NH4+ right? not NH3??"
             },
             {
-              "author": "legacy_larry",
-              "likes": 3,
-              "content": "I still see % formatting and cry"
+              "id": 2,
+              "author": "chem_mom",
+              "pfp_emoji": "👩‍🔬",
+              "likes": 9,
+              "content": "Correct: NH4+ is ammonium (ion). NH3 is ammonia (neutral). Big difference in reactions."
             }
           ],
-          "question": "✨ Quick tip: Which prints variable name x inline?",
+          "question": "What is the charge of the ammonium ion (NH4)?",
           "choices": [
-            "print(\"x = {}\".format(x))",
-            "print(f\"x = {x}\")",
-            "print('x = %s' % x)",
-            "All of the above"
+            "-1",
+            "0",
+            "+1",
+            "+2"
           ],
-          "correct_idx": 3
+          "correct_idx": 2
+        },
+        {
+          "id": 6,
+          "title": "🧪 Acid strength quickie",
+          "author": "pKa_pat",
+          "topic": 1,
+          "section": 1,
+          "likes": 177,
+          "background": "linear-gradient(135deg, #f43b47 0%, #453a94 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "strong_or_no",
+              "pfp_emoji": "⚡",
+              "likes": 10,
+              "content": "So HCl is always strong in water but HF is weak, right??"
+            },
+            {
+              "id": 2,
+              "author": "solvent_sally",
+              "pfp_emoji": "💧",
+              "likes": 5,
+              "content": "HCl strong in water, HF is weak because F- holds onto H tighter. Also solvent matters!"
+            }
+          ],
+          "question": "Which of the following is a strong acid in water?",
+          "choices": [
+            "HF",
+            "HNO3",
+            "CH3COOH",
+            "H2CO3"
+          ],
+          "correct_idx": 1
         }
       ],
       "reels": [
         {
-          "title": "Print Tricks — 12s madness",
-          "author": "skate_and_code",
+          "id": 1,
+          "title": "Polyatomic ions speedrun",
+          "author": "mnemonic_maya",
           "topic": 0,
-          "section": 1,
-          "likes": 402,
+          "section": 0,
+          "likes": 1024,
+          "background": "linear-gradient(135deg, #ff7eb3 0%, #65d6ff 100%)",
           "comments": [
             {
-              "author": "vid_viewer",
-              "likes": 45,
-              "content": "this had me laughing and learning, chef's kiss 🤌"
+              "id": 1,
+              "author": "shorts_nerd",
+              "pfp_emoji": "🎬",
+              "likes": 120,
+              "content": "This got me to stop mixing nitrate & nitrite. Thanks lol"
             },
             {
-              "author": "skeptical_sal",
-              "likes": 6,
-              "content": "skateboard cameo was so random but iconic"
+              "id": 2,
+              "author": "memory_mic",
+              "pfp_emoji": "🧠",
+              "likes": 33,
+              "content": "Skateboard cameo lowkey made it iconic 😂"
             }
           ],
-          "video_prompt": "Title: \"Print Tricks in 12s (skate or print?)\" — Gen-Z, chaotic energy. Scene plan (12 seconds):\n0-1s: Quick jump cut — skateboarder rolls in, does a tiny ollie (not main focus), hands a neon sticky note to speaker.\n1-3s: Speaker (character A, hyperfast) holds paper that says print(\"Hello\") and says: \"Print in Py3? Parens are mandatory. Say it with me: print(...)\"\n3-6s: Quick split-screen: left shows outdated print 'Hello' (big red X), right shows print('Hello') with green check. Speaker B (deadpan) says: \"Python2 vibes? Cancelled.\"\n6-9s: Rapid visual montage of formatting: f\"Hi {name}\" popping like a meme, then .format() vs % with comedic ding/dong sounds. Voiceover: \"f-strings = flex.\" \n9-11s: Quick tip overlay: \"use f-strings for fast formatting\" while skateboarder rolls past holding a giant emoji sticker.\n11-12s: Punchline: someone eats a sandwich labeled 'Syntax' and says: \"Snack on this syntax!\" Freeze-frame, bold text: \"print smart, not hard.\" \nInclude speaking outlines, quick captions for each visual, upbeat hyperpop track, jump cuts, and irreverent humor. Make sure a skateboard appears briefly but is not the focus.",
-          "video_id": "video_68f4576d00808198a15d54d7fd26511c09c51f991eae8b42",
-          "video_status": "success",
-          "video_file": "data/video_68f4576d00808198a15d54d7fd26511c09c51f991eae8b42.mp4"
+          "video_prompt": "Video title: \"Polyatomic ions speedrun\" — Author: mnemonic_maya. Duration 12s. Style: fast-cut, hyperpop, unpredictable humor. Cast: 2 characters (a confident chem-nerd and a dramatic skeptic) plus a skateboarder who zooms through frame at 2s and 8s (not the focus, just cameo). Opening (0-2s): quick neon title splash: \"Polyatomic ions — 12s cheat\". Scene 1 (2-5s): chem-nerd holds flashcards: show SO4²⁻ (emoji 💥) and says lines: \"Sulfate: SO four oxygens, -2 charge — think 'SO 4 two'\" with a goofy wink. Visual: animated 2⁻ popping next to formula. Skateboarder rolls by and does a tiny trick, knocks a flashcard that reveals NO3⁻. Scene 2 (5-8s): skeptic gasps, chem-nerd: \"Nitrate = NO3⁻, nitrite = NO2⁻ (one less O, same mood but less oxygen)\" Quick visual: compare NO3⁻ vs NO2⁻ with highlight. Scene 3 (8-11s): rapid 3-panel flash of common ions: CO3²⁻ (carbonate), PO4³⁻ (phosphate), NH4⁺ (ammonium), OH⁻ (hydroxide) — each with a one-word mnemonic under it (e.g., \"CO3: cake (2 layers)\" silly). Final beat (11-12s): punchline: skateboarder returns with a giant foam Periodic Table and says offscreen, \"Keep the charges, ditch the panic.\" Quick on-screen text: \"Save this 🎯\". Speaking outline: short punchy lines only; emphasize charges audibly (\"minus two\", \"plus one\"). Visuals: bold colored gradients, emoji overlays, quick formula animations, a tiny particle burst when charges appear. Make it unexpected and funny; skateboard cameo present but not main."
         },
         {
-          "title": "Functions — 12s sketch",
-          "author": "funky_funcs",
-          "topic": 0,
-          "section": 5,
-          "likes": 379,
+          "id": 2,
+          "title": "Neutralization in 12s (with drama)",
+          "author": "pH_pixie",
+          "topic": 1,
+          "section": 2,
+          "likes": 660,
+          "background": "linear-gradient(135deg, #ffd3a5 0%, #fd6585 100%)",
           "comments": [
             {
-              "author": "teach_trott",
-              "likes": 29,
-              "content": "omg the person who returns a pizza is genius 😂"
+              "id": 1,
+              "author": "net_ionic_nate",
+              "pfp_emoji": "🧾",
+              "likes": 75,
+              "content": "Net ionic explained simply — actually useful for labs 🔥"
             },
             {
-              "author": "lambda_lenny",
-              "likes": 7,
-              "content": "seriously short and stuck in my head now"
+              "id": 2,
+              "author": "miss_titration",
+              "pfp_emoji": "🎯",
+              "likes": 18,
+              "content": "The dramatic gasp was my energy lol"
             }
           ],
-          "video_prompt": "Title: \"Defining Functions: Return My Pizza\" — 12s, absurd & clear. Scene plan:\n0-1s: Quick intro: two characters (A: frantic, B: chill) in a tiny kitchen. Skateboard rests against counter.\n1-3s: A: \"I need my doubled pizza!\" B: holds a mock 'def' sign and says: \"I got a function for that.\" \n3-6s: Visual: On-screen code appears as B speaks: def double(pizza): return pizza*2 — B says each token in funky rhythm: \"def — name — params — return.\" \n6-9s: Cut to comedic visual: one pizza -> copy machine -> two pizzas (over-the-top special effect). B says: \"Call it: double(my_pizza)\" \n9-11s: Quick contrast: anonymous lambda appears as a tiny rude sprite that steals a slice, voiceover: \"lambda is for tiny snaccs.\" \n11-12s: Endcard: \"Functions: package behavior, return the goods.\" Upbeat lo-fi beat, jump cuts, captions for code, a skateboard cameo, and a silly pizza gag.",
-          "video_id": "video_68f4576e8a8c81908d540d5d8966b80406ebb29ab4a42b81",
-          "video_status": "success",
-          "video_file": "data/video_68f4576e8a8c81908d540d5d8966b80406ebb29ab4a42b81.mp4"
+          "video_prompt": "Video title: \"Neutralization in 12s (with drama)\" — Author: pH_pixie. Duration 12s. Style: comedic mini-skit, quick captions, over-the-top acting. Cast: acid (character in red hoodie), base (character in blue cap), plus skateboarder crossing behind the scene at 4s doing a tiny ollie. Opening (0-2s): dramatic close-up on a droplet labeled H+. Scene 1 (2-6s): acid pours a tiny animated H+ into a cup, base throws an OH- like a confetti pop; they do a melodramatic handshake. Voice lines: Acid: \"I bring H+\", Base: \"I got OH-\". Scene 2 (6-9s): both gasp as H+ + OH- collide and create H2O — show a big water droplet animation and fireworks. Quick caption: \"Net ionic: H+ + OH- -> H2O\". Scene 3 (9-12s): cut to a table where spectator ions (Na+, Cl-) are chilling on the sidelines with sunglasses labeled 'spectators' — a tiny mic drop. End text: \"Salt + Water? Yeah. But net ionic = H2O.\" Speaking outline: emphasize the simplicity: \"H plus plus OH equals water\"; comedic pause for spectator ions. Visuals: pop-up captions, neon outlines, sudden skateboard cameo, background hyperpop beat."
+        },
+        {
+          "id": 3,
+          "title": "Combustion: balance like a boss",
+          "author": "stoich_sue",
+          "topic": 2,
+          "section": 3,
+          "likes": 480,
+          "background": "linear-gradient(135deg, #ffd7ff 0%, #bde0fe 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "oxygen_ollie",
+              "pfp_emoji": "🛼",
+              "likes": 40,
+              "content": "Propane balancing in 12s? Respect."
+            },
+            {
+              "id": 2,
+              "author": "carbon_claire",
+              "pfp_emoji": "🦴",
+              "likes": 9,
+              "content": "This made the 'balance C, H, O' order stick better ngl"
+            }
+          ],
+          "video_prompt": "Video title: \"Combustion: balance like a boss\" — Author: stoich_sue. Duration 12s. Style: energetic rapid-fire tutorial with comedic non-sequiturs. Cast: one chill host, one overexcited assistant, skateboarder zips through at 3s and 9s. Opening (0-2s): text: \"Balance combustion in 12s\". Scene 1 (2-5s): host writes C3H8 + O2 -> CO2 + H2O. Host: \"C first: 3 CO2\" — big flash of '3'. Scene 2 (5-8s): assistant counts H: \"8 H -> 4 H2O\" (flash '4'). Scene 3 (8-11s): host solves O: tally O atoms (3*2 + 4*1 = 10) -> O2 coefficient 5. Visuals: tally marks, quick animation converting atoms to oxygen molecules. Final beat (11-12s): assistant throws confetti; text: \"C3H8 + 5 O2 -> 3 CO2 + 4 H2O\". Speaking outline: narrate steps fast and loud: \"C, H, then O — boom.\" Include skateboard cameo for comedic choreography."
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "title": "Top common polyatomic ions",
+          "author": "ions_irl",
+          "topic": 0,
+          "section": 0,
+          "likes": 430,
+          "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "chem_claire",
+              "pfp_emoji": "🧪",
+              "likes": 34,
+              "content": "Why is carbonate -2 again? I keep thinking -1 lol"
+            },
+            {
+              "id": 2,
+              "author": "memorize_me",
+              "pfp_emoji": "🧠",
+              "likes": 22,
+              "content": "Pro tip: learn a handful (SO4²⁻, NO3⁻, CO3²⁻, PO4³⁻, OH⁻, NH4⁺) and you cover like 80% of problems"
+            },
+            {
+              "id": 3,
+              "author": "panic_at_lab",
+              "pfp_emoji": "😅",
+              "likes": 5,
+              "content": "This actually helped me on the quiz fr"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "📌",
+              "content": "SO4²⁻ sulfate — charge -2"
+            },
+            {
+              "icon": "📌",
+              "content": "NO3⁻ nitrate — charge -1 (NO2⁻ is nitrite: -1 with one less O)"
+            },
+            {
+              "icon": "📌",
+              "content": "CO3²⁻ carbonate — -2; PO4³⁻ phosphate — -3"
+            },
+            {
+              "icon": "📌",
+              "content": "OH⁻ hydroxide — -1; NH4⁺ ammonium — +1"
+            },
+            {
+              "icon": "💡",
+              "content": "Most polyatomic oxyanions have negative charges; memorize families, not every weird one"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Sulfates & sulfites quickguide",
+          "author": "sulfate_sam",
+          "topic": 0,
+          "section": 1,
+          "likes": 178,
+          "background": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "sulfix",
+              "pfp_emoji": "🧾",
+              "likes": 10,
+              "content": "Sulfite vs sulfate always trips me up. Appreciate the side-by-side!"
+            },
+            {
+              "id": 2,
+              "author": "oxide_kid",
+              "pfp_emoji": "⚠️",
+              "likes": 3,
+              "content": "Remember -ite = one less oxygen than -ate"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧩",
+              "content": "Sulfate: SO4²⁻ (common in salts like Na2SO4)"
+            },
+            {
+              "icon": "🧩",
+              "content": "Sulfite: SO3²⁻ (same -2 charge but one less O)"
+            },
+            {
+              "icon": "🧠",
+              "content": "Tip: -ate usually has more oxygens than -ite"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Nitrate vs Nitrite: don't panic",
+          "author": "no3pro",
+          "topic": 0,
+          "section": 2,
+          "likes": 142,
+          "background": "linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "confused_cory",
+              "pfp_emoji": "🤔",
+              "likes": 6,
+              "content": "I always forget which has 3 O's — this stuck"
+            },
+            {
+              "id": 2,
+              "author": "nitro_nick",
+              "pfp_emoji": "💥",
+              "likes": 2,
+              "content": "Nitrate = NO3⁻, nitrite = NO2⁻. memorize that tiny difference = huge consequences"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔍",
+              "content": "Nitrate: NO3⁻ (common in fertilizers)"
+            },
+            {
+              "icon": "🔍",
+              "content": "Nitrite: NO2⁻ (one less oxygen; watch reactivity)"
+            },
+            {
+              "icon": "⚖️",
+              "content": "Both usually carry -1 charge in salts"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Hydroxide & ammonium — opposites attract",
+          "author": "base_beth",
+          "topic": 0,
+          "section": 4,
+          "likes": 200,
+          "background": "linear-gradient(135deg, #b2fefa 0%, #0ed2f7 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "ammonia_amy",
+              "pfp_emoji": "🧴",
+              "likes": 18,
+              "content": "NH4+ vs NH3 saved my lab day — thanks!!"
+            },
+            {
+              "id": 2,
+              "author": "oh_snap",
+              "pfp_emoji": "🌀",
+              "likes": 14,
+              "content": "OH- is basic, NH4+ is acidic-ish when donating H+ (as conjugate acid of NH3)"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "⚖️",
+              "content": "OH⁻ = hydroxide, common strong base component"
+            },
+            {
+              "icon": "⚖️",
+              "content": "NH4⁺ = ammonium, conjugate acid of NH3, charge +1"
+            },
+            {
+              "icon": "💡",
+              "content": "NH3 is neutral gas; NH4+ is the ion — different behavior in solution"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Bronsted-Lowry in one slide",
+          "author": "bronsted_bro",
+          "topic": 1,
+          "section": 0,
+          "likes": 300,
+          "background": "linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "philosophy_phil",
+              "pfp_emoji": "📚",
+              "likes": 20,
+              "content": "So acids donate H+, bases accept H+ — simple but gets messy with conjugates"
+            },
+            {
+              "id": 2,
+              "author": "titr8er",
+              "pfp_emoji": "🧪",
+              "likes": 6,
+              "content": "This is the one I actually use in solving problems"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧪",
+              "content": "Acid: proton (H+) donor"
+            },
+            {
+              "icon": "🧪",
+              "content": "Base: proton (H+) acceptor"
+            },
+            {
+              "icon": "🔁",
+              "content": "Conjugate acid/base pairs: HA <-> H+ + A-"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Strong vs weak acids — real talk",
+          "author": "pKa_pal",
+          "topic": 1,
+          "section": 1,
+          "likes": 255,
+          "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "weakling",
+              "pfp_emoji": "🥺",
+              "likes": 11,
+              "content": "So strong = fully dissociate in water? that seems binary but ok"
+            },
+            {
+              "id": 2,
+              "author": "chem_cliff",
+              "pfp_emoji": "📈",
+              "likes": 9,
+              "content": "Yep. HCl, HBr, HI, HNO3, H2SO4 (first H) are common strong acids"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "⚡",
+              "content": "Strong acids: almost complete dissociation in water (e.g., HCl, HNO3)"
+            },
+            {
+              "icon": "🧊",
+              "content": "Weak acids: partial dissociation (e.g., CH3COOH, HF). Use Ka or pH to quantify"
+            },
+            {
+              "icon": "💡",
+              "content": "If a problem says 'strong acid', treat it as full H+ source"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Complete vs incomplete combustion",
+          "author": "combustion_ko",
+          "topic": 2,
+          "section": 1,
+          "likes": 190,
+          "background": "linear-gradient(135deg, #ffb347 0%, #ffcc33 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "sooty_sam",
+              "pfp_emoji": "🪵",
+              "likes": 7,
+              "content": "I forgot CO is a product of incomplete — almost died in chem lab lol"
+            },
+            {
+              "id": 2,
+              "author": "safety_sue",
+              "pfp_emoji": "🚨",
+              "likes": 12,
+              "content": "CO is toxic and colorless — know the difference for real-world contexts"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔥",
+              "content": "Complete combustion of hydrocarbon -> CO2 + H2O"
+            },
+            {
+              "icon": "⚠️",
+              "content": "Incomplete combustion -> CO, C (soot), sometimes H2O + less CO2"
+            },
+            {
+              "icon": "🎯",
+              "content": "O2 availability controls completeness — limited O2 = incomplete"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Balancing a hydrocarbon combustion quickly",
+          "author": "coeff_king",
+          "topic": 2,
+          "section": 3,
+          "likes": 310,
+          "background": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "panic_balancer",
+              "pfp_emoji": "😵",
+              "likes": 25,
+              "content": "That C,H,O order saved my exam ngl"
+            },
+            {
+              "id": 2,
+              "author": "half_done",
+              "pfp_emoji": "🙃",
+              "likes": 4,
+              "content": "Just remember to multiply H2O count ×1 for O total — saved me mistakes"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "1️⃣",
+              "content": "Step 1: Balance C — set coefficient of CO2 = # of C in fuel"
+            },
+            {
+              "icon": "2️⃣",
+              "content": "Step 2: Balance H — set coefficient of H2O = (# H in fuel)/2"
+            },
+            {
+              "icon": "3️⃣",
+              "content": "Step 3: Balance O — count total O on product side, divide by 2 for O2"
+            },
+            {
+              "icon": "💡",
+              "content": "If O2 coefficient is fractional, multiply whole equation to clear fractions"
+            }
+          ]
         }
       ]
     }

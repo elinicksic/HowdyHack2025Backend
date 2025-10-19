@@ -6,17 +6,21 @@ from openai import OpenAI
 
 # Base
 class ScrollSectionComment(BaseModel):
+    id: int
     author: str
+    pfp_emoji: str
     likes: int
     content: str
 
 
 class BaseScrollSection(BaseModel):
+    id: int
     title: str
     author: str
     topic: int
     section: int
     likes: int
+    background: str
     comments: List[ScrollSectionComment]
 
 
@@ -57,6 +61,7 @@ class ScrollTopicResponse(BaseModel):
     topics: List[ScrollTopic]
     question: List[ScrollQuestion]
     reels: List[ScrollReel]
+    posts: List[ScrollPost]
 
 
 system_prompt = """
@@ -70,7 +75,9 @@ system_prompt = """
     
     Posts should cover most of the content. A post consists of multiple slides, each with an icon (emoji) and some content. Keep each slide brief and focussed.
     
-    Questions are to quiz the user on the topic. Include an icon (emoji), the question text, 4 answer choices, and the 0-indexed correct answer.
+    Questions are to quiz the user on the topic. Include an icon (emoji), the question text, 4 answer choices, and the 0-indexed correct answer. The question field should just include the text of the question, ending in a question mark. The question field should not be used as a title.
+    
+    For all id fields, increment a numeric id. The background is a unique value for the css "background" property for the post. Its a good idea to use a gradient with unique colors like "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
 """
 
 

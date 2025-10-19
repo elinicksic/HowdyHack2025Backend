@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from typing import List, Set
 from flask import Flask, request
 from dotenv import load_dotenv
+from flask_cors import CORS  # NEW
 import json
 from uuid import uuid4
 import feed_generator
@@ -13,6 +14,13 @@ import time
 import os
 
 app = Flask(__name__)
+CORS(  # NEW
+    app,
+    # restrict to your frontend origin in prod
+    resources={r"/.*": {"origins": "*"}},
+    methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "Authorization"],
+)
 client: OpenAI = None
 
 data = {}
@@ -230,7 +238,26 @@ def get_studyset_endpoint():
     if ss is None:
         return {"error": "not found"}, 404
 
-    return ss, 200
+    # Build combined feed with type and sort by (topic, section)
+    feed_items = []
+    for key, tname in (("question", "question"), ("reels", "reel"), ("posts", "post")):
+        for obj in ss.get(key, []) or []:
+            item = dict(obj)
+            item["type"] = tname
+            feed_items.append(item)
+
+    # Order within a section: reels (reel), posts (post), questions (question)
+    type_order = {"reel": 0, "post": 1, "question": 2}
+    feed_items.sort(key=lambda o: (
+        o.get("topic", 0),
+        o.get("section", 0),
+        type_order.get(o.get("type", ""), 99),
+    ))
+
+    resp = dict(ss)
+    resp["feed"] = feed_items
+    print(json.dumps(resp["feed"], indent=2))
+    return json.dumps(resp), 200
 
 
 @app.route("/studysets/create", methods=["POST"])
@@ -254,7 +281,7 @@ def create_studyset_endpoint():
 
     print(generate_reels)
 
-    id = generate_studyset(prompt.strip())
+    id = generate_studyset(prompt.strip(), generate_reels)
     return {"id": id}, 200
 
 
