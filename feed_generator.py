@@ -19,6 +19,7 @@ class BaseScrollSection(BaseModel):
     id: int
     title: str
     author: str
+    author_pfp_emoji: str
     topic: int
     section: int
     likes: int
@@ -87,7 +88,7 @@ system_prompt = """
     
     Include a few image slides, they can be anything from a diagram to a realistic image. Try to avoid text in the image at the iamge AI isn't very good at text. The description should be the alt-text for the image, and the caption should provide the educational information about the image. A few options for the image slide are memes, cool real-life posts of related content (ex. someone showing of a cool chemical reaction), or simple diagrams.
     
-    For all id fields, increment a numeric id. The background is a unique value for the css "background" property for the post. Its a good idea to use a gradient with unique colors like "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+    For all id fields, increment a numeric id. The background is a unique value for the css "background" property for the post. Its a good idea to use a gradient with unique colors like "linear-gradient(135deg, #667eea 0%, #764ba2 100%)". The foreground text is white, so keep that in mind for readability.
 """
 
 
