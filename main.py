@@ -115,12 +115,12 @@ def _poll_reels_task(studyset_id: str):
                     if error:
                         print(f"poll_reels: video {vid} failed: {error}")
                     elif new_status in ("completed", "succeeded", "ready"):
-                        filepath = f"data/{vid}.mp4"
+                        filepath = f"data/videos/{vid}.mp4"
                         client.videos.download_content(
                             vid).write_to_file(filepath)
                         with data_lock:
                             reel["video_status"] = "success"
-                            reel["video_file"] = filepath
+                            reel["video_file"] = f"{vid}.mp4"
                             save_data()
                         print(f"poll_reels: downloaded {filepath}")
                 except Exception as e:
@@ -263,13 +263,16 @@ def get_studyset_endpoint():
 @app.route("/studysets/create", methods=["POST"])
 def create_studyset_endpoint():
     user = get_user()
+    print(user)
     if user is None:
         return {"error": "username missing"}, 400
 
+    print(request.is_json)
     if not request.is_json:
         return {"error": "Content-Type must be application/json"}, 400
 
     body = request.get_json(silent=True)
+    print(body)
     if not isinstance(body, dict):
         return {"error": "invalid JSON body"}, 400
 
@@ -343,6 +346,12 @@ def comment_response_endpoint():
 @app.route("/images/<path:filename>", methods=["GET"])
 def serve_image(filename):
     images_dir = os.path.join("data", "images")
+    return send_from_directory(images_dir, filename)
+
+
+@app.route("/videos/<path:filename>", methods=["GET"])
+def serve_video(filename):
+    images_dir = os.path.join("data", "videos")
     return send_from_directory(images_dir, filename)
 
 

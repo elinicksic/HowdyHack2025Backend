@@ -1,0 +1,3756 @@
+{
+  "users": [
+    {
+      "name": "eli",
+      "progress": {}
+    }
+  ],
+  "studysets": [
+    {
+      "id": "398e258b-1421-4b93-9778-f8f64ff04a8c",
+      "status": "ready",
+      "prompt": "I would like to learn about common polyatomic ions and their charges, acid-base reactions, and combustion reactions.",
+      "title": "Polyatomic Ions, Acid-Base & Combustion",
+      "topics": [
+        {
+          "title": "Polyatomic ions",
+          "sections": [
+            "Common ions",
+            "Nitrate & nitrite",
+            "Sulfate & sulfite",
+            "Carbonate & bicarbonate",
+            "Ammonium & hydroxide"
+          ]
+        },
+        {
+          "title": "Acid-base reactions",
+          "sections": [
+            "Arrhenius",
+            "Bronsted-Lowry",
+            "pH and pKa",
+            "Neutralization",
+            "Strong vs weak acids"
+          ]
+        },
+        {
+          "title": "Combustion reactions",
+          "sections": [
+            "Complete combustion",
+            "Incomplete combustion",
+            "Balancing combustion",
+            "Products and energy"
+          ]
+        }
+      ],
+      "question": [
+        {
+          "id": 36,
+          "title": "Ion charge check",
+          "author": "chem_spark",
+          "author_pfp_emoji": "🧪",
+          "topic": 0,
+          "section": 0,
+          "likes": 42,
+          "background": "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
+          "comments": [
+            {
+              "id": 43,
+              "author": "lab_rat_99",
+              "pfp_emoji": "🐭",
+              "likes": 5,
+              "content": "Quick trick: memorize the 6-7 common ones and you’re golden. Nitrate = NO3- always. not NO2 lol"
+            },
+            {
+              "id": 44,
+              "author": "memechemist",
+              "pfp_emoji": "🌶️",
+              "likes": 3,
+              "content": "Me: *forgets charges* Also me: submits blank answer and prays to Avogadro"
+            },
+            {
+              "id": 45,
+              "author": "study_buddy",
+              "pfp_emoji": "📚",
+              "likes": 7,
+              "content": "Common misunderstanding: people swap nitrite/nitrate charges — nitrite is NO2- and nitrate is NO3-."
+            }
+          ],
+          "question": "What is the charge on the sulfate ion (SO4)?",
+          "choices": [
+            "-1",
+            "-2",
+            "+1",
+            "0"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 37,
+          "title": "Nitrate vs nitrite",
+          "author": "anion_ally",
+          "author_pfp_emoji": "⚛️",
+          "topic": 0,
+          "section": 1,
+          "likes": 28,
+          "background": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+          "comments": [
+            {
+              "id": 46,
+              "author": "no_scope",
+              "pfp_emoji": "🛹",
+              "likes": 2,
+              "content": "fun fact: nitrite is less Oxy than nitrate so it has 2 O. literally oxygen diet."
+            },
+            {
+              "id": 47,
+              "author": "chem_teacher_vibes",
+              "pfp_emoji": "🧑‍🏫",
+              "likes": 9,
+              "content": "Common confusion: people think nitrite = -2 charge. Nope — both NO2- and NO3- carry -1 charge."
+            },
+            {
+              "id": 48,
+              "author": "glowup_girl",
+              "pfp_emoji": "✨",
+              "likes": 1,
+              "content": "Same charge, different O count. That’s the tea ☕️"
+            }
+          ],
+          "question": "Which of these formulas is nitrite?",
+          "choices": [
+            "NO3-",
+            "NO2-",
+            "NO2^2-",
+            "N2O"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 38,
+          "title": "Conjugate basics",
+          "author": "ph_balance",
+          "author_pfp_emoji": "⚖️",
+          "topic": 1,
+          "section": 1,
+          "likes": 33,
+          "background": "linear-gradient(135deg, #a8ff78 0%, #78ffd6 100%)",
+          "comments": [
+            {
+              "id": 49,
+              "author": "pH_enthusiast",
+              "pfp_emoji": "📈",
+              "likes": 6,
+              "content": "I always mess up conjugate acid/base pairs until I remember: conjugate base = minus an H."
+            },
+            {
+              "id": 50,
+              "author": "that_one_guy",
+              "pfp_emoji": "🤡",
+              "likes": 2,
+              "content": "Bro I thought conjugate meant 'married' chemistry couples 😭"
+            },
+            {
+              "id": 51,
+              "author": "helpful_hannah",
+              "pfp_emoji": "🧠",
+              "likes": 8,
+              "content": "Tip: remove H+ from the acid to get its conjugate base; add H+ to the base to get conjugate acid."
+            }
+          ],
+          "question": "What is the conjugate base of HSO4-?",
+          "choices": [
+            "SO4^2-",
+            "HSO4^2-",
+            "H2SO4",
+            "SO3^2-"
+          ],
+          "correct_idx": 0
+        },
+        {
+          "id": 39,
+          "title": "pH calc",
+          "author": "logy_lois",
+          "author_pfp_emoji": "🔬",
+          "topic": 1,
+          "section": 2,
+          "likes": 55,
+          "background": "linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%)",
+          "comments": [
+            {
+              "id": 52,
+              "author": "calc_claire",
+              "pfp_emoji": "🧮",
+              "likes": 12,
+              "content": "Common error: people forget concentration units — M is needed for pH."
+            },
+            {
+              "id": 53,
+              "author": "matthew_the_meme",
+              "pfp_emoji": "👻",
+              "likes": 1,
+              "content": "When you get pH = 14 and act like you conquered chemistry 😂"
+            },
+            {
+              "id": 54,
+              "author": "precise_paula",
+              "pfp_emoji": "🖊️",
+              "likes": 5,
+              "content": "If [H+] = 1.0e-3 M then pH = 3. Don't overthink it."
+            }
+          ],
+          "question": "If [H+] = 1.0 × 10^-4 M, what is the pH?",
+          "choices": [
+            "3",
+            "4",
+            "10",
+            "14"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 40,
+          "title": "Neutralization product",
+          "author": "salt_maker",
+          "author_pfp_emoji": "🧂",
+          "topic": 1,
+          "section": 3,
+          "likes": 24,
+          "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+          "comments": [
+            {
+              "id": 55,
+              "author": "neutral_nick",
+              "pfp_emoji": "💧",
+              "likes": 4,
+              "content": "Secret: neutralization gives water + salt. The salt depends on the acid/base ions."
+            },
+            {
+              "id": 56,
+              "author": "lolchemist",
+              "pfp_emoji": "🍋",
+              "likes": 2,
+              "content": "Me trying to name salts like I'm in Hogwarts: 'Sodium chloride, you shall be called NaCl!'"
+            },
+            {
+              "id": 57,
+              "author": "explain_erin",
+              "pfp_emoji": "📝",
+              "likes": 6,
+              "content": "Mistake to avoid: balancing H and OH to form H2O, then combine remaining ions to make salt."
+            }
+          ],
+          "question": "What are the products when HCl reacts with NaOH in aqueous solution?",
+          "choices": [
+            "NaCl and H2O",
+            "H2 and NaCl",
+            "NaOH and HCl (no reaction)",
+            "NaClO and H2"
+          ],
+          "correct_idx": 0
+        },
+        {
+          "id": 41,
+          "title": "Complete combustion stoich",
+          "author": "flame_fran",
+          "author_pfp_emoji": "🔥",
+          "topic": 2,
+          "section": 2,
+          "likes": 31,
+          "background": "linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%)",
+          "comments": [
+            {
+              "id": 58,
+              "author": "stoich_sam",
+              "pfp_emoji": "📏",
+              "likes": 7,
+              "content": "People forget to balance O2 last — classic mistake."
+            },
+            {
+              "id": 59,
+              "author": "incomplete_ivy",
+              "pfp_emoji": "💨",
+              "likes": 2,
+              "content": "If CO appears, it's incomplete combustion. Not the same as CO2!"
+            },
+            {
+              "id": 60,
+              "author": "molecule_may",
+              "pfp_emoji": "🔗",
+              "likes": 3,
+              "content": "Pro tip: balance C then H then O for hydrocarbon combustion equations."
+            }
+          ],
+          "question": "What are the products of complete combustion of propane (C3H8)?",
+          "choices": [
+            "CO2 and H2O",
+            "CO and H2",
+            "C and H2O",
+            "CO2 and O2"
+          ],
+          "correct_idx": 0
+        },
+        {
+          "id": 42,
+          "title": "Combustion incomplete vs complete",
+          "author": "oxy_guru",
+          "author_pfp_emoji": "🌬️",
+          "topic": 2,
+          "section": 1,
+          "likes": 19,
+          "background": "linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%)",
+          "comments": [
+            {
+              "id": 61,
+              "author": "safety_suzi",
+              "pfp_emoji": "🛟",
+              "likes": 6,
+              "content": "Important: incomplete combustion can produce CO which is toxic — big oof."
+            },
+            {
+              "id": 62,
+              "author": "fire_memes",
+              "pfp_emoji": "🔥",
+              "likes": 2,
+              "content": "My grades when I learned to balance combustion: still smoldering ember 😂"
+            },
+            {
+              "id": 63,
+              "author": "clarity_clint",
+              "pfp_emoji": "🔦",
+              "likes": 4,
+              "content": "Remember: complete uses plenty of O2 → CO2 + H2O; incomplete → CO, C or soot too."
+            }
+          ],
+          "question": "Which gas is commonly produced by incomplete combustion and is dangerous?",
+          "choices": [
+            "O2",
+            "CO2",
+            "CO",
+            "N2"
+          ],
+          "correct_idx": 2
+        }
+      ],
+      "reels": [
+        {
+          "id": 64,
+          "title": "Neutralization speedrun (12s)",
+          "author": "acid_base_ace",
+          "author_pfp_emoji": "⚗️",
+          "topic": 1,
+          "section": 3,
+          "likes": 410,
+          "background": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+          "comments": [
+            {
+              "id": 66,
+              "author": "skate_and_chem",
+              "pfp_emoji": "🛹",
+              "likes": 31,
+              "content": "Skater cameo! not kidding, the dude ollied through the titration 😂"
+            },
+            {
+              "id": 67,
+              "author": "titration_tim",
+              "pfp_emoji": "🧪",
+              "likes": 9,
+              "content": "Nice speaking outline — love the visual of H+ meeting OH- and turning into water."
+            },
+            {
+              "id": 68,
+              "author": "sassy_student",
+              "pfp_emoji": "👀",
+              "likes": 4,
+              "content": "Plot twist: the skateboarder waves a pH strip like a flag. Mood."
+            }
+          ],
+          "video_prompt": "12s energetic Gen-Z style reel: Title card 0.5s 'Neutralization in 12s' (fast glitch). Scene 1 (2s): Two characters (actor A = 'H+' in red jacket, actor B = 'OH-' in blue hoodie) meet dramatically under neon lights; quick voiceover line: 'When H+ meets OH-...'. Scene 2 (3s): They high-five and a slow-motion splash becomes a water droplet; voiceover: 'they become H2O — neutralized!' Add a quick onscreen visual: molecular icons (H+, OH-, water) popping into frame. Scene 3 (3s): Cut to a skateboarder cruising past holding a label 'Na+' and a friend holding 'Cl-'; voiceover: 'Leftovers? The spectator ions form a salt: NaCl.' Add quick visual of salt shaker labeled NaCl falling in slow-mo. Scene 4 (2s): Quick comedic beat where a tiny pH strip flips from low to 7 with sparkles; voiceover: 'pH -> 7 (if ideal)'. Ending (1.5s): Big text flash 'Water + Salt. Big chemistry energy.' Music: hyperpop beat, snappy cuts, occasional record-scratch sound. Include quick captions for accessibility: callouts 'H+ + OH- → H2O' and 'Salt formed from spectator ions'. Make it funny and chaotic but scientifically accurate."
+        },
+        {
+          "id": 65,
+          "title": "Combustion show: complete vs incomplete (12s)",
+          "author": "flame_artist",
+          "author_pfp_emoji": "🔥",
+          "topic": 2,
+          "section": 1,
+          "likes": 298,
+          "background": "linear-gradient(135deg, #ff9966 0%, #ff5e62 100%)",
+          "comments": [
+            {
+              "id": 69,
+              "author": "charcoal_charlie",
+              "pfp_emoji": "♨️",
+              "likes": 8,
+              "content": "That incomplete combustion soot shot is giving chef grill vibes 🔥🍖"
+            },
+            {
+              "id": 70,
+              "author": "safety_first",
+              "pfp_emoji": "🚨",
+              "likes": 11,
+              "content": "Low key PSA: CO detectors are real. This vid slaps but be safe irl."
+            },
+            {
+              "id": 71,
+              "author": "weirdly_funny",
+              "pfp_emoji": "🛹",
+              "likes": 3,
+              "content": "Skate cameo 2: skateboarder almost extinguishes tiny flame with a kickflip lol"
+            }
+          ],
+          "video_prompt": "12s fast-cut reel: Start with title card 'Complete vs Incomplete Combustion' (0.5s). Scene 1 (3s): Show two burners side-by-side — left with a clean blue flame (complete), right with smoky yellow flame (incomplete). Voiceover: 'Blue flame = plenty O2 → CO2 + H2O. Yellow smoke = not enough O2 → CO, soot.' Add quick on-screen pop-ups: 'CO2 ✔️', 'CO ⚠️', 'soot = C'. Scene 2 (4s): Short comedic sketch: three characters — 'Fuel' (dude in leather), 'O2' (two dancers), and 'Exhaust' (a dramatic narrator). The dancers try to reach the fuel; if both are there, they cheer and produce CO2 confetti; if only one arrives, someone coughs (CO). Insert 0.5s skateboard cameo where a skateboarder rolls through carrying a CO detector that beeps. Scene 3 (3s): Quick practical visual: glowing buoyant flames vs smoky lamp flame next to carbon monoxide warning icon. Ending (1.5s): 'Complete = CO2 + H2O; Incomplete = CO, C, less energy' with hyperpop beat. Include captions: 'Balance O2 to avoid CO' and 'CO is toxic — ventilate'. Make it punchy, slightly absurd, and memorable."
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "title": "Common polyatomic ions — cheat sheet",
+          "author": "ionguide",
+          "author_pfp_emoji": "🧲",
+          "topic": 0,
+          "section": 0,
+          "likes": 520,
+          "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          "comments": [
+            {
+              "id": 8,
+              "author": "shortcut_sam",
+              "pfp_emoji": "✂️",
+              "likes": 14,
+              "content": "This is exactly the list I needed for Chem 101. Save it!"
+            },
+            {
+              "id": 9,
+              "author": "confused_carla",
+              "pfp_emoji": "😵",
+              "likes": 3,
+              "content": "Why does sulfate have -2 while nitrate is -1? I keep mixing them up."
+            },
+            {
+              "id": 10,
+              "author": "explain_it_eli",
+              "pfp_emoji": "🧑‍🏫",
+              "likes": 11,
+              "content": "Quick: look at total valence electrons and how many oxygens — common ions follow stable electron counts, memorize the list then practice."
+            },
+            {
+              "id": 11,
+              "author": "meme_mol",
+              "pfp_emoji": "🤪",
+              "likes": 2,
+              "content": "Me: *memorizes charges* Also me: instantly forgets when test day arrives 😩"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧾",
+              "content": "Common ions: nitrate NO3- , nitrite NO2- , sulfate SO4^2- , sulfite SO3^2-, carbonate CO3^2-, bicarbonate HCO3- , ammonium NH4+ , hydroxide OH-."
+            },
+            {
+              "icon": "🔢",
+              "content": "Quick pattern: oxyanions with one more O often have same charge (NO2- vs NO3- both -1). Sulfate and sulfite both -2."
+            },
+            {
+              "icon": "🧠",
+              "content": "Memorize 6–8 common ions: OH-, NO3-, SO4^2-, CO3^2-, HCO3-, NH4+. Use them for naming and reactions."
+            },
+            {
+              "icon": "💡",
+              "content": "Tip: Many salts are just metal + polyatomic ion e.g., NaNO3, CaCO3, (NH4)2SO4."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Nitrate vs nitrite — what's different?",
+          "author": "oxy_friend",
+          "author_pfp_emoji": "🟦",
+          "topic": 0,
+          "section": 1,
+          "likes": 217,
+          "background": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
+          "comments": [
+            {
+              "id": 12,
+              "author": "tiny_titrat",
+              "pfp_emoji": "🔬",
+              "likes": 9,
+              "content": "One O difference. Both -1. Nitrite = NO2-, nitrate = NO3-. Simple but slippery."
+            },
+            {
+              "id": 13,
+              "author": "sassy_sam",
+              "pfp_emoji": "🌶️",
+              "likes": 2,
+              "content": "I thought nitrite had -2 charge for a hot second. brain.exe crashed"
+            },
+            {
+              "id": 14,
+              "author": "pro_tip_ron",
+              "pfp_emoji": "📝",
+              "likes": 6,
+              "content": "Sometimes in naming: -ite has fewer oxygens than -ate. Handy mnemonic."
+            },
+            {
+              "id": 15,
+              "author": "random_reaction",
+              "pfp_emoji": "💥",
+              "likes": 1,
+              "content": "this post slapped, snackable facts ♥️"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "⚖️",
+              "content": "NO2- (nitrite): 2 oxygens, -1 charge. NO3- (nitrate): 3 oxygens, -1 charge."
+            },
+            {
+              "icon": "🧩",
+              "content": "Use the '-ite' vs '-ate' pattern: -ite = fewer oxygens, -ate = more oxygens."
+            },
+            {
+              "icon": "📌",
+              "content": "Both behave similarly in salts (e.g., NaNO2, NaNO3) but differ in reactivity (nitrate often more stable)."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Carbonate ↔ Bicarbonate explained",
+          "author": "buffer_betty",
+          "author_pfp_emoji": "🧴",
+          "topic": 0,
+          "section": 3,
+          "likes": 330,
+          "background": "linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%)",
+          "comments": [
+            {
+              "id": 16,
+              "author": "sea_salt",
+              "pfp_emoji": "🌊",
+              "likes": 8,
+              "content": "Is bicarbonate just carbonate + H? yes, basically HCO3- comes from adding H+ to CO3^2-."
+            },
+            {
+              "id": 17,
+              "author": "acid_attack",
+              "pfp_emoji": "🍋",
+              "likes": 2,
+              "content": "My teacher made a pun about 'bicarb saving the day' and now I remember it."
+            },
+            {
+              "id": 18,
+              "author": "buffer_bae",
+              "pfp_emoji": "🧪",
+              "likes": 11,
+              "content": "Common confusion: HCO3- is amphiprotic — can act as acid or base depending on conditions."
+            },
+            {
+              "id": 19,
+              "author": "mischief_molly",
+              "pfp_emoji": "😼",
+              "likes": 1,
+              "content": "baking soda flexing in the comments 🧁"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔁",
+              "content": "Carbonate CO3^2- and bicarbonate HCO3- are related: H+ + CO3^2- → HCO3-."
+            },
+            {
+              "icon": "🧪",
+              "content": "Bicarbonate acts as a buffer in blood: it can accept or donate H+ to stabilize pH."
+            },
+            {
+              "icon": "🧂",
+              "content": "Common salts: CaCO3 (limestone), NaHCO3 (baking soda). Names reflect ions present."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Arrhenius vs Bronsted-Lowry — quick compare",
+          "author": "theory_snap",
+          "author_pfp_emoji": "🔎",
+          "topic": 1,
+          "section": 0,
+          "likes": 175,
+          "background": "linear-gradient(135deg, #f7971e 0%, #ffd200 100%)",
+          "comments": [
+            {
+              "id": 20,
+              "author": "philosopher_of_ph",
+              "pfp_emoji": "🧠",
+              "likes": 6,
+              "content": "Arrhenius = H+/OH- in water only. Bronsted = proton donor/acceptor (broader)."
+            },
+            {
+              "id": 21,
+              "author": "nitpick_nora",
+              "pfp_emoji": "🔬",
+              "likes": 3,
+              "content": "People forget Arrhenius requires aqueous solutions — that’s the main limitation."
+            },
+            {
+              "id": 22,
+              "author": "meme_master",
+              "pfp_emoji": "😹",
+              "likes": 2,
+              "content": "Arrhenius: 'I only operate in water' Bronsted: 'I travel the world' 😂"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🌊",
+              "content": "Arrhenius acid: produces H+ in water. Arrhenius base: produces OH- in water."
+            },
+            {
+              "icon": "🤝",
+              "content": "Bronsted-Lowry acid: proton (H+) donor. Base: proton acceptor. Works beyond aqueous systems."
+            },
+            {
+              "icon": "✅",
+              "content": "Pick Bronsted-Lowry when asked about conjugate acids/bases; Arrhenius is fine for simple aqueous problems."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "pH & pKa — what's important?",
+          "author": "log_scale_luke",
+          "author_pfp_emoji": "📉",
+          "topic": 1,
+          "section": 2,
+          "likes": 263,
+          "background": "linear-gradient(135deg, #fddb92 0%, #d1fdff 100%)",
+          "comments": [
+            {
+              "id": 23,
+              "author": "titratation_tom",
+              "pfp_emoji": "🧪",
+              "likes": 10,
+              "content": "Key confusion: pKa is about acid strength, not the same as pH. pH is solution property."
+            },
+            {
+              "id": 24,
+              "author": "quick_calc",
+              "pfp_emoji": "🧮",
+              "likes": 5,
+              "content": "If pH < pKa, acid is mostly protonated; if pH > pKa, deprotonated. Use Henderson-Hasselbalch."
+            },
+            {
+              "id": 25,
+              "author": "silly_sam",
+              "pfp_emoji": "🦄",
+              "likes": 1,
+              "content": "pH and pKa walk into a bar... Kb walks out. (I tried.)"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "📏",
+              "content": "pH = -log[H+]. Lower pH = more acidic."
+            },
+            {
+              "icon": "🔥",
+              "content": "pKa indicates acid strength: lower pKa = stronger acid (more willing to donate H+)."
+            },
+            {
+              "icon": "🧾",
+              "content": "Use Henderson-Hasselbalch: pH = pKa + log([A-]/[HA]) for buffer calculations."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Neutralization example: HCl + NaOH",
+          "author": "salt_maker",
+          "author_pfp_emoji": "🧂",
+          "topic": 1,
+          "section": 3,
+          "likes": 402,
+          "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+          "comments": [
+            {
+              "id": 26,
+              "author": "lab_noob",
+              "pfp_emoji": "😅",
+              "likes": 7,
+              "content": "Wait so the spectator ions don't change? I thought everything reacted."
+            },
+            {
+              "id": 27,
+              "author": "clear_comment",
+              "pfp_emoji": "📝",
+              "likes": 9,
+              "content": "Right — H+ and OH- make water. Na+ and Cl- are spectators and form the salt NaCl in solution."
+            },
+            {
+              "id": 28,
+              "author": "meme_maj",
+              "pfp_emoji": "🎯",
+              "likes": 2,
+              "content": "The salt is the afterparty for spectator ions. they just vibeeeee 🔥"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "➡️",
+              "content": "Equation: HCl (aq) + NaOH (aq) → NaCl (aq) + H2O (l)."
+            },
+            {
+              "icon": "💧",
+              "content": "Neutralization = acid H+ + base OH- → water. Spectator ions form salt."
+            },
+            {
+              "icon": "🔁",
+              "content": "Net ionic: H+ + OH- → H2O. Net ionic removes spectator ions."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Balancing combustion of hydrocarbons",
+          "author": "balance_ben",
+          "author_pfp_emoji": "📐",
+          "topic": 2,
+          "section": 2,
+          "likes": 291,
+          "background": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+          "comments": [
+            {
+              "id": 29,
+              "author": "panic_pat",
+              "pfp_emoji": "😱",
+              "likes": 4,
+              "content": "Ugh balancing O2 always trips me up. whyyyyy"
+            },
+            {
+              "id": 30,
+              "author": "method_maya",
+              "pfp_emoji": "🔢",
+              "likes": 12,
+              "content": "Steps: balance C, then H, then O. If O odd, multiply to make even. Saved my exam once."
+            },
+            {
+              "id": 31,
+              "author": "flame_fran",
+              "pfp_emoji": "🔥",
+              "likes": 3,
+              "content": "Pro tip: For CxHy + O2 → CO2 + H2O, count O from CO2 and H2O, then divide by 2 for O2."
+            },
+            {
+              "id": 32,
+              "author": "meme_chemist",
+              "pfp_emoji": "🤡",
+              "likes": 1,
+              "content": "Balance O2 like you're solving a sudoku. except hotter."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧾",
+              "content": "General: CxHy + O2 → x CO2 + (y/2) H2O. Balance C and H first, then O2 last."
+            },
+            {
+              "icon": "🧮",
+              "content": "If (y/2) is fractional, multiply whole equation by 2 to clear fractions."
+            },
+            {
+              "icon": "⚠️",
+              "content": "Complete combustion: products CO2 + H2O (with enough O2). Incomplete can give CO or C (soot)."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 74,
+          "title": "Carbonate-bicarbonate equilibrium diagram",
+          "author": "visual_victor",
+          "author_pfp_emoji": "🖼️",
+          "topic": 0,
+          "section": 3,
+          "likes": 138,
+          "background": "linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%)",
+          "comments": [
+            {
+              "id": 77,
+              "author": "diagram_dani",
+              "pfp_emoji": "📊",
+              "likes": 6,
+              "content": "Nice alt-text! Visualizes how CO3^2- ↔ HCO3- ↔ H2CO3 shift with H+."
+            },
+            {
+              "id": 78,
+              "author": "tiny_text",
+              "pfp_emoji": "🔎",
+              "likes": 2,
+              "content": "pls less text on pic next time haha but good content"
+            },
+            {
+              "id": 79,
+              "author": "buffer_bae",
+              "pfp_emoji": "🧪",
+              "likes": 4,
+              "content": "Useful: shows pH ranges where bicarbonate vs carbonate dominate."
+            }
+          ],
+          "image_prompt": "clean flat infographic diagram showing the carbonate-bicarbonate equilibrium: CO3^2- ↔ HCO3- ↔ H2CO3 with arrows, pH ranges indicated (basic → carbonate, neutral → bicarbonate, acidic → carbonic acid), soft pastel palette, minimal text, clear molecular icons, vector style",
+          "description": "Diagram showing carbonate (CO3^2-), bicarbonate (HCO3-), and carbonic acid (H2CO3) with arrows indicating equilibrium and approximate pH ranges where each form dominates.",
+          "caption": "Carbonate and bicarbonate are in equilibrium: CO3^2- + H+ ⇌ HCO3- and HCO3- + H+ ⇌ H2CO3. Bicarbonate is often the dominant species near physiological pH.",
+          "file": "f993d1bd-1af8-4bf6-971a-82926d0fa6b1.png"
+        },
+        {
+          "id": 75,
+          "title": "Flame comparison photo",
+          "author": "lab_fire",
+          "author_pfp_emoji": "🔥",
+          "topic": 2,
+          "section": 1,
+          "likes": 204,
+          "background": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+          "comments": [
+            {
+              "id": 80,
+              "author": "safety_sam",
+              "pfp_emoji": "🚨",
+              "likes": 7,
+              "content": "Blue flame = hot + complete. Yellow = soot and incomplete. Ventilate in labs!"
+            },
+            {
+              "id": 81,
+              "author": "photog_paul",
+              "pfp_emoji": "📸",
+              "likes": 3,
+              "content": "Nice shot. The yellow flame has incandescent carbon particles."
+            },
+            {
+              "id": 82,
+              "author": "lol_lara",
+              "pfp_emoji": "😂",
+              "likes": 2,
+              "content": "me trying to balance combustion like balancing my life choices 🔥"
+            }
+          ],
+          "image_prompt": "realistic photo-style close-up of two flames side-by-side: a clean blue laboratory flame and a smoky yellow flame; shallow depth of field, warm lighting, no text, high detail showing soot in the yellow flame",
+          "description": "Photo showing a blue flame (complete combustion) next to a yellow smoky flame (incomplete combustion with soot).",
+          "caption": "Blue flame indicates sufficient oxygen → mostly CO2 and H2O. Yellow/smoky flame shows incomplete combustion producing CO and soot (C).",
+          "file": "1625f206-d464-485a-acec-23d8add587ac.png"
+        },
+        {
+          "id": 76,
+          "title": "Chemistry meme: spectator ions at a party",
+          "author": "party_pH",
+          "author_pfp_emoji": "🎉",
+          "topic": 1,
+          "section": 3,
+          "likes": 86,
+          "background": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+          "comments": [
+            {
+              "id": 83,
+              "author": "meme_lord",
+              "pfp_emoji": "🤡",
+              "likes": 5,
+              "content": "Spectator ions be like 'we just came to watch' 😂"
+            },
+            {
+              "id": 84,
+              "author": "chemistry_kevin",
+              "pfp_emoji": "🧪",
+              "likes": 2,
+              "content": "Helpful: spectators don't participate in net ionic equations."
+            },
+            {
+              "id": 85,
+              "author": "snarky_sue",
+              "pfp_emoji": "😼",
+              "likes": 1,
+              "content": "This is my pinned energy. mood forever"
+            }
+          ],
+          "image_prompt": "cartoon-style meme image: a party scene where H+ and OH- are doing a dramatic slow-mo handshake in the center while Na+ and Cl- stand to the side holding chips labeled 'spectator ions'; bright colors, exaggerated expressions, minimal text",
+          "description": "Cartoon meme showing H+ and OH- forming water in the center, while Na+ and Cl- watch from the side as spectator ions.",
+          "caption": "In neutralization, spectator ions (like Na+ and Cl-) don't participate in the net ionic reaction — they simply remain in solution as the salt.",
+          "file": "de8ccc26-8c4d-42b7-b27a-fa43b59fa8db.png"
+        }
+      ]
+    },
+    {
+      "id": "cef47585-e6ea-48a0-a240-e1b19634d363",
+      "status": "ready",
+      "prompt": "I want to learn about python basics",
+      "title": "Python basics",
+      "topics": [
+        {
+          "title": "Python basics",
+          "sections": [
+            "Syntax",
+            "Variables",
+            "Data types",
+            "Control flow",
+            "Functions",
+            "Modules",
+            "File I/O",
+            "Errors"
+          ]
+        }
+      ],
+      "question": [
+        {
+          "id": 1,
+          "title": "Indentation matters",
+          "author": "py_guru",
+          "author_pfp_emoji": "🐍",
+          "topic": 0,
+          "section": 0,
+          "likes": 342,
+          "background": "linear-gradient(135deg, #5ee7df 0%, #b490ca 100%)",
+          "comments": [
+            {
+              "id": 2,
+              "author": "space_tabs",
+              "pfp_emoji": "🧑‍🚀",
+              "likes": 12,
+              "content": "Pro tip: mix tabs and spaces at your own peril. vscode will judge you."
+            },
+            {
+              "id": 3,
+              "author": "indent_chef",
+              "pfp_emoji": "🍳",
+              "likes": 8,
+              "content": "People think indentation is cosmetic — nah it's syntax. Blocks = indentation levels."
+            },
+            {
+              "id": 4,
+              "author": "long_commenter",
+              "pfp_emoji": "💬",
+              "likes": 3,
+              "content": "If you forget a colon at the end of if/for/def you get a SyntaxError. Very unforgiving."
+            },
+            {
+              "id": 5,
+              "author": "meme_lord",
+              "pfp_emoji": "😹",
+              "likes": 21,
+              "content": "Indentation drama: 1 space = chaos, 4 spaces = civilization."
+            }
+          ],
+          "question": "Which of the following is true about indentation in Python?",
+          "choices": [
+            "Indentation is optional and only for readability.",
+            "Indentation defines code blocks and is required.",
+            "Tabs are the only valid indentation characters in Python.",
+            "Indentation is ignored inside functions."
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 6,
+          "title": "Variables & types",
+          "author": "code_kween",
+          "author_pfp_emoji": "👑",
+          "topic": 0,
+          "section": 1,
+          "likes": 189,
+          "background": "linear-gradient(135deg, #ffd194 0%, #70e1f5 100%)",
+          "comments": [
+            {
+              "id": 7,
+              "author": "noob42",
+              "pfp_emoji": "🧠",
+              "likes": 4,
+              "content": "Wait variables don't need declaration? mind blown."
+            },
+            {
+              "id": 8,
+              "author": "type_hacker",
+              "pfp_emoji": "🔧",
+              "likes": 15,
+              "content": "Python is dynamically typed: value has type, variable is just a name binding to that object."
+            },
+            {
+              "id": 9,
+              "author": "rant_bot",
+              "pfp_emoji": "🤖",
+              "likes": 2,
+              "content": "Mutable vs immutable is the real tea. Lists change, tuples chill."
+            },
+            {
+              "id": 10,
+              "author": "lol_whut",
+              "pfp_emoji": "😂",
+              "likes": 9,
+              "content": "If I name a var '1' does Python accept it? (no. don't do that lol)"
+            }
+          ],
+          "question": "What does it mean that Python is 'dynamically typed'?",
+          "choices": [
+            "You must declare variable types before use.",
+            "Variables can change their type without explicit declaration.",
+            "Types are checked only at compile time.",
+            "Python has no types at all."
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 11,
+          "title": "List vs Tuple",
+          "author": "data_dove",
+          "author_pfp_emoji": "🕊️",
+          "topic": 0,
+          "section": 2,
+          "likes": 142,
+          "background": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+          "comments": [
+            {
+              "id": 12,
+              "author": "mutant_list",
+              "pfp_emoji": "🧪",
+              "likes": 6,
+              "content": "I keep trying to change a tuple and then cry. tuples are immutable y'all."
+            },
+            {
+              "id": 13,
+              "author": "py_mom",
+              "pfp_emoji": "🧶",
+              "likes": 5,
+              "content": "Use tuple for fixed collections (like coords), list for stuff you append to."
+            },
+            {
+              "id": 14,
+              "author": "edgecase_enthusiast",
+              "pfp_emoji": "⚠️",
+              "likes": 2,
+              "content": "Remember: single-element tuple needs trailing comma (x,) or it's not a tuple."
+            },
+            {
+              "id": 15,
+              "author": "meme_pixel",
+              "pfp_emoji": "🤡",
+              "likes": 14,
+              "content": "Tuple: 'I will not change.' List: 'I change my mind everyday.'"
+            }
+          ],
+          "question": "Which is a correct difference between lists and tuples in Python?",
+          "choices": [
+            "Lists are immutable, tuples are mutable.",
+            "Tuples can be used as keys in dicts if they contain only hashable items.",
+            "Lists cannot contain objects, only primitive types.",
+            "Tuples have methods like append() available."
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 16,
+          "title": "Loops",
+          "author": "loop_legend",
+          "author_pfp_emoji": "🔁",
+          "topic": 0,
+          "section": 3,
+          "likes": 98,
+          "background": "linear-gradient(135deg, #c3cfe2 0%, #c3cfe2 100%)",
+          "comments": [
+            {
+              "id": 17,
+              "author": "while_fan",
+              "pfp_emoji": "🌀",
+              "likes": 3,
+              "content": "while loops can run forever if you forget to change condition. oops."
+            },
+            {
+              "id": 18,
+              "author": "for_real",
+              "pfp_emoji": "✴️",
+              "likes": 8,
+              "content": "for x in iterable is the pythonic way. index-based loops are less common."
+            },
+            {
+              "id": 19,
+              "author": "snek_lover",
+              "pfp_emoji": "🐍",
+              "likes": 1,
+              "content": "range(5) gives 0..4 not 1..5, remember to adjust 🙃"
+            },
+            {
+              "id": 20,
+              "author": "random_meme",
+              "pfp_emoji": "💀",
+              "likes": 10,
+              "content": "Break is the 'im done' button for loops."
+            }
+          ],
+          "question": "What does range(5) produce when used in a for loop?",
+          "choices": [
+            "The numbers 1 through 5 inclusive.",
+            "The numbers 0 through 4.",
+            "An infinite sequence.",
+            "A list containing the number 5 repeated."
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 21,
+          "title": "Functions return",
+          "author": "fn_master",
+          "author_pfp_emoji": "🛠️",
+          "topic": 0,
+          "section": 4,
+          "likes": 211,
+          "background": "linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%)",
+          "comments": [
+            {
+              "id": 22,
+              "author": "forgot_return",
+              "pfp_emoji": "😵",
+              "likes": 7,
+              "content": "I keep getting None. forgot return at the end of my function lol."
+            },
+            {
+              "id": 23,
+              "author": "dev_sis",
+              "pfp_emoji": "👩‍💻",
+              "likes": 9,
+              "content": "Functions without return return None implicitly."
+            },
+            {
+              "id": 24,
+              "author": "tuple_returner",
+              "pfp_emoji": "🧩",
+              "likes": 4,
+              "content": "You can return multiple values (they're packed as a tuple)."
+            },
+            {
+              "id": 25,
+              "author": "short_joke",
+              "pfp_emoji": "😹",
+              "likes": 11,
+              "content": "Return: the mic drop of functions. 🎤"
+            }
+          ],
+          "question": "What happens if a Python function does not include a return statement?",
+          "choices": [
+            "It returns 0 by default.",
+            "It returns an empty string.",
+            "It returns None.",
+            "It crashes the program."
+          ],
+          "correct_idx": 2
+        },
+        {
+          "id": 26,
+          "title": "Files",
+          "author": "io_queen",
+          "author_pfp_emoji": "📁",
+          "topic": 0,
+          "section": 6,
+          "likes": 156,
+          "background": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+          "comments": [
+            {
+              "id": 27,
+              "author": "file_boi",
+              "pfp_emoji": "📂",
+              "likes": 6,
+              "content": "I forgot to close the file and had weird errors. with open(...) is the move."
+            },
+            {
+              "id": 28,
+              "author": "safety_first",
+              "pfp_emoji": "🛡️",
+              "likes": 10,
+              "content": "Always open files with encoding='utf-8' unless you like surprises."
+            },
+            {
+              "id": 29,
+              "author": "edge_case",
+              "pfp_emoji": "🔎",
+              "likes": 2,
+              "content": "rb vs r matters for binary vs text — saved me once."
+            },
+            {
+              "id": 30,
+              "author": "quirky_comment",
+              "pfp_emoji": "🦄",
+              "likes": 8,
+              "content": "File handling: 'with' is like a babysitter for your file object."
+            }
+          ],
+          "question": "Why is 'with open(filename) as f:' preferred for file operations?",
+          "choices": [
+            "It makes the file open faster.",
+            "It automatically closes the file even if errors occur.",
+            "It encrypts the file contents.",
+            "It only works on Windows."
+          ],
+          "correct_idx": 1
+        }
+      ],
+      "reels": [
+        {
+          "id": 31,
+          "title": "Indentation Panic (12s skit)",
+          "author": "sk8r_syntax",
+          "author_pfp_emoji": "🛹",
+          "topic": 0,
+          "section": 0,
+          "likes": 412,
+          "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          "comments": [
+            {
+              "id": 32,
+              "author": "quick_fix",
+              "pfp_emoji": "⚡",
+              "likes": 22,
+              "content": "This made me fix 3 files in one go LMAOOO"
+            },
+            {
+              "id": 33,
+              "author": "indent_counselor",
+              "pfp_emoji": "🧘",
+              "likes": 9,
+              "content": "Showed clearly why tabs vs spaces matters. good skit!"
+            },
+            {
+              "id": 34,
+              "author": "genz_meme",
+              "pfp_emoji": "🤪",
+              "likes": 18,
+              "content": "That skateboard cameo was chaotic energy I didn't ask for 😭"
+            },
+            {
+              "id": 35,
+              "author": "practical_dev",
+              "pfp_emoji": "🔧",
+              "likes": 5,
+              "content": "Reminder: use editorconfig or set your IDE to 4 spaces."
+            },
+            {
+              "id": 36,
+              "author": "lolcoder",
+              "pfp_emoji": "🤣",
+              "likes": 27,
+              "content": "Me: forget colon. Python: syntax error. Universe: chaos."
+            }
+          ],
+          "video_prompt": "12s comedic skit showing why indentation is syntax (Gen-Z style). Opening (0-2s): quick jump-cut of a coder on a skateboard rolling into frame, dropping a laptop (dramatic). Speaking outline: Person A (frantic): 'Why is my code broken?!' Person B (calm, exaggerated): 'Indentation, bro.' (2-5s) Visuals: close-up of code with misaligned lines flashing red, silly sound effects. Middle (5-9s): quick montage — tabs vs spaces personified as two characters arguing; overlay captions: 'Blocks = indentation levels', 'mixing tabs/spaces = tears'. Add a skateboarder doing a tiny trick in background (not main focus). End (9-12s): fix with auto-formatter (black) in one keystroke, triumphant music; caption voiceover: 'Use 4 spaces. Use tools. Sleep well.' Include quick text overlays: 'SyntaxError if you mix', 'Use editorconfig', and a final goofy meme sound as the skateboarder high-fives the laptop."
+        },
+        {
+          "id": 37,
+          "title": "Functions: Return or Nothing (12s)",
+          "author": "fn_speedrun",
+          "author_pfp_emoji": "⚡",
+          "topic": 0,
+          "section": 4,
+          "likes": 298,
+          "background": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
+          "comments": [
+            {
+              "id": 38,
+              "author": "return_this",
+              "pfp_emoji": "📤",
+              "likes": 13,
+              "content": "How do I return 2 things? pack 'em as a tuple, baby."
+            },
+            {
+              "id": 39,
+              "author": "sassy_dev",
+              "pfp_emoji": "🙃",
+              "likes": 6,
+              "content": "No return = None = feelings."
+            },
+            {
+              "id": 40,
+              "author": "short_tip",
+              "pfp_emoji": "📝",
+              "likes": 4,
+              "content": "A function can return anything, even another function ✨"
+            },
+            {
+              "id": 41,
+              "author": "meme_time",
+              "pfp_emoji": "🤡",
+              "likes": 11,
+              "content": "Plot twist: your function returns None but you still love it."
+            }
+          ],
+          "video_prompt": "12-second fast-cut reel teaching returns (Gen-Z banter). Opening (0-2s): two characters argue: 'Did you return the thing?' 'Which thing??' Outline: short skit where one function returns a value and gets celebrated (confetti), the other forgets return and gets handed a 'None' donut (gag). Visuals: code snippets appear as neon cards showing def add(a,b): return a+b vs def bad(a,b): a+b. Mid (4-9s): quick explanation voiceover: 'If no return -> None. To return multiple -> comma separated (a, b).' Include quick captions and arrows showing the returned tuple. End (9-12s): speedrun of a function factory returning functions; surprise shot of skateboarder rolling by holding a giant 'return' sign; final text: 'Return the vibes. Return the values.'"
+        },
+        {
+          "id": 43,
+          "title": "File Handling in 12s",
+          "author": "io_speed",
+          "author_pfp_emoji": "📦",
+          "topic": 0,
+          "section": 6,
+          "likes": 167,
+          "background": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
+          "comments": [
+            {
+              "id": 44,
+              "author": "safety_bob",
+              "pfp_emoji": "🦺",
+              "likes": 9,
+              "content": "with open(...) actually saved my app from file leaks once."
+            },
+            {
+              "id": 45,
+              "author": "encodings",
+              "pfp_emoji": "🔤",
+              "likes": 6,
+              "content": "Always set encoding when dealing with text files. UTF-8 FTW."
+            },
+            {
+              "id": 46,
+              "author": "binary_nerd",
+              "pfp_emoji": "💾",
+              "likes": 3,
+              "content": "rb for binary — images, audio, etc. Don't open them as text lol."
+            },
+            {
+              "id": 47,
+              "author": "meme_file",
+              "pfp_emoji": "📎",
+              "likes": 12,
+              "content": "That one guy who forgets to close files will be haunted."
+            },
+            {
+              "id": 48,
+              "author": "quick_help",
+              "pfp_emoji": "🆘",
+              "likes": 4,
+              "content": "Use try/except when reading user files to avoid crashes."
+            }
+          ],
+          "video_prompt": "12s high-energy reel showing proper file usage (Gen-Z, unexpected beats). Opening (0-2s): person dramatically trying to stuff papers into a tiny folder (visual metaphor). Speaking outline: narrator: 'Don't be that person — use with open.' Visuals: quick code overlay of 'with open(\"file.txt\",\"r\",encoding=\"utf-8\") as f:' then flash of 'f.read()'. Mid (3-8s): comedic bit where someone tries to 'keep file open forever' and ghosts appear; then 'with' comes and closes doors magically. Include a skateboarder briefly delivering a giant 'encoding=utf-8' sticker. End (8-12s): show file modes cheat-card (r, w, a, rb) as fast icons with voiceover: 'r read, w write, a append, rb binary.' Drop a final silly sound and a dancing file icon."
+        }
+      ],
+      "posts": [
+        {
+          "id": 49,
+          "title": "Python Syntax Essentials",
+          "author": "syntax_sam",
+          "author_pfp_emoji": "📐",
+          "topic": 0,
+          "section": 0,
+          "likes": 521,
+          "background": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+          "comments": [
+            {
+              "id": 50,
+              "author": "tiny_errors",
+              "pfp_emoji": "⚠️",
+              "likes": 13,
+              "content": "I always forget ':' after if — it hurts."
+            },
+            {
+              "id": 51,
+              "author": "formatter_fan",
+              "pfp_emoji": "🧹",
+              "likes": 19,
+              "content": "Black + isort = my savior. autoformat or suffer."
+            },
+            {
+              "id": 52,
+              "author": "curious_cat",
+              "pfp_emoji": "🐱",
+              "likes": 6,
+              "content": "Does Python care about semicolons? Not really, but you can use them to put statements on one line."
+            },
+            {
+              "id": 53,
+              "author": "meme_king",
+              "pfp_emoji": "👑",
+              "likes": 25,
+              "content": "Indentation police when you use tabs: *sirens*"
+            },
+            {
+              "id": 54,
+              "author": "practical_mary",
+              "pfp_emoji": "🧾",
+              "likes": 8,
+              "content": "Use meaningful names. 'x' is fine for loops but not for everything."
+            },
+            {
+              "id": 55,
+              "author": "edge_case",
+              "pfp_emoji": "🔎",
+              "likes": 3,
+              "content": "Remember line continuation with \\ or inside parentheses."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧭",
+              "content": "Python uses indentation to define blocks — consistent spacing is required."
+            },
+            {
+              "icon": "🔤",
+              "content": "Statements end at newline. Semicolons optional for one-liners."
+            },
+            {
+              "icon": "🔁",
+              "content": "Blocks: if, for, while, def — each requires a colon and an indented block."
+            },
+            {
+              "icon": "🛠️",
+              "content": "Use an autoformatter (black) and set your editor to 4 spaces."
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "title": "Variables & Assignment",
+          "author": "assign_ally",
+          "author_pfp_emoji": "📝",
+          "topic": 0,
+          "section": 1,
+          "likes": 328,
+          "background": "linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)",
+          "comments": [
+            {
+              "id": 57,
+              "author": "newbie_joe",
+              "pfp_emoji": "🙋",
+              "likes": 5,
+              "content": "So x = 5 then x = 'hi' is allowed? that's wild."
+            },
+            {
+              "id": 58,
+              "author": "type_prof",
+              "pfp_emoji": "🎓",
+              "likes": 11,
+              "content": "Variables are labels pointing to objects. Types follow objects, not names."
+            },
+            {
+              "id": 59,
+              "author": "memer",
+              "pfp_emoji": "😆",
+              "likes": 20,
+              "content": "When you accidentally overwrite your list with an int: 'where did my data go??'"
+            },
+            {
+              "id": 60,
+              "author": "style_cop",
+              "pfp_emoji": "🚨",
+              "likes": 4,
+              "content": "Use lowercase_with_underscores for variable names (PEP8)."
+            },
+            {
+              "id": 61,
+              "author": "edge_case",
+              "pfp_emoji": "🔎",
+              "likes": 2,
+              "content": "Beware mutable defaults in functions like def f(a=[]): ..."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔗",
+              "content": "Assignment binds a name to an object: a = 10 binds name 'a' to int(10)."
+            },
+            {
+              "icon": "🧠",
+              "content": "Python is dynamically typed: you don't declare variable types."
+            },
+            {
+              "icon": "⚠️",
+              "content": "Be careful with mutable objects (lists/dicts) — multiple names can reference the same object."
+            },
+            {
+              "icon": "📏",
+              "content": "Follow naming conventions: lowercase_with_underscores for variables."
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "title": "Core Data Types",
+          "author": "type_gal",
+          "author_pfp_emoji": "🎨",
+          "topic": 0,
+          "section": 2,
+          "likes": 395,
+          "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+          "comments": [
+            {
+              "id": 63,
+              "author": "numbers4life",
+              "pfp_emoji": "🔢",
+              "likes": 7,
+              "content": "Ints and floats act different in division — watch out."
+            },
+            {
+              "id": 64,
+              "author": "string_sam",
+              "pfp_emoji": "🧵",
+              "likes": 6,
+              "content": "Strings are immutable. Use .join() instead of += in loops."
+            },
+            {
+              "id": 65,
+              "author": "dict_lover",
+              "pfp_emoji": "📚",
+              "likes": 14,
+              "content": "Dicts are super handy — keys must be hashable (immutable)."
+            },
+            {
+              "id": 66,
+              "author": "meme",
+              "pfp_emoji": "🤡",
+              "likes": 22,
+              "content": "That one time I indexed out of range and Python yelled IndexError. Fun times."
+            },
+            {
+              "id": 67,
+              "author": "clarity",
+              "pfp_emoji": "🔍",
+              "likes": 3,
+              "content": "Use type() to inspect runtime types while debugging."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔢",
+              "content": "Numbers: int (whole), float (decimal). Division with / gives float; // gives floor int."
+            },
+            {
+              "icon": "🔤",
+              "content": "Strings: immutable sequences of characters. Use f-strings for formatting: f'{name} is {age}'."
+            },
+            {
+              "icon": "📋",
+              "content": "Lists: ordered, mutable. Tuples: ordered, immutable. Dicts: key->value mapping."
+            },
+            {
+              "icon": "⚡",
+              "content": "Set: unordered unique items — great for deduping."
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "title": "Control Flow: if / for / while",
+          "author": "ctrl_flow",
+          "author_pfp_emoji": "🧭",
+          "topic": 0,
+          "section": 3,
+          "likes": 244,
+          "background": "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+          "comments": [
+            {
+              "id": 69,
+              "author": "loop_master",
+              "pfp_emoji": "🔁",
+              "likes": 11,
+              "content": "Use enumerate() when you need index in for-loops. life changing."
+            },
+            {
+              "id": 70,
+              "author": "if_enthusiast",
+              "pfp_emoji": "❓",
+              "likes": 4,
+              "content": "elif is just 'else if' — don't chain multiple ifs if you mean elif."
+            },
+            {
+              "id": 71,
+              "author": "while_oops",
+              "pfp_emoji": "💥",
+              "likes": 2,
+              "content": "Accidentally infinite while loops are the modern horror story."
+            },
+            {
+              "id": 72,
+              "author": "meme_guy",
+              "pfp_emoji": "😹",
+              "likes": 18,
+              "content": "When you forget to break out and your loop runs for 3 hours: my code is alive"
+            },
+            {
+              "id": 73,
+              "author": "practical_tip",
+              "pfp_emoji": "🧰",
+              "likes": 5,
+              "content": "List comprehensions are concise for simple transforms: [x*2 for x in nums]"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔀",
+              "content": "If/elif/else choose branches. Conditions use == for equality, = is assignment (not valid in expressions)."
+            },
+            {
+              "icon": "🔁",
+              "content": "For loops iterate over iterables: for item in collection: ..."
+            },
+            {
+              "icon": "🌀",
+              "content": "While loops repeat until a condition becomes False — watch for infinite loops."
+            },
+            {
+              "icon": "✨",
+              "content": "Comprehensions: concise ways to build lists/sets/dicts from iterables."
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "title": "Functions: Basics & Best Practices",
+          "author": "clean_fn",
+          "author_pfp_emoji": "🧼",
+          "topic": 0,
+          "section": 4,
+          "likes": 401,
+          "background": "linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%)",
+          "comments": [
+            {
+              "id": 75,
+              "author": "param_pro",
+              "pfp_emoji": "📦",
+              "likes": 10,
+              "content": "Keyword args vs positional — use keywords for clarity in long functions."
+            },
+            {
+              "id": 76,
+              "author": "default_hater",
+              "pfp_emoji": "⚠️",
+              "likes": 6,
+              "content": "Mutable default args are a trap. Use None and assign inside."
+            },
+            {
+              "id": 77,
+              "author": "small_joke",
+              "pfp_emoji": "😆",
+              "likes": 14,
+              "content": "When your function does 100 things: single responsibility? what's that?"
+            },
+            {
+              "id": 78,
+              "author": "doc_writer",
+              "pfp_emoji": "📚",
+              "likes": 7,
+              "content": "Write docstrings. your future self will thank you."
+            },
+            {
+              "id": 79,
+              "author": "tester",
+              "pfp_emoji": "🧪",
+              "likes": 3,
+              "content": "Small functions are easier to test. modularize!"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧩",
+              "content": "Define with def name(params): — functions can return values using return."
+            },
+            {
+              "icon": "🎯",
+              "content": "Prefer small, single-responsibility functions. Makes testing easier."
+            },
+            {
+              "icon": "🔁",
+              "content": "Args: positional, keyword, *args, **kwargs for flexible interfaces."
+            },
+            {
+              "icon": "⚠️",
+              "content": "Avoid mutable defaults like def f(a=[]). Use None and assign inside."
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "title": "File I/O: Read & Write",
+          "author": "file_fairy",
+          "author_pfp_emoji": "🧚",
+          "topic": 0,
+          "section": 6,
+          "likes": 276,
+          "background": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
+          "comments": [
+            {
+              "id": 81,
+              "author": "oops_closed",
+              "pfp_emoji": "😅",
+              "likes": 6,
+              "content": "I once wrote over my file because I used 'w' instead of 'a'. tear."
+            },
+            {
+              "id": 82,
+              "author": "enc_help",
+              "pfp_emoji": "🔤",
+              "likes": 8,
+              "content": "Use newline handling and encoding for cross-platform files."
+            },
+            {
+              "id": 83,
+              "author": "binary_babe",
+              "pfp_emoji": "💿",
+              "likes": 4,
+              "content": "rb for images, gtfo text mode."
+            },
+            {
+              "id": 84,
+              "author": "meme_writer",
+              "pfp_emoji": "📝",
+              "likes": 18,
+              "content": "That feeling when your file is 0 bytes after a typo. unstoppable sobbing."
+            },
+            {
+              "id": 85,
+              "author": "practical_tip",
+              "pfp_emoji": "🔧",
+              "likes": 5,
+              "content": "Use csv/json modules for structured data instead of manual parsing."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "📂",
+              "content": "Open files with 'with open(path, mode, encoding) as f:' to ensure closure."
+            },
+            {
+              "icon": "✍️",
+              "content": "Modes: 'r' read, 'w' write (overwrite), 'a' append, 'rb' binary read."
+            },
+            {
+              "icon": "🧾",
+              "content": "Read methods: f.read(), f.readline(), f.readlines() — choose based on size."
+            },
+            {
+              "icon": "🔐",
+              "content": "Handle exceptions: use try/except around file operations for robustness."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 86,
+          "title": "Python data types diagram",
+          "author": "diagram_dan",
+          "author_pfp_emoji": "📊",
+          "topic": 0,
+          "section": 2,
+          "likes": 214,
+          "background": "linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%)",
+          "comments": [
+            {
+              "id": 87,
+              "author": "visual_learner",
+              "pfp_emoji": "👀",
+              "likes": 10,
+              "content": "Nice breakdown of types! helped me remember immutables vs mutables."
+            },
+            {
+              "id": 88,
+              "author": "nitpicker",
+              "pfp_emoji": "🧐",
+              "likes": 2,
+              "content": "Would be nice to show examples for each type too."
+            },
+            {
+              "id": 89,
+              "author": "meme_pic",
+              "pfp_emoji": "📸",
+              "likes": 8,
+              "content": "This is the cheat sheet my brain needed. thank u."
+            },
+            {
+              "id": 90,
+              "author": "clarity",
+              "pfp_emoji": "🔍",
+              "likes": 3,
+              "content": "Good alt diagram for beginners — shows relationships clearly."
+            }
+          ],
+          "image_prompt": "A clear, minimal infographic-style diagram showing Python core data types: Numbers (int, float), Strings, Lists, Tuples, Dicts, Sets. Use simple icons for each type and arrows showing 'mutable' vs 'immutable'. Soft pastel palette, flat vector style, no text labels in the image (labels provided in alt), high contrast for icons.",
+          "description": "Infographic diagram showing Python core data types with icons and arrows indicating which are mutable (lists, dicts, sets) and immutable (int, float, str, tuple).",
+          "caption": "Quick visual: numbers, strings, lists, tuples, dicts, sets. Mutables: lists/dicts/sets. Immutables: numbers/strings/tuples.",
+          "file": "4b1a748a-270e-4592-be24-2100ceabd4b6.png"
+        },
+        {
+          "id": 91,
+          "title": "Relatable code meme",
+          "author": "meme_maker",
+          "author_pfp_emoji": "🤡",
+          "topic": 0,
+          "section": 0,
+          "likes": 482,
+          "background": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+          "comments": [
+            {
+              "id": 92,
+              "author": "laugh_out",
+              "pfp_emoji": "😂",
+              "likes": 31,
+              "content": "I have been this coder. so true."
+            },
+            {
+              "id": 93,
+              "author": "honest_dev",
+              "pfp_emoji": "🤦",
+              "likes": 14,
+              "content": "The 'forgot colon' part hits deep."
+            },
+            {
+              "id": 94,
+              "author": "meme_enthusiast",
+              "pfp_emoji": "🔥",
+              "likes": 9,
+              "content": "Share with your team. let them suffer too."
+            }
+          ],
+          "image_prompt": "A humorous photo-style meme: a laptop with errored Python console open and a dramatic caption-style overlay area (but avoid putting text in the image), a spilled coffee cup, and a tiny toy skateboard next to the keyboard. Warm cozy lighting, candid desk shot, shallow depth of field.",
+          "description": "Desk photo with laptop showing Python error in console, spilled coffee cup, and small toy skateboard beside keyboard — captures the chaotic coder mood.",
+          "caption": "Mood: forgot a colon, lost an hour, found coffee. Errors happen — use the traceback to find the line.",
+          "file": "16db101f-6ebb-43d0-990c-6cf7f06e790b.png"
+        },
+        {
+          "id": 95,
+          "title": "File I/O real-life demo",
+          "author": "real_io",
+          "author_pfp_emoji": "📸",
+          "topic": 0,
+          "section": 6,
+          "likes": 132,
+          "background": "linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%)",
+          "comments": [
+            {
+              "id": 96,
+              "author": "practical_io",
+              "pfp_emoji": "🔌",
+              "likes": 6,
+              "content": "Seeing a real example of reading/writing files makes it click."
+            },
+            {
+              "id": 97,
+              "author": "safety_nora",
+              "pfp_emoji": "🛡️",
+              "likes": 4,
+              "content": "I love the with open pattern shown here."
+            },
+            {
+              "id": 98,
+              "author": "meme_file",
+              "pfp_emoji": "📎",
+              "likes": 3,
+              "content": "This is the exact sequence that saved my deploy once."
+            }
+          ],
+          "image_prompt": "A short photo sequence collage showing: (1) code editor snippet with 'with open(\"example.txt\",\"w\") as f: f.write(\"hello\")' (avoid large embedded text), (2) a screenshot of the created text file opened in a simple text editor showing 'hello' (minimize text), (3) hands typing on a keyboard. Clean, real-life demo aesthetic, natural light.",
+          "description": "Collage of a code editor snippet doing a file write, the resulting text file opened, and hands typing — demonstrates simple file write/read flow.",
+          "caption": "Example workflow: write with 'with open(..., \"w\")', then read back. Use encoding and handle exceptions for production code.",
+          "file": "b5a8e2f1-3d9c-4328-afa3-5a3c7075f4e7.png"
+        }
+      ]
+    },
+    {
+      "id": "8ee9bace-7bfe-4731-b3a4-f79dcb0c2b1c",
+      "status": "ready",
+      "prompt": "I want to learn quantum mechanics",
+      "title": "Quantum mechanics",
+      "topics": [
+        {
+          "title": "Quantum mechanics",
+          "sections": [
+            "Wavefunction",
+            "Operators",
+            "Schrodinger",
+            "Measurement",
+            "Spin",
+            "Harmonic oscillator",
+            "Perturbation",
+            "Identical particles"
+          ]
+        }
+      ],
+      "question": [
+        {
+          "id": 1,
+          "title": "Wavefunction quiz",
+          "author": "psi_prof",
+          "author_pfp_emoji": "⚛️",
+          "topic": 0,
+          "section": 0,
+          "likes": 142,
+          "background": "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
+          "comments": [
+            {
+              "id": 2,
+              "author": "study_sam",
+              "pfp_emoji": "🧠",
+              "likes": 12,
+              "content": "Wait so psi is imaginary? or like... actually complex? explain pls 😅"
+            },
+            {
+              "id": 3,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 4,
+              "content": "psi be like: *i am probability* (also secretly dramatic) 🫠"
+            },
+            {
+              "id": 4,
+              "author": "lab_rat42",
+              "pfp_emoji": "🔬",
+              "likes": 9,
+              "content": "Remember: |ψ|^2 gives probability density. The complex phase alone has no direct prob meaning."
+            },
+            {
+              "id": 5,
+              "author": "confused_undergrad",
+              "pfp_emoji": "😵",
+              "likes": 2,
+              "content": "So normalize or the universe cancels you out? 👀"
+            }
+          ],
+          "question": "What does |ψ(x)|^2 represent for a single particle in one dimension?",
+          "choices": [
+            "The particle's kinetic energy density at x",
+            "The probability density of finding the particle at x",
+            "The particle's potential energy at x",
+            "The time evolution rate of ψ at x"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 6,
+          "title": "Operators check",
+          "author": "dr_eigen",
+          "author_pfp_emoji": "🔬",
+          "topic": 0,
+          "section": 1,
+          "likes": 94,
+          "background": "linear-gradient(135deg, #ffd89b 0%, #19547b 100%)",
+          "comments": [
+            {
+              "id": 7,
+              "author": "quantum_jules",
+              "pfp_emoji": "✨",
+              "likes": 7,
+              "content": "Hermitian = real eigenvalues, right? please say yes 😅"
+            },
+            {
+              "id": 8,
+              "author": "spin_sam",
+              "pfp_emoji": "🌀",
+              "likes": 3,
+              "content": "Not every operator is hermitian tho. Some generate time evolution (unitary) or are anti-hermitian sometimes."
+            },
+            {
+              "id": 9,
+              "author": "mildly_lost",
+              "pfp_emoji": "🤔",
+              "likes": 1,
+              "content": "So measuring means applying an operator? That's what my prof said but I'm blurry"
+            },
+            {
+              "id": 10,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 5,
+              "content": "Yes: measurement of observable A corresponds to eigenvalues of Hermitian operator Â."
+            }
+          ],
+          "question": "Which property must an operator have to represent a physical observable in standard QM?",
+          "choices": [
+            "Be unitary",
+            "Be Hermitian (self-adjoint)",
+            "Be anti-symmetric",
+            "Have purely imaginary eigenvalues"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 11,
+          "title": "Schrodinger quick check",
+          "author": "wavefun_wen",
+          "author_pfp_emoji": "🌀",
+          "topic": 0,
+          "section": 2,
+          "likes": 201,
+          "background": "linear-gradient(135deg, #7f7fd5 0%, #86a8e7 50%, #91eae4 100%)",
+          "comments": [
+            {
+              "id": 12,
+              "author": "physics_nerd",
+              "pfp_emoji": "📐",
+              "likes": 11,
+              "content": "TISE is Hψ = Eψ for stationary states. Cute and deadly."
+            },
+            {
+              "id": 13,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 6,
+              "content": "Schrödinger: *puts cat in box* internet: unhinged take incoming 😼"
+            },
+            {
+              "id": 14,
+              "author": "lost_in_integrals",
+              "pfp_emoji": "😵‍💫",
+              "likes": 2,
+              "content": "Are boundary conditions just adulting for differential eqns? lol"
+            },
+            {
+              "id": 15,
+              "author": "psi_prof",
+              "pfp_emoji": "⚛️",
+              "likes": 8,
+              "content": "Boundary conditions ensure wavefunctions are physical: normalizable and single-valued."
+            }
+          ],
+          "question": "What does the time-independent Schrödinger equation Hψ = Eψ determine for a system?",
+          "choices": [
+            "Allowed energy eigenvalues and corresponding stationary states",
+            "The time evolution of any wavefunction",
+            "The probability of measurement outcomes at time t",
+            "How fast the wavefunction collapses during measurement"
+          ],
+          "correct_idx": 0
+        },
+        {
+          "id": 16,
+          "title": "Measurement & collapse",
+          "author": "measure_maya",
+          "author_pfp_emoji": "🔭",
+          "topic": 0,
+          "section": 3,
+          "likes": 158,
+          "background": "linear-gradient(135deg, #ff9966 0%, #ff5e62 100%)",
+          "comments": [
+            {
+              "id": 17,
+              "author": "confused_undergrad",
+              "pfp_emoji": "😵",
+              "likes": 6,
+              "content": "Collapse is instantaneous? That sounds sus with relativity..."
+            },
+            {
+              "id": 18,
+              "author": "lab_rat42",
+              "pfp_emoji": "🔬",
+              "likes": 10,
+              "content": "Collapse is a postulate of measurement in standard QM. Interpretations handle the 'how'."
+            },
+            {
+              "id": 19,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 3,
+              "content": "Me when wavefunction collapses: *also collapses my will to study*"
+            },
+            {
+              "id": 20,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 4,
+              "content": "Born rule = probabilities from |projection|^2. Don’t mix amplitude with probability!"
+            }
+          ],
+          "question": "According to the Born rule, what is the probability of obtaining eigenvalue a when measuring observable A on state |ψ>?",
+          "choices": [
+            "The real part of ⟨ψ|A|ψ⟩",
+            "|⟨a|ψ⟩|^2 where |a⟩ is the eigenstate for eigenvalue a",
+            "The imaginary part of ⟨ψ|A|ψ⟩",
+            "⟨ψ|A|ψ⟩ without any modulus"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 21,
+          "title": "Spin fundamentals",
+          "author": "spin_sam",
+          "author_pfp_emoji": "🧲",
+          "topic": 0,
+          "section": 4,
+          "likes": 176,
+          "background": "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)",
+          "comments": [
+            {
+              "id": 22,
+              "author": "quantum_jules",
+              "pfp_emoji": "✨",
+              "likes": 13,
+              "content": "Spin isn't literal spinning — pls stop picturing tiny planets ✋"
+            },
+            {
+              "id": 23,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 7,
+              "content": "When you measure spin and it chooses UP like Monday picking my mood 😤"
+            },
+            {
+              "id": 24,
+              "author": "phy_student",
+              "pfp_emoji": "📘",
+              "likes": 5,
+              "content": "Bloch sphere = neat visual for qubit/spin-1/2 states. Use it."
+            },
+            {
+              "id": 25,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 6,
+              "content": "Pauli matrices are the spin operators (up to ħ/2). They don't commute with each other."
+            }
+          ],
+          "question": "For a spin-1/2 particle, what are the eigenvalues of the Sz operator (in units of ħ)?",
+          "choices": [
+            "0 and 1",
+            "±1/2",
+            "±1",
+            "It has a continuous spectrum"
+          ],
+          "correct_idx": 1
+        }
+      ],
+      "reels": [
+        {
+          "id": 26,
+          "title": "12s: Schrodinger's wiggle (time evolution)",
+          "author": "wavefun_wen",
+          "author_pfp_emoji": "🌀",
+          "topic": 0,
+          "section": 2,
+          "likes": 520,
+          "background": "linear-gradient(135deg, #ffafbd 0%, #ffc3a0 100%)",
+          "comments": [
+            {
+              "id": 27,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 33,
+              "content": "If wavefunctions had Tinder profiles: 'evolves under H, sometimes stationary, loves normalization' 😂"
+            },
+            {
+              "id": 28,
+              "author": "lab_rat42",
+              "pfp_emoji": "🔬",
+              "likes": 21,
+              "content": "Nice visual. Time evolution = unitary: ψ(t)=e^{-iHt/ħ}ψ(0). Phase matters for interference."
+            },
+            {
+              "id": 29,
+              "author": "confused_undergrad",
+              "pfp_emoji": "😵",
+              "likes": 6,
+              "content": "This made the exponential less scary ngl"
+            },
+            {
+              "id": 30,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 12,
+              "content": "Pro tip: energy eigenstates only pick up a phase — that's why probabilities stay constant for stationary states."
+            },
+            {
+              "id": 31,
+              "author": "sk8r_boi",
+              "pfp_emoji": "🛹",
+              "likes": 9,
+              "content": "Skateboard cameo spotted. A+ for style 🛹✨"
+            }
+          ],
+          "video_prompt": "12s energetic, gen-z style reel. Title card: 'Time evolution in 12s' (0.5s). Scene 1 (1.5s): two creators face off — one dramatically waves a printed 'ψ(0)' (actor A), other acts as the Hamiltonian (actor B) wearing a goofy H hat. Actor A: 'You shall change!' Actor B: 'Only the phase, baby.' Quick jump-cut (0.5s) to text overlay: ψ(t)=e^{-iHt/ħ}ψ(0). Scene 2 (3s): fast-motion skateboarder casually rolls through the frame carrying a glowing orb labeled 'ψ' while small animated waves ripple from the orb; voiceover: 'Unitary evolution = wiggle the phase, probabilities chill.' Scene 3 (4s): split-screen demo — left side shows a superposition interfering (bright color waves combining), right side shows an energy eigenstate whose shape stays same but color pulses (phase). Voiceover lines: 'Superpositions can change shape, eigenstates only change phase.' Final 2s: unexpected gag — a cartoon cat in lab goggles presses a big red 'MEASURE' button, everything freezes, then caption: 'Measurement = different rules.' End card with upbeat synth beat and text: 'Schrödinger, now with 100% more vibes.' Visuals: neon gradients, comic-style motion lines, quick subtitles for each spoken line, playful sound effects, skateboard cameo not central. Keep pacing jumpy and unpredictable, with one offbeat gag (cat + button)."
+        },
+        {
+          "id": 32,
+          "title": "12s: Measurement collapse IRL",
+          "author": "measure_maya",
+          "author_pfp_emoji": "🔭",
+          "topic": 0,
+          "section": 3,
+          "likes": 410,
+          "background": "linear-gradient(135deg, #2af598 0%, #009efd 100%)",
+          "comments": [
+            {
+              "id": 33,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 28,
+              "content": "Pressing the collapse button like choosing Netflix show at 2 am 😭"
+            },
+            {
+              "id": 34,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 16,
+              "content": "Good bite: Born rule demonstration + why phases vanish from probabilities."
+            },
+            {
+              "id": 35,
+              "author": "confused_undergrad",
+              "pfp_emoji": "😵",
+              "likes": 5,
+              "content": "Scale of 'instantaneous' is the part that freaks me out still 😬"
+            },
+            {
+              "id": 36,
+              "author": "lab_rat42",
+              "pfp_emoji": "🔬",
+              "likes": 8,
+              "content": "Interpretation note: 'Collapse' is a rule for predictions; decoherence explains apparent collapse in practice."
+            }
+          ],
+          "video_prompt": "12s fast, comedic reel titled 'Collapse IRL'. Open (1s): person A holds a deck of cards labeled superposition states; person B on a skateboard rolls by and flicks one card — that card becomes giant and glows. Voiceover: 'Measurement picks an outcome.' (2s) Cut to quick experiment mockup: two doors labeled |0> and |1>, spinny wheel lands on one — overlay text: 'Born rule = |⟨outcome|ψ⟩|^2' (3s). Quick gag (1.5s): an overdramatic soap-opera freeze-frame when measurement occurs with cheesy violin. Voiceover: 'Probabilities, not telepathy.' Final seconds (4.5s): split scene showing decoherence demo — many colored coins (environment) interacting with a tiny qubit, causing off-diagonal terms (visualized as fading glitter). Quick spoken line: 'Interaction with environment kills interference — that's decoherence, not magic.' Include subtitles, snappy sound effects, one skateboarder briefly rolls through background catching a glowing card (not the main focus). Add one unpredictable moment: a random rubber chicken falls into frame when collapse occurs. Maintain gen-z slang and humor."
+        },
+        {
+          "id": 37,
+          "title": "12s: Spin & Bloch sphere",
+          "author": "spin_sam",
+          "author_pfp_emoji": "🧲",
+          "topic": 0,
+          "section": 4,
+          "likes": 485,
+          "background": "linear-gradient(135deg, #00b09b 0%, #96c93d 100%)",
+          "comments": [
+            {
+              "id": 38,
+              "author": "quantum_jules",
+              "pfp_emoji": "✨",
+              "likes": 23,
+              "content": "Bloch sphere in 12s? Iconic. Visualizes qubit states so well."
+            },
+            {
+              "id": 39,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 14,
+              "content": "Me trying to rotate my life like a Bloch vector 😭"
+            },
+            {
+              "id": 40,
+              "author": "phy_student",
+              "pfp_emoji": "📘",
+              "likes": 9,
+              "content": "Good to mention: antipodal points = orthogonal states. Don't forget!"
+            },
+            {
+              "id": 41,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 11,
+              "content": "Pauli rotations = rotations on Bloch sphere. Useful for qubits."
+            }
+          ],
+          "video_prompt": "12s playful reel titled 'Spin on a Sphere'. Start (1s): quick spinning globe transition that morphs into a glowing Bloch sphere. Scene (3s): two characters argue: A: 'Spin is not spinning!' B (on a skateboard rolling by): 'But it looks kinda spinny tho' — quick laugh. Voiceover: 'Spin-1/2 states = points on Bloch sphere.' (2.5s) Visual demo (3s): animate a state vector rotating under Pauli X (flip), showing north ↔ south flip; overlay: 'σx = bit flip'. Quick captioned fact (1.5s): 'Opposite points = orthogonal states.' Final gag (1s): tiny cartoon pigeon perched on top of sphere, cheeping 'coherent? decohere', then freeze to end card. Include subtitles for accessibility, neon colors, and one brief skate cameo in background."
+        }
+      ],
+      "posts": [
+        {
+          "id": 42,
+          "title": "Wavefunction basics",
+          "author": "quantum_jules",
+          "author_pfp_emoji": "✨",
+          "topic": 0,
+          "section": 0,
+          "likes": 820,
+          "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          "comments": [
+            {
+              "id": 43,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 55,
+              "content": "psi looking like my mood swings. amplitude: big one day, tiny next 🫠"
+            },
+            {
+              "id": 44,
+              "author": "study_sam",
+              "pfp_emoji": "🧠",
+              "likes": 18,
+              "content": "Quick Q: if ψ is complex, do we square magnitude or something? 🤔"
+            },
+            {
+              "id": 45,
+              "author": "lab_rat42",
+              "pfp_emoji": "🔬",
+              "likes": 32,
+              "content": "Yes. Probability density = |ψ(x)|^2. Also normalize so total prob = 1."
+            },
+            {
+              "id": 46,
+              "author": "confused_undergrad",
+              "pfp_emoji": "😵",
+              "likes": 6,
+              "content": "What even is a phase? Is it like seasoning for ψ? 😂"
+            },
+            {
+              "id": 47,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 14,
+              "content": "Phase is the complex angle. Global phase is physically irrelevant; relative phases give interference."
+            },
+            {
+              "id": 48,
+              "author": "sk8r_boi",
+              "pfp_emoji": "🛹",
+              "likes": 9,
+              "content": "Slide 3 had a sick diagram ngl 🔥"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧩",
+              "content": "What is ψ(x)? A complex-valued function whose squared magnitude gives probability density."
+            },
+            {
+              "icon": "📐",
+              "content": "Probability: P(x) = |ψ(x)|^2. Normalize so ∫|ψ|^2 dx = 1."
+            },
+            {
+              "icon": "🎛️",
+              "content": "Phase: ψ = R e^{iφ}. Global phase cancels out in probabilities; relative phase matters for interference."
+            },
+            {
+              "icon": "🌊",
+              "content": "Wave-like behavior: ψ can interfere, diffract, and spread (dispersion)."
+            },
+            {
+              "icon": "📎",
+              "content": "Example: Gaussian wavepacket — localized and smooth, often used for free-particle states."
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "title": "Operators & observables",
+          "author": "dr_eigen",
+          "author_pfp_emoji": "🔬",
+          "topic": 0,
+          "section": 1,
+          "likes": 630,
+          "background": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+          "comments": [
+            {
+              "id": 50,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 21,
+              "content": "Operators are like the villains that test your wavefunction every day 😈"
+            },
+            {
+              "id": 51,
+              "author": "phy_student",
+              "pfp_emoji": "📘",
+              "likes": 17,
+              "content": "Hermitian = real eigenvalues. Use eigenstates to predict measurement outcomes."
+            },
+            {
+              "id": 52,
+              "author": "lost_in_integrals",
+              "pfp_emoji": "😵‍💫",
+              "likes": 4,
+              "content": "How to find eigenstates quickly? omg"
+            },
+            {
+              "id": 53,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 12,
+              "content": "Solve Âφ = aφ. Boundary conditions and domain matter — operators on infinite space can be subtle."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔧",
+              "content": "Operator: linear map on wavefunctions. Observables ↔ Hermitian operators (self-adjoint)."
+            },
+            {
+              "icon": "🧾",
+              "content": "Eigenvalue eqn: Âφ = aφ. Measurement yields eigenvalue a with probability |⟨φ|ψ⟩|^2."
+            },
+            {
+              "icon": "⚖️",
+              "content": "Hermitian ⇒ real eigenvalues and orthogonal eigenstates (under suitable conditions)."
+            },
+            {
+              "icon": "🔁",
+              "content": "Commutators: [Â, B̂] = 0 ⇒ can have common eigenstates. Nonzero commutator ⇒ uncertainty relations."
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "title": "Time-independent Schrödinger",
+          "author": "wavefun_wen",
+          "author_pfp_emoji": "🌀",
+          "topic": 0,
+          "section": 2,
+          "likes": 721,
+          "background": "linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%)",
+          "comments": [
+            {
+              "id": 55,
+              "author": "study_sam",
+              "pfp_emoji": "🧠",
+              "likes": 11,
+              "content": "So stationary states = time factor * spatial part? brain.exe restarted"
+            },
+            {
+              "id": 56,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 9,
+              "content": "Schrödinger: 'I'm so into waves' universe: 'k' 😼"
+            },
+            {
+              "id": 57,
+              "author": "lab_rat42",
+              "pfp_emoji": "🔬",
+              "likes": 14,
+              "content": "Boundary conditions choose allowed energies (think particle in a box)."
+            },
+            {
+              "id": 58,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 8,
+              "content": "Remember: only square-integrable solutions are physical for bound states."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🏛️",
+              "content": "TISE: Hψ = Eψ. Solving gives energy eigenvalues and stationary spatial wavefunctions."
+            },
+            {
+              "icon": "⚙️",
+              "content": "Hamiltonian H = T + V (kinetic + potential). For 1D: -(ħ^2/2m)∂^2_x + V(x)."
+            },
+            {
+              "icon": "📏",
+              "content": "Boundary conditions & continuity of ψ and its derivative (except at singular potentials) pick allowed solutions."
+            },
+            {
+              "icon": "🎯",
+              "content": "Stationary states: probabilities are time-independent; overall phase evolves as e^{-iEt/ħ}."
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "title": "Measurement & collapse (postulates)",
+          "author": "measure_maya",
+          "author_pfp_emoji": "🔭",
+          "topic": 0,
+          "section": 3,
+          "likes": 688,
+          "background": "linear-gradient(135deg, #f7971e 0%, #ffd200 100%)",
+          "comments": [
+            {
+              "id": 60,
+              "author": "confused_undergrad",
+              "pfp_emoji": "😵",
+              "likes": 15,
+              "content": "Why does measurement mess up the wavefunction? It's rude ngl"
+            },
+            {
+              "id": 61,
+              "author": "lab_rat42",
+              "pfp_emoji": "🔬",
+              "likes": 18,
+              "content": "Because measurement projects state onto eigenbasis of the observable — that's the postulate."
+            },
+            {
+              "id": 62,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 7,
+              "content": "Me measuring my GPA like: *collapses to 2.8* 😭"
+            },
+            {
+              "id": 63,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 9,
+              "content": "Expectation value ⟨A⟩ = ⟨ψ|A|ψ⟩. Don't confuse this with eigenvalues."
+            },
+            {
+              "id": 64,
+              "author": "quantum_jules",
+              "pfp_emoji": "✨",
+              "likes": 6,
+              "content": "Tip: practice projection math — it's where most students trip up."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔍",
+              "content": "Measurement postulate: measuring observable A yields one of its eigenvalues probabilistically."
+            },
+            {
+              "icon": "🎲",
+              "content": "Born rule: probability = |⟨a|ψ⟩|^2 for outcome a with eigenstate |a⟩."
+            },
+            {
+              "icon": "💥",
+              "content": "Collapse: after measurement the state projects into the measured eigenstate (idealized instantaneous step)."
+            },
+            {
+              "icon": "📉",
+              "content": "Expectation values & uncertainties: ΔAΔB ≥ (1/2)|⟨[A,B]⟩| (Robertson uncertainty)."
+            },
+            {
+              "icon": "🧭",
+              "content": "Decoherence: environment-induced loss of coherence explains why classical outcomes appear."
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "title": "Spin-1/2 & Pauli matrices",
+          "author": "spin_sam",
+          "author_pfp_emoji": "🧲",
+          "topic": 0,
+          "section": 4,
+          "likes": 914,
+          "background": "linear-gradient(135deg, #ff7eb3 0%, #ff758c 100%)",
+          "comments": [
+            {
+              "id": 66,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 41,
+              "content": "Spin: 'I'm not spinning' also spin: *eigenvalue = up or down* 😼"
+            },
+            {
+              "id": 67,
+              "author": "quantum_jules",
+              "pfp_emoji": "✨",
+              "likes": 23,
+              "content": "Bloch sphere slide was chef's kiss. Very helpful visual."
+            },
+            {
+              "id": 68,
+              "author": "phy_student",
+              "pfp_emoji": "📘",
+              "likes": 15,
+              "content": "Pauli matrices: σx, σy, σz — satisfy [σi, σj] = 2i εijk σk."
+            },
+            {
+              "id": 69,
+              "author": "confused_undergrad",
+              "pfp_emoji": "😵",
+              "likes": 6,
+              "content": "Do I need to physically visualize a sphere to understand qubits? brain hurts"
+            },
+            {
+              "id": 70,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 11,
+              "content": "No — think of Bloch sphere as bookkeeping for amplitudes and relative phases."
+            },
+            {
+              "id": 71,
+              "author": "sk8r_boi",
+              "pfp_emoji": "🛹",
+              "likes": 8,
+              "content": "Stern-Gerlach vibe in slide 4 is iconic ✨"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧲",
+              "content": "Spin-1/2: two-level quantum system. Basis: |↑⟩ and |↓⟩ (eigenstates of Sz)."
+            },
+            {
+              "icon": "🔢",
+              "content": "Pauli matrices: σx = [[0,1],[1,0]], σy = [[0,-i],[i,0]], σz = [[1,0],[0,-1]]."
+            },
+            {
+              "icon": "🌐",
+              "content": "Bloch sphere: any pure qubit is a point on the sphere (angles parametrize amplitudes & phase)."
+            },
+            {
+              "icon": "🧪",
+              "content": "Stern–Gerlach: spatial separation of spin states — classic measurement demo."
+            },
+            {
+              "icon": "🔁",
+              "content": "Rotations about axes correspond to unitary transformations (exp(-iθσ/2))."
+            },
+            {
+              "icon": "⚠️",
+              "content": "Spin is intrinsic angular momentum — not literal rotation of charge distribution."
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "title": "Quantum harmonic oscillator (QHO)",
+          "author": "hbar_hero",
+          "author_pfp_emoji": "🛡️",
+          "topic": 0,
+          "section": 5,
+          "likes": 543,
+          "background": "linear-gradient(135deg, #c2e59c 0%, #64b3f4 100%)",
+          "comments": [
+            {
+              "id": 73,
+              "author": "study_sam",
+              "pfp_emoji": "🧠",
+              "likes": 9,
+              "content": "Ladder operators are like Mario power-ups for energy levels? I stan"
+            },
+            {
+              "id": 74,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 12,
+              "content": "Zero-point energy confirmed: vacuum still vibin' 💃"
+            },
+            {
+              "id": 75,
+              "author": "phy_student",
+              "pfp_emoji": "📘",
+              "likes": 11,
+              "content": "a† and a lower/raise energy by ħω. Nice algebraic solution vs differential."
+            },
+            {
+              "id": 76,
+              "author": "lab_rat42",
+              "pfp_emoji": "🔬",
+              "likes": 6,
+              "content": "Ground state is Gaussian; can't have zero kinetic + potential simultaneously due to uncertainty."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🏗️",
+              "content": "QHO Hamiltonian: H = (p^2/2m) + (1/2)mω^2 x^2. Classic solvable model."
+            },
+            {
+              "icon": "🎚️",
+              "content": "Ladder operators: a, a†. H = ħω(a†a + 1/2). Energies: E_n = ħω(n + 1/2)."
+            },
+            {
+              "icon": "🟢",
+              "content": "Zero-point energy = ħω/2. Ground state wavefunction is a Gaussian."
+            },
+            {
+              "icon": "🔁",
+              "content": "Uses: approximation near minima, phonons, field quantization toy model."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 77,
+          "title": "Gaussian wavepacket (diagram)",
+          "author": "wavefun_wen",
+          "author_pfp_emoji": "🌀",
+          "topic": 0,
+          "section": 0,
+          "likes": 310,
+          "background": "linear-gradient(135deg, #8e9eab 0%, #eef2f3 100%)",
+          "comments": [
+            {
+              "id": 78,
+              "author": "phy_student",
+              "pfp_emoji": "📘",
+              "likes": 9,
+              "content": "Great alt-text. Gaussian width relates to momentum spread via uncertainty principle."
+            },
+            {
+              "id": 79,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 6,
+              "content": "This wavepacket looks cozy ngl"
+            },
+            {
+              "id": 80,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 7,
+              "content": "Caption useful: shows how probability density concentrated around mean position."
+            }
+          ],
+          "image_prompt": "Diagram: smooth 1D Gaussian wavepacket |ψ(x)| plotted as a filled curve over x axis, subtle translucent phase shading above representing complex phase as hue (no text). Clean scientific style, soft pastel gradient background, slight shadow under curve for depth. Include small inset showing Fourier transform (momentum-space Gaussian).",
+          "description": "1D plot of a Gaussian wavepacket probability density with a small inset showing its momentum-space Gaussian transform.",
+          "caption": "Gaussian wavepacket: localized state with minimal uncertainty; its momentum-space transform is also Gaussian. Useful model for free particles and ground states.",
+          "file": "f5066d93-0380-40d5-975e-5f99520d1da7.png"
+        },
+        {
+          "id": 81,
+          "title": "Interference pattern (lab photo)",
+          "author": "lab_rat42",
+          "author_pfp_emoji": "🔬",
+          "topic": 0,
+          "section": 0,
+          "likes": 402,
+          "background": "linear-gradient(135deg, #fbd3e9 0%, #bb377d 100%)",
+          "comments": [
+            {
+              "id": 82,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 19,
+              "content": "Looks like a bar code for gods 😵‍💫"
+            },
+            {
+              "id": 83,
+              "author": "study_sam",
+              "pfp_emoji": "🧠",
+              "likes": 12,
+              "content": "Interference = overlapping amplitudes; maxima where phases align."
+            },
+            {
+              "id": 84,
+              "author": "confused_undergrad",
+              "pfp_emoji": "😵",
+              "likes": 5,
+              "content": "Is this from electrons or photons? or both can do it?"
+            },
+            {
+              "id": 85,
+              "author": "lab_rat42",
+              "pfp_emoji": "🔬",
+              "likes": 9,
+              "content": "Both! Electrons, neutrons, atoms — interference is a wave phenomenon for quantum amplitudes."
+            }
+          ],
+          "image_prompt": "Realistic lab-style photo of a double-slit interference pattern projected onto a screen: alternating bright and dark fringes, shallow depth of field, slight grain for realism, neutral lab background, no text or logos.",
+          "description": "Photograph of an interference pattern on a screen showing alternating bright and dark fringes from a double-slit experiment.",
+          "caption": "Interference fringes arise from overlapping probability amplitudes. Observed with photons, electrons, atoms — a direct sign of quantum wave behavior.",
+          "file": "c00c70e9-c18a-4873-a0e8-036ade91ce7b.png"
+        },
+        {
+          "id": 86,
+          "title": "Bloch sphere diagram",
+          "author": "spin_sam",
+          "author_pfp_emoji": "🧲",
+          "topic": 0,
+          "section": 4,
+          "likes": 612,
+          "background": "linear-gradient(135deg, #30cfd0 0%, #330867 100%)",
+          "comments": [
+            {
+              "id": 87,
+              "author": "phy_student",
+              "pfp_emoji": "📘",
+              "likes": 20,
+              "content": "Nice clean Bloch sphere. Label poles as |0⟩ and |1⟩ for clarity."
+            },
+            {
+              "id": 88,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 15,
+              "content": "This is my mood ring if it were quantum ✨"
+            },
+            {
+              "id": 89,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 11,
+              "content": "Remember: global phase doesn't move the point on the sphere."
+            }
+          ],
+          "image_prompt": "Clear vector-style Bloch sphere diagram: sphere with labeled north |0⟩ and south |1⟩ poles, a state vector at arbitrary polar/azimuthal angles, small arrows showing rotations about x and z axes, bright contrasting colors, no text-heavy elements.",
+          "description": "Bloch sphere with a state vector at an arbitrary point, showing axes and example rotations.",
+          "caption": "Bloch sphere: geometric representation of any qubit (or spin-1/2) pure state. Rotations correspond to unitary operations (Pauli matrices generate axis rotations).",
+          "file": "ab825063-b2c4-456e-a3f7-b3ac3fce315a.png"
+        },
+        {
+          "id": 90,
+          "title": "Quantum meme: cat & wavefunction",
+          "author": "meme_lord",
+          "author_pfp_emoji": "😂",
+          "topic": 0,
+          "section": 3,
+          "likes": 284,
+          "background": "linear-gradient(135deg, #f5576c 0%, #f093fb 100%)",
+          "comments": [
+            {
+              "id": 91,
+              "author": "meme_lord",
+              "pfp_emoji": "😂",
+              "likes": 33,
+              "content": "frankly the cat deserves tenure for being so mysterious 😼"
+            },
+            {
+              "id": 92,
+              "author": "confused_undergrad",
+              "pfp_emoji": "😵",
+              "likes": 6,
+              "content": "Is this satire or actual physics I can't tell"
+            },
+            {
+              "id": 93,
+              "author": "lab_rat42",
+              "pfp_emoji": "🔬",
+              "likes": 8,
+              "content": "Meme but helpful: use Schrödinger to think about superposition, not cats only."
+            },
+            {
+              "id": 94,
+              "author": "hbar_hero",
+              "pfp_emoji": "🛡️",
+              "likes": 5,
+              "content": "Cute meme but also a chance to mention decoherence: macroscopic cats don't stay in superposition long."
+            }
+          ],
+          "image_prompt": "Playful meme-style image: a fluffy cat lounging inside a partially open cardboard box with a faint, stylized translucent wavefunction ripple effect surrounding the cat (visual effect only, no text). Humorous, high-quality, slightly exaggerated colors.",
+          "description": "A fluffy cat in a cardboard box with a stylized translucent wavefunction ripple around it, meme-style.",
+          "caption": "Schrödinger's cat is a thought experiment about superposition and measurement. It's a concept to probe interpretations, not a real lab protocol for pets.",
+          "file": "0a2702fa-ecfd-4f8f-9b32-b6b49d95fa18.png"
+        }
+      ]
+    },
+    {
+      "id": "26af4341-b930-46f6-b180-a5c5751029f3",
+      "status": "ready",
+      "prompt": "Quantum mechanics",
+      "title": "Quantum mechanics",
+      "topics": [
+        {
+          "title": "Quantum mechanics",
+          "sections": [
+            "Wavefunction",
+            "Superposition",
+            "Operators",
+            "Measurement",
+            "Spin",
+            "Harmonic Oscillator",
+            "Entanglement",
+            "Perturbation"
+          ]
+        }
+      ],
+      "question": [
+        {
+          "id": 9,
+          "title": "🧪 Basic QM check",
+          "author": "quantum_quokka",
+          "author_pfp_emoji": "🪄",
+          "topic": 0,
+          "section": 0,
+          "likes": 142,
+          "background": "linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%)",
+          "comments": [
+            {
+              "id": 58,
+              "author": "lab_rat_101",
+              "pfp_emoji": "🧪",
+              "likes": 6,
+              "content": "probability amplitude = probability? noooo, amplitude squared = prob 🙃"
+            },
+            {
+              "id": 59,
+              "author": "physics_memester",
+              "pfp_emoji": "🤣",
+              "likes": 12,
+              "content": "TL;DR: |ψ|^2 is the juice you actually measure."
+            },
+            {
+              "id": 60,
+              "author": "tilted_bell",
+              "pfp_emoji": "🔭",
+              "likes": 3,
+              "content": "Good warmup Q. Remember amplitude can be complex — phases matter."
+            },
+            {
+              "id": 61,
+              "author": "confused_boi",
+              "pfp_emoji": "😵",
+              "likes": 1,
+              "content": "still waiting for my wavefunction to load IRL 😂"
+            }
+          ],
+          "question": "What gives the probability density of finding a particle at position x?",
+          "choices": [
+            "The complex phase of the wavefunction ψ(x)",
+            "The magnitude squared of the wavefunction |ψ(x)|^2",
+            "The derivative of ψ(x)",
+            "The expectation value ⟨x⟩"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 10,
+          "title": "⚖️ Operators quiz",
+          "author": "operator_olivia",
+          "author_pfp_emoji": "⚙️",
+          "topic": 0,
+          "section": 2,
+          "likes": 98,
+          "background": "linear-gradient(135deg, #4e4376 0%, #2b5876 100%)",
+          "comments": [
+            {
+              "id": 62,
+              "author": "bra_ket_brad",
+              "pfp_emoji": "🧷",
+              "likes": 8,
+              "content": "commutator gang checking in 🫡"
+            },
+            {
+              "id": 63,
+              "author": "mathgirl",
+              "pfp_emoji": "📐",
+              "likes": 5,
+              "content": "Operators map states to states. Apply then measure."
+            },
+            {
+              "id": 64,
+              "author": "skeptical_cat",
+              "pfp_emoji": "🐱",
+              "likes": 2,
+              "content": "Hermitian = real eigenvalues — that's the key."
+            },
+            {
+              "id": 65,
+              "author": "lol_its_just_physics",
+              "pfp_emoji": "💀",
+              "likes": 4,
+              "content": "I definitely thought 'operator' meant like customer service operator until grad school 😭"
+            }
+          ],
+          "question": "Which property must an operator have to represent an observable quantity?",
+          "choices": [
+            "It must be unitary",
+            "It must be Hermitian (self-adjoint)",
+            "It must commute with all other operators",
+            "It must be idempotent"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 11,
+          "title": "🔗 Entanglement check",
+          "author": "spooky_spence",
+          "author_pfp_emoji": "👻",
+          "topic": 0,
+          "section": 6,
+          "likes": 204,
+          "background": "linear-gradient(135deg, #0f9b0f 0%, #6ee7b7 100%)",
+          "comments": [
+            {
+              "id": 66,
+              "author": "pairing_parker",
+              "pfp_emoji": "🪢",
+              "likes": 14,
+              "content": "If measuring A instantly affects B (given entangled), that's the vibe. Not faster-than-light info tho."
+            },
+            {
+              "id": 67,
+              "author": "meme_lord",
+              "pfp_emoji": "🍞",
+              "likes": 10,
+              "content": "Entanglement: when your particles do the spooky couple energy 🤝👻"
+            },
+            {
+              "id": 68,
+              "author": "clarity_cass",
+              "pfp_emoji": "🔍",
+              "likes": 6,
+              "content": "Important: correlations stronger than classical possible — Bell inequalities test that."
+            },
+            {
+              "id": 69,
+              "author": "quantum_noob",
+              "pfp_emoji": "😬",
+              "likes": 1,
+              "content": "so they can talk to each other? or just... be correlated? someone pls explain like im 5"
+            }
+          ],
+          "question": "If two particles are maximally entangled, what happens when you measure one particle's state?",
+          "choices": [
+            "The other particle's state is immediately determined (within the same basis)",
+            "The other particle remains in a superposition until measured",
+            "Both particles collapse randomly and independently",
+            "The total energy of the system increases"
+          ],
+          "correct_idx": 0
+        },
+        {
+          "id": 12,
+          "title": "🌀 Superposition pop quiz",
+          "author": "superpos_sam",
+          "author_pfp_emoji": "✨",
+          "topic": 0,
+          "section": 1,
+          "likes": 76,
+          "background": "linear-gradient(135deg, #ffafbd 0%, #ffc3a0 100%)",
+          "comments": [
+            {
+              "id": 70,
+              "author": "split_decision",
+              "pfp_emoji": "🤷‍♀️",
+              "likes": 3,
+              "content": "Schrödinger's cat getting bullied again 😼"
+            },
+            {
+              "id": 71,
+              "author": "prof_trim",
+              "pfp_emoji": "📚",
+              "likes": 7,
+              "content": "Superposition means linear combination of basis states — not 'both at once' in classical sense."
+            },
+            {
+              "id": 72,
+              "author": "explain_like_ive_12",
+              "pfp_emoji": "🧸",
+              "likes": 2,
+              "content": "So it's like music: different notes (basis) combine to make a chord (state)."
+            },
+            {
+              "id": 73,
+              "author": "dank_wave",
+              "pfp_emoji": "🌊",
+              "likes": 1,
+              "content": "me trying to explain this to my parents: 'It just vibes.'"
+            }
+          ],
+          "question": "What does 'superposition' most accurately describe?",
+          "choices": [
+            "A particle physically being in two places at once",
+            "A linear combination of multiple possible quantum states",
+            "Particles switching states rapidly",
+            "A measurement outcome"
+          ],
+          "correct_idx": 1
+        }
+      ],
+      "reels": [
+        {
+          "id": 13,
+          "title": "Entanglement IRL (12s)",
+          "author": "entangled_ella",
+          "author_pfp_emoji": "🔗",
+          "topic": 0,
+          "section": 6,
+          "likes": 890,
+          "background": "linear-gradient(135deg, #ff5f6d 0%, #ffc371 100%)",
+          "comments": [
+            {
+              "id": 74,
+              "author": "skateboard_scivy",
+              "pfp_emoji": "🛹",
+              "likes": 34,
+              "content": "there's a skateboard cameo, as promised. 10/10"
+            },
+            {
+              "id": 75,
+              "author": "quant_tik",
+              "pfp_emoji": "🎬",
+              "likes": 27,
+              "content": "This explains Bell's theorem in 12s better than my lecture tbh"
+            },
+            {
+              "id": 76,
+              "author": "dr_sass",
+              "pfp_emoji": "🩺",
+              "likes": 9,
+              "content": "Cute but remember: no usable FTL signalling here."
+            },
+            {
+              "id": 77,
+              "author": "meme_cat",
+              "pfp_emoji": "🐈",
+              "likes": 11,
+              "content": "When your particle likes the other particle more than your ex 😭"
+            },
+            {
+              "id": 78,
+              "author": "visuals_vic",
+              "pfp_emoji": "🎨",
+              "likes": 6,
+              "content": "Love the split-screen correlated measurement visual — very clear!"
+            }
+          ],
+          "video_prompt": "12s gen-z, edgy educational reel explaining quantum entanglement. Title card (0.5s): quick glitch logo 'ENTANGLED IN 12'. Scene 1 (1.5s): Two friends (A and B) wearing matching neon hoodies, split-screen; skateboard rolls past in background (not main focus). Quick voiceover line A: 'We made two particles BFFs.' Scene 2 (3s): Show cartoon-ish pair of particles linked by a glowing tether; captions: 'Measure A -> B instantly correlated' (no text overlays with equations, keep visuals only). Voiceover B: 'Doesn't send messages, just spooky vibes.' Scene 3 (4s): Quick live-action prank-style bit: Person 1 flips a coin labeled |0> / |1>, Person 2's coin lights up simultaneously in matching state; comedic flinch reaction. Overlay small arrows showing measurement correlation. Scene 4 (2s): Quick callout: 'Bell tests > classical correlations' with simple bar-visual (no text heavy). End (1s): Punchline - two particles texting each other 'u up?' then fade to 'Not signalling, just correlated.' Audio: upbeat lo-fi beat, abrupt whoosh transitions, one comedic record-scratch when punchline hits. Speaking outline: 1) Hook: 'What if two particles are telepathic?' 2) Give short fact: 'Entanglement = measurement correlations stronger than classical' 3) Myth-bust: 'No faster-than-light messaging.' Visuals: split-screen humans, neon particle tether animation, coin/flip prop, skateboard briefly in frame, energetic quick cuts, bright pastel neon palette. Keep language snappy, meme-y, and playful."
+        },
+        {
+          "id": 14,
+          "title": "Measurement meltdown (12s)",
+          "author": "collapse_cass",
+          "author_pfp_emoji": "💥",
+          "topic": 0,
+          "section": 3,
+          "likes": 651,
+          "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          "comments": [
+            {
+              "id": 79,
+              "author": "lab_john",
+              "pfp_emoji": "🔬",
+              "likes": 22,
+              "content": "Nice mini demo of collapse vs decoherence — solid"
+            },
+            {
+              "id": 80,
+              "author": "the_real_weird",
+              "pfp_emoji": "👽",
+              "likes": 5,
+              "content": "I learned more here in 12s than in my whole semester lol"
+            },
+            {
+              "id": 81,
+              "author": "not_a_philosopher",
+              "pfp_emoji": "🧐",
+              "likes": 4,
+              "content": "Reminder: measurement problem is still debated. This vid is just one viewpoint."
+            },
+            {
+              "id": 82,
+              "author": "skateboard_scivy",
+              "pfp_emoji": "🛹",
+              "likes": 3,
+              "content": "the skateboard cameo returns. we stan consistency"
+            },
+            {
+              "id": 83,
+              "author": "meme_thermo",
+              "pfp_emoji": "🔥",
+              "likes": 7,
+              "content": "Collapse? More like nap time for the wavefunction 😴"
+            }
+          ],
+          "video_prompt": "12-second fast-paced reel about quantum measurement and collapse. Start (0.5s): glitch intro 'MEASUREMENT MELTDOWN'. Scene 1 (2s): Person A dramatically peer-pressing a big red 'MEASURE' button (toy prop), skateboard cruiser rolls behind (cameo). Voiceover: 'Press the button, wavefunction cries.' Scene 2 (4s): Visual animation: smooth wavefunction amplitude (color gradient) then instantly localizes into a spike when the 'button' pressed; quick subtitle: 'ψ → collapsed outcome' (avoid heavy text, use visuals). Scene 3 (3s): Two characters argue: Scientist: 'It collapses!' Chill Friend: 'Or it decoheres with environment.' Quick cut showing environment particles smothering the wave (visual metaphor). Scene 4 (1.5s): Myth-bust pop-up: 'Not magic — interactions do the job.' End (1s): Comedic beat: person looks at skateboard and shrugs; sign-off: 'Measurement: not spooky, just messy.' Audio: punchy trap/lo-fi hybrid, record scratch at the decoherence line. Speaking outline: hook, one-sentence explanation of collapse, quick mention of decoherence as alternative, myth-bust. Visuals: toy button, wave-to-spike animation, crowd/environment fuzz animation, skateboard cameo, fast edits, humorous facial reactions."
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "title": "Wavefunction essentials",
+          "author": "psi_sam",
+          "author_pfp_emoji": "🌊",
+          "topic": 0,
+          "section": 0,
+          "likes": 430,
+          "background": "linear-gradient(135deg, #0f2027 0%, #2c5364 100%)",
+          "comments": [
+            {
+              "id": 18,
+              "author": "probability_pete",
+              "pfp_emoji": "🎲",
+              "likes": 12,
+              "content": "Is ψ physical or just math? it's a map of probabilities, not a little physical wave 🫧"
+            },
+            {
+              "id": 19,
+              "author": "wavewatcher",
+              "pfp_emoji": "🔭",
+              "likes": 8,
+              "content": "phase matters for interference — don't ignore the complex part!"
+            },
+            {
+              "id": 20,
+              "author": "meme_nerd",
+              "pfp_emoji": "😂",
+              "likes": 3,
+              "content": "Schrödinger's cat: the ultimate lazy roommate experiment 🐱📦"
+            },
+            {
+              "id": 21,
+              "author": "gradgirl",
+              "pfp_emoji": "📚",
+              "likes": 6,
+              "content": "Normalization is mandatory — integrate |ψ|^2 = 1 for physical states."
+            },
+            {
+              "id": 22,
+              "author": "quantum_noob",
+              "pfp_emoji": "😵",
+              "likes": 1,
+              "content": "why complex numbers tho? feels like cheating"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧭",
+              "content": "Wavefunction ψ(x): encodes amplitude; |ψ|^2 gives probability density."
+            },
+            {
+              "icon": "🔢",
+              "content": "ψ can be complex — phase leads to interference effects."
+            },
+            {
+              "icon": "📏",
+              "content": "Normalization: ∫|ψ|^2 dx = 1 for a single particle state."
+            },
+            {
+              "icon": "⚠️",
+              "content": "ψ itself isn't directly observable; measurement yields probabilities."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Superposition in 3 lines",
+          "author": "superpos_sam",
+          "author_pfp_emoji": "✨",
+          "topic": 0,
+          "section": 1,
+          "likes": 388,
+          "background": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+          "comments": [
+            {
+              "id": 23,
+              "author": "cat_liker",
+              "pfp_emoji": "🐈",
+              "likes": 15,
+              "content": "so the cat is both lazy and energetic? quantum diet plan confirmed"
+            },
+            {
+              "id": 24,
+              "author": "linear_lex",
+              "pfp_emoji": "📈",
+              "likes": 5,
+              "content": "Superposition = linear combo of basis states. Choose basis carefully!"
+            },
+            {
+              "id": 25,
+              "author": "naive_nick",
+              "pfp_emoji": "🤔",
+              "likes": 2,
+              "content": "If you observe, does the superposition vanish or transform? help"
+            },
+            {
+              "id": 26,
+              "author": "sassy_soph",
+              "pfp_emoji": "💅",
+              "likes": 4,
+              "content": "Observation collapses to an eigenstate of the measured operator. Mood: collapsed."
+            },
+            {
+              "id": 27,
+              "author": "meme_lord",
+              "pfp_emoji": "🍞",
+              "likes": 6,
+              "content": "Me in a group chat: 'I both read it and never responded' — quantum behavior"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "➕",
+              "content": "Any state can be a sum of basis states: |ψ⟩ = Σ c_n |n⟩."
+            },
+            {
+              "icon": "🎛️",
+              "content": "Coefficients c_n are amplitudes; |c_n|^2 = prob of outcome n."
+            },
+            {
+              "icon": "🧠",
+              "content": "Basis choice matters: position basis vs energy basis vs spin basis change the representation."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Operators & Observables",
+          "author": "operator_olivia",
+          "author_pfp_emoji": "⚙️",
+          "topic": 0,
+          "section": 2,
+          "likes": 310,
+          "background": "linear-gradient(135deg, #2b5876 0%, #4e4376 100%)",
+          "comments": [
+            {
+              "id": 28,
+              "author": "hermitian_hank",
+              "pfp_emoji": "🔺",
+              "likes": 9,
+              "content": "Remember: Hermitian -> real eigenvalues -> measurable."
+            },
+            {
+              "id": 29,
+              "author": "commutator_claire",
+              "pfp_emoji": "🔁",
+              "likes": 7,
+              "content": "Non-commuting operators = uncertainty. It's about measurement order."
+            },
+            {
+              "id": 30,
+              "author": "forgot_the_exam",
+              "pfp_emoji": "😅",
+              "likes": 1,
+              "content": "Do operators have units? like momentum operator units?"
+            },
+            {
+              "id": 31,
+              "author": "prof_trim",
+              "pfp_emoji": "📚",
+              "likes": 4,
+              "content": "Operators often include physical constants for units (e.g., -iħ∂/∂x)."
+            },
+            {
+              "id": 32,
+              "author": "meme_machine",
+              "pfp_emoji": "🤖",
+              "likes": 2,
+              "content": "When the operator doesn't commute: drama in the lab 👀"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧮",
+              "content": "Operators act on states: Ô|ψ⟩ = |φ⟩. Observables correspond to Hermitian operators."
+            },
+            {
+              "icon": "🔬",
+              "content": "Eigenvalue equation: Ô|a⟩ = a|a⟩ — measuring yields eigenvalue a with prob |⟨a|ψ⟩|^2."
+            },
+            {
+              "icon": "📉",
+              "content": "Commutator [A,B] = AB - BA. If [A,B] ≠ 0, can't measure both precisely."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Measurement & collapse",
+          "author": "collapse_cass",
+          "author_pfp_emoji": "💥",
+          "topic": 0,
+          "section": 3,
+          "likes": 512,
+          "background": "linear-gradient(135deg, #6dd5fa 0%, #2980b9 100%)",
+          "comments": [
+            {
+              "id": 33,
+              "author": "philosophy_phil",
+              "pfp_emoji": "🤔",
+              "likes": 11,
+              "content": "Collapse interpretations differ. Copenhagen vs Many-Worlds debate incoming."
+            },
+            {
+              "id": 34,
+              "author": "decoherence_debbie",
+              "pfp_emoji": "🌫️",
+              "likes": 5,
+              "content": "Decoherence explains apparent collapse via entanglement with environment."
+            },
+            {
+              "id": 35,
+              "author": "meme_thermo",
+              "pfp_emoji": "🔥",
+              "likes": 2,
+              "content": "Collapse is the wavefunction's dramatic fainting spell"
+            },
+            {
+              "id": 36,
+              "author": "nitpicker_neil",
+              "pfp_emoji": "📝",
+              "likes": 3,
+              "content": "Measurement = projection onto eigenbasis of the measured operator."
+            },
+            {
+              "id": 37,
+              "author": "skateboard_scivy",
+              "pfp_emoji": "🛹",
+              "likes": 1,
+              "content": "skateboard cameo when you least expect it"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧪",
+              "content": "Measurement yields an eigenvalue; post-measurement state is the corresponding eigenstate."
+            },
+            {
+              "icon": "🕵️‍♀️",
+              "content": "Collapse is non-unitary; unitary evolution (Schrödinger eq.) doesn't include it."
+            },
+            {
+              "icon": "🌫️",
+              "content": "Decoherence: entanglement with environment makes superpositions appear classical."
+            },
+            {
+              "icon": "⚠️",
+              "content": "Interpretations differ — collapse is not a resolved physical mechanism."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Spin basics (not just tiny magnet)",
+          "author": "spinny_sue",
+          "author_pfp_emoji": "🧲",
+          "topic": 0,
+          "section": 4,
+          "likes": 367,
+          "background": "linear-gradient(135deg, #f7971e 0%, #ffd200 100%)",
+          "comments": [
+            {
+              "id": 38,
+              "author": "spin_doctor",
+              "pfp_emoji": "🌀",
+              "likes": 10,
+              "content": "Spin-1/2 has only two eigenstates along a given axis: up/down. Not tiny spinning balls tho."
+            },
+            {
+              "id": 39,
+              "author": "confused_boi",
+              "pfp_emoji": "😬",
+              "likes": 2,
+              "content": "So is spin angular momentum? yes, intrinsic angular momentum."
+            },
+            {
+              "id": 40,
+              "author": "meme_lord",
+              "pfp_emoji": "🍞",
+              "likes": 3,
+              "content": "Spin: the universe's tiny fidget spinner"
+            },
+            {
+              "id": 41,
+              "author": "prof_trim",
+              "pfp_emoji": "📚",
+              "likes": 4,
+              "content": "Pauli matrices represent spin operators for spin-1/2."
+            },
+            {
+              "id": 42,
+              "author": "lab_rat_101",
+              "pfp_emoji": "🧪",
+              "likes": 1,
+              "content": "Stern-Gerlach demo still iconic."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧲",
+              "content": "Spin is intrinsic angular momentum; for electrons spin-1/2 -> two-state system."
+            },
+            {
+              "icon": "📐",
+              "content": "Spin operators: Sx, Sy, Sz. Pauli matrices represent them (up to ħ/2)."
+            },
+            {
+              "icon": "🧪",
+              "content": "Stern–Gerlach separates spin states spatially — classic experiment."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Harmonic oscillator (why it's everywhere)",
+          "author": "oscillator_otto",
+          "author_pfp_emoji": "🎯",
+          "topic": 0,
+          "section": 5,
+          "likes": 289,
+          "background": "linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%)",
+          "comments": [
+            {
+              "id": 43,
+              "author": "mathgirl",
+              "pfp_emoji": "📐",
+              "likes": 6,
+              "content": "Eigenvalues equally spaced: E_n = ħω(n + 1/2)."
+            },
+            {
+              "id": 44,
+              "author": "physics_memester",
+              "pfp_emoji": "🤣",
+              "likes": 4,
+              "content": "Quantum SHO: no zero energy = vacuum has vibe (zero-point energy)."
+            },
+            {
+              "id": 45,
+              "author": "curious_case",
+              "pfp_emoji": "🕵️",
+              "likes": 2,
+              "content": "Why is it used so much? because many potentials approx to quadratic near minima."
+            },
+            {
+              "id": 46,
+              "author": "meme_machine",
+              "pfp_emoji": "🤖",
+              "likes": 1,
+              "content": "Me when someone says 'it's just a harmonic oscillator' — legendary"
+            },
+            {
+              "id": 47,
+              "author": "gradgirl",
+              "pfp_emoji": "📚",
+              "likes": 3,
+              "content": "Ladder operators make solving it very neat."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🎵",
+              "content": "Quantum harmonic oscillator: discrete equally spaced energy levels."
+            },
+            {
+              "icon": "🪜",
+              "content": "Energy: E_n = ħω(n + 1/2) -> zero-point energy present."
+            },
+            {
+              "icon": "🧰",
+              "content": "Use ladder (creation/annihilation) operators to build eigenstates."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Entanglement: not just sci-fi",
+          "author": "entangled_ella",
+          "author_pfp_emoji": "🔗",
+          "topic": 0,
+          "section": 6,
+          "likes": 729,
+          "background": "linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%)",
+          "comments": [
+            {
+              "id": 48,
+              "author": "pairing_parker",
+              "pfp_emoji": "🪢",
+              "likes": 18,
+              "content": "Entanglement = correlations beyond classical limits. Bell tests prove that."
+            },
+            {
+              "id": 49,
+              "author": "meme_cat",
+              "pfp_emoji": "🐈",
+              "likes": 13,
+              "content": "When your particle is more committed than you are 😭"
+            },
+            {
+              "id": 50,
+              "author": "not_a_philosopher",
+              "pfp_emoji": "🧐",
+              "likes": 4,
+              "content": "Doesn't transmit usable info faster than light — important nuance."
+            },
+            {
+              "id": 51,
+              "author": "quantum_noob",
+              "pfp_emoji": "😬",
+              "likes": 2,
+              "content": "So if I measure, does the other change? yes correlated outcome."
+            },
+            {
+              "id": 52,
+              "author": "visuals_vic",
+              "pfp_emoji": "🎨",
+              "likes": 6,
+              "content": "Love the diagram idea — visuals make this less spooky!"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔗",
+              "content": "Entanglement: joint states that can't be written as product states."
+            },
+            {
+              "icon": "⚖️",
+              "content": "Strong correlations can violate Bell inequalities — no local hidden variables."
+            },
+            {
+              "icon": "💡",
+              "content": "Useful for quantum teleportation, cryptography, and sensing."
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Perturbation theory cheat-sheet",
+          "author": "perturb_polly",
+          "author_pfp_emoji": "🧩",
+          "topic": 0,
+          "section": 7,
+          "likes": 254,
+          "background": "linear-gradient(135deg, #3a1c71 0%, #d76d77 50%, #ffaf7b 100%)",
+          "comments": [
+            {
+              "id": 53,
+              "author": "approx_adele",
+              "pfp_emoji": "🔧",
+              "likes": 7,
+              "content": "Start with solvable H0, treat H' as small. First-order energy shift = ⟨ψ0|H'|ψ0⟩"
+            },
+            {
+              "id": 54,
+              "author": "panic_priya",
+              "pfp_emoji": "😱",
+              "likes": 2,
+              "content": "What if perturbation isn't small? then perturbation series can diverge 😬"
+            },
+            {
+              "id": 55,
+              "author": "meme_nerd",
+              "pfp_emoji": "😂",
+              "likes": 1,
+              "content": "Perturbation theory = 'let's hope small is small enough' vibes"
+            },
+            {
+              "id": 56,
+              "author": "gradgirl",
+              "pfp_emoji": "📚",
+              "likes": 3,
+              "content": "Degenerate perturbation needs special treatment — diagonalize within degenerate subspace."
+            },
+            {
+              "id": 57,
+              "author": "curious_case",
+              "pfp_emoji": "🕵️",
+              "likes": 1,
+              "content": "Use time-independent vs time-dependent depending on H' nature."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔎",
+              "content": "Idea: split H = H0 + λH'. Solve H0 exactly, treat H' as small."
+            },
+            {
+              "icon": "1️⃣",
+              "content": "First-order energy shift: E_n^(1) = ⟨ψ_n^0|H'|ψ_n^0⟩."
+            },
+            {
+              "icon": "⚠️",
+              "content": "If H' not small, series may fail — consider other methods (numerical, variational)."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 15,
+          "title": "Wavefunction probability density (diagram)",
+          "author": "visuals_vic",
+          "author_pfp_emoji": "🎨",
+          "topic": 0,
+          "section": 0,
+          "likes": 221,
+          "background": "linear-gradient(135deg, #1f4037 0%, #99f2c8 100%)",
+          "comments": [
+            {
+              "id": 84,
+              "author": "diagram_dan",
+              "pfp_emoji": "🖼️",
+              "likes": 8,
+              "content": "Nice alt-plot of |ψ|^2 for ground & excited states"
+            },
+            {
+              "id": 85,
+              "author": "accessibility_amy",
+              "pfp_emoji": "♿",
+              "likes": 2,
+              "content": "Good alt text — helps folks who rely on it."
+            },
+            {
+              "id": 86,
+              "author": "meme_machine",
+              "pfp_emoji": "🤖",
+              "likes": 3,
+              "content": "Looks like some mountain ranges had a glow-up"
+            },
+            {
+              "id": 87,
+              "author": "physics_memester",
+              "pfp_emoji": "🤣",
+              "likes": 1,
+              "content": "When your wavefunction peaks like my caffeine levels at 2am ☕️"
+            }
+          ],
+          "image_prompt": "Clean, simple diagram showing a one-dimensional quantum particle's wavefunction squared (|ψ(x)|^2) for ground and first excited states in a potential well. Use smooth colored curves on a neutral background, no equation text, no labels embedded in the image. Include small translucent axes only.",
+          "description": "Diagram: two smooth colored curves showing probability density |ψ|^2 for ground and first excited states in a 1D potential well; axes faintly indicated.",
+          "caption": "Probability density |ψ|^2 shows where the particle is likely to be found. Ground state has no nodes; first excited has one node.",
+          "file": "ba79f8c5-4cff-4baf-a469-03e2db8d6f7f.png"
+        },
+        {
+          "id": 16,
+          "title": "Double-slit interference (photo-style)",
+          "author": "experiment_ella",
+          "author_pfp_emoji": "🧪",
+          "topic": 0,
+          "section": 1,
+          "likes": 302,
+          "background": "linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%)",
+          "comments": [
+            {
+              "id": 88,
+              "author": "young_shot",
+              "pfp_emoji": "📸",
+              "likes": 14,
+              "content": "Looks like a museum exhibit — Quantum vibes"
+            },
+            {
+              "id": 89,
+              "author": "explain_like_ive_12",
+              "pfp_emoji": "🧸",
+              "likes": 6,
+              "content": "Interference fringes = wave behavior. Particles still show fringes when sent one at a time!"
+            },
+            {
+              "id": 90,
+              "author": "skeptical_cat",
+              "pfp_emoji": "🐱",
+              "likes": 2,
+              "content": "Measurement at slits kills interference — classic point."
+            },
+            {
+              "id": 91,
+              "author": "meme_lord",
+              "pfp_emoji": "🍞",
+              "likes": 3,
+              "content": "Double-slit: physics' most dramatic photobomb"
+            }
+          ],
+          "image_prompt": "Realistic photo-style image of a double-slit interference pattern on a screen: soft bright fringes on a dark background, with a subtle experimental setup silhouette in the foreground. Avoid any text in the image and keep it photographic (no diagrams or overlays).",
+          "description": "Photo-style image of bright and dark interference fringes from a double-slit experiment on a dark screen; silhouette of a lab setup faintly visible.",
+          "caption": "Double-slit fringes arise from superposition of paths. Even single particles create interference patterns over time.",
+          "file": "66eac293-e483-4650-a4bd-ea8589e965a5.png"
+        },
+        {
+          "id": 17,
+          "title": "Bloch sphere sketch (spin states)",
+          "author": "spinny_sue",
+          "author_pfp_emoji": "🧲",
+          "topic": 0,
+          "section": 4,
+          "likes": 198,
+          "background": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+          "comments": [
+            {
+              "id": 92,
+              "author": "quant_artist",
+              "pfp_emoji": "🎨",
+              "likes": 9,
+              "content": "Bloch sphere visuals always hit different ❤️‍🔥"
+            },
+            {
+              "id": 93,
+              "author": "spin_doctor",
+              "pfp_emoji": "🌀",
+              "likes": 5,
+              "content": "Pure states on surface, mixed inside. Great shorthand!"
+            },
+            {
+              "id": 94,
+              "author": "curious_case",
+              "pfp_emoji": "🕵️",
+              "likes": 2,
+              "content": "Can you put position states on Bloch? no it’s for two-level systems only"
+            },
+            {
+              "id": 95,
+              "author": "meme_cat",
+              "pfp_emoji": "🐈",
+              "likes": 1,
+              "content": "This sphere is cooler than my social life"
+            }
+          ],
+          "image_prompt": "Clean stylized sketch of a Bloch sphere showing north/south poles labeled +z and -z (no text embedded; labels only in metadata not in image), with a few sample state vectors on the surface. Use pastel colors and avoid text inside the picture.",
+          "description": "Stylized Bloch sphere showing vectors for a few spin states on the surface; clean pastel aesthetic.",
+          "caption": "Bloch sphere: geometric representation of a two-level (spin-1/2) quantum state. Surface = pure states; interior = mixed states.",
+          "file": "aedd4341-9092-41ec-93d7-8516d23a4aa5.png"
+        }
+      ]
+    }
+  ]
+}
