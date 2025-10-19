@@ -1,68 +1,285 @@
 from openai import OpenAI
 from pydantic import BaseModel
-from typing import List
-from flask import Flask
+from typing import List, Set
+from flask import Flask, request
+from dotenv import load_dotenv
+import json
+from uuid import uuid4
+import feed_generator
+from concurrent.futures import ThreadPoolExecutor
+import threading
+import traceback
+import time
+import os
 
 app = Flask(__name__)
+client: OpenAI = None
+
+data = {}
+executor = ThreadPoolExecutor(max_workers=4)
+data_lock = threading.RLock()
+# Track which studysets currently have an active poller
+active_poller_ids: Set[str] = set()
 
 
-@app.route("/studysets/list", methods=["GET"])
-def root_get():
-    return "Hello"
+def _find_studyset(studyset_id: str):
+    with data_lock:
+        for ss in data.setdefault("studysets", []):
+            if ss.get("id") == studyset_id:
+                return ss
+    return None
+
+
+def get_user():
+    username = request.args.get("username", type=str)
+    if not username:
+        return None
+
+    with data_lock:
+        users = data.setdefault("users", [])
+        for u in users:
+            if u.get("name") == username:
+                return u
+
+        user = {"name": username, "progress": {}}
+        users.append(user)
+        save_data()
+        return user
+
+
+def _has_pending_reels(ss: dict) -> bool:
+    reels = ss.get("reels", [])
+    for r in reels:
+        vid = r.get("video_id")
+        status = r.get("video_status")
+        if vid and status not in ("success", "failed"):
+            return True
+    return False
+
+
+def schedule_pending_reel_pollers():
+    """Start pollers for any studyset that has pending reels."""
+    with data_lock:
+        studysets = data.get("studysets", [])
+        to_schedule = [ss["id"] for ss in studysets if _has_pending_reels(ss)]
+        for sid in to_schedule:
+            if sid not in active_poller_ids:
+                active_poller_ids.add(sid)
+                executor.submit(_poll_reels_task, sid)
+
+
+def _poll_reels_task(studyset_id: str):
+    """Poll all reels for this studyset until finished or failed, download when ready."""
+    print(f"poll_reels: start for studyset {studyset_id}")
+    os.makedirs("data", exist_ok=True)
+    try:
+        while True:
+            ss = _find_studyset(studyset_id)
+            if ss is None:
+                print(f"poll_reels: studyset {studyset_id} disappeared")
+                return
+
+            reels = ss.get("reels", [])
+            remaining = 0
+
+            for reel in reels:
+                vid = reel.get("video_id")
+                status = reel.get("video_status")
+                if not vid or status in ("success", "failed"):
+                    continue
+
+                remaining += 1
+                try:
+                    # Retrieve latest status
+                    info = client.videos.retrieve(vid)
+
+                    new_status = info.status
+                    error = info.error
+
+                    # Update status
+                    with data_lock:
+                        reel["video_status"] = "failed" if error else new_status
+                        if error:
+                            reel["video_error"] = str(error)
+                        save_data()
+
+                    # If done, download
+                    if error:
+                        print(f"poll_reels: video {vid} failed: {error}")
+                    elif new_status in ("completed", "succeeded", "ready"):
+                        filepath = f"data/{vid}.mp4"
+                        client.videos.download_content(
+                            vid).write_to_file(filepath)
+                        with data_lock:
+                            reel["video_status"] = "success"
+                            reel["video_file"] = filepath
+                            save_data()
+                        print(f"poll_reels: downloaded {filepath}")
+                except Exception as e:
+                    with data_lock:
+                        reel["video_status"] = "failed"
+                        reel["video_error"] = f"{e}"
+                        save_data()
+                    print(f"poll_reels: error polling {vid}: {e}")
+
+            if remaining == 0:
+                print(f"poll_reels: done for studyset {studyset_id}")
+                return
+
+            time.sleep(2)  # backoff between polls
+    finally:
+        with data_lock:
+            active_poller_ids.discard(studyset_id)
+
+
+def _generate_studyset_task(studyset_id: str, prompt: str, generate_reels: bool):
+    try:
+        print(f"generate_studysets: starting {studyset_id}")
+        gen_studyset = feed_generator.generate_topics(
+            client, prompt)  # returns a JSON-serializable dict
+        print(f"generate_studysets: finished {studyset_id}")
+        with data_lock:
+            ss = _find_studyset(studyset_id)
+            if ss is not None:
+                ss["status"] = "ready"
+                ss.update(gen_studyset)
+                save_data()
+    except Exception as e:
+        err = f"{e}\n{traceback.format_exc()}"
+        with data_lock:
+            ss = _find_studyset(studyset_id)
+            if ss is not None:
+                ss["status"] = "error"
+                ss["error"] = err
+                save_data()
+        return
+
+    if generate_reels:
+        # Create videos for reels and start background polling
+        try:
+            created_any = False
+            with data_lock:
+                ss = _find_studyset(studyset_id)
+                reels = ss.get("reels", []) if ss else []
+
+            for reel in reels:
+                try:
+                    prompt = reel.get("video_prompt")
+                    if not prompt:
+                        continue
+                    video = client.videos.create(prompt=prompt, seconds="12")
+                    vid = video.id
+                    status = getattr(video, "status", "processing")
+                    with data_lock:
+                        reel["video_id"] = vid
+                        reel["video_status"] = status
+                        save_data()
+                    created_any = True
+                    print(
+                        f"generate_studysets: created video {vid} for studyset {studyset_id}")
+                except Exception as e:
+                    with data_lock:
+                        reel["video_status"] = "failed"
+                        reel["video_error"] = f"{e}"
+                        save_data()
+                    print(
+                        f"generate_studysets: failed to create video for reel: {e}")
+
+            if created_any:
+                with data_lock:
+                    if studyset_id not in active_poller_ids:
+                        active_poller_ids.add(studyset_id)
+                        executor.submit(_poll_reels_task, studyset_id)
+        except Exception as e:
+            print(f"generate_studysets: error scheduling poller: {e}")
+
+
+def generate_studyset(prompt: str, generate_reels: bool):
+    id = str(uuid4())
+    ss = {"id": id, "status": "pending", "prompt": prompt}
+
+    with data_lock:
+        studysets = data.setdefault("studysets", [])
+        studysets.append(ss)
+        save_data()
+
+    # Run generation in the background
+    executor.submit(_generate_studyset_task, id, prompt, generate_reels)
+    return id
+
+
+@app.route("/users/get", methods=["GET"])
+def get_user_endpoint():
+    user = get_user()
+    if user is None:
+        return {"error": "username missing"}, 400
+    return user
+
+
+@app.route("/studysets/get", methods=["GET"])
+def get_studyset_endpoint():
+    user = get_user()
+    if user is None:
+        return {"error": "username missing"}, 400
+
+    studyset_id = request.args.get("id", type=str)
+    if not studyset_id:
+        return {"error": "id missing"}, 400
+
+    ss = _find_studyset(studyset_id)
+    if ss is None:
+        return {"error": "not found"}, 404
+
+    return ss, 200
+
+
+@app.route("/studysets/create", methods=["POST"])
+def create_studyset_endpoint():
+    user = get_user()
+    if user is None:
+        return {"error": "username missing"}, 400
+
+    if not request.is_json:
+        return {"error": "Content-Type must be application/json"}, 400
+
+    body = request.get_json(silent=True)
+    if not isinstance(body, dict):
+        return {"error": "invalid JSON body"}, 400
+
+    prompt = body.get("prompt")
+    if not isinstance(prompt, str) or not prompt.strip():
+        return {"error": "prompt missing"}, 400
+
+    generate_reels = bool(body.get("generate_reels"))
+
+    print(generate_reels)
+
+    id = generate_studyset(prompt.strip())
+    return {"id": id}, 200
+
+
+def save_data():
+    with data_lock:
+        with open("data/data.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    load_dotenv()
+    client = OpenAI()
 
-client = OpenAI(api_key="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")
+    try:
+        with open("data/data.json", 'r', encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        os.makedirs("data", exist_ok=True)
+        data = {"users": [], "studysets": []}
+        save_data()
+    else:
+        data.setdefault("users", [])
+        data.setdefault("studysets", [])
 
+    # Start pollers for any studysets with pending reels on startup
+    schedule_pending_reel_pollers()
 
-class ScrollTopic(BaseModel):
-    title: str
-    sections: List[str]
-
-
-class ScrollTopicResponse(BaseModel):
-    topics: List[ScrollTopic]
-
-
-response = client.responses.parse(
-    model="gpt-5-mini",
-    input=[
-        {"role": "system",
-            "content": "You are to take the information the user gives and break it down into individual learning topics and sections. The sections should be a simple title of the section. For example: \"Strings\". The topic consistents of several topics. Topic titles should also be simple For example: \"Data types\". You should only include material, not study methods."},
-        {
-            "role": "user",
-            "content": "I want to memorize common polyatomic ions and their charges.",
-        },
-    ],
-    text_format=ScrollTopicResponse)
-
-for i, topic in enumerate(response.output_parsed.topics):
-    print(f"Topic {i + 1} - {topic.title}")
-    for j, section in enumerate(topic.sections):
-        print(f"\t{i+1}.{j+1} - {section}")
-
-feed = []
-
-
-class VideoScript(BaseModel):
-    voiceover: str
-    video_prompt: str
-
-
-response = client.responses.parse(
-    model="gpt-5-mini",
-    input=[
-        {"role": "system", "content": "Generate"},
-        {
-            "role": "user",
-            "content": "Teach variables in python",
-        },
-    ],
-    text_format=VideoScript,
-)
-
-video = client.videos.create(
-    prompt=response.output_parsed.video_prompt,
-)
+    app.run(debug=True, use_reloader=False)

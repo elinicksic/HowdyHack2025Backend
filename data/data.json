@@ -1,0 +1,472 @@
+{
+  "users": [
+    {
+      "name": "eli",
+      "progress": {}
+    }
+  ],
+  "studysets": [
+    {
+      "id": "1fa3a63b-d95c-47c7-b707-2dda8fc8e0d7",
+      "status": "ready",
+      "prompt": "I would like to learn the following python concepts: comments, printing, variables, math operators, if/else, and functions",
+      "title": "Python basics",
+      "topics": [
+        {
+          "title": "Python basics",
+          "sections": [
+            "Comments",
+            "Printing",
+            "Variables",
+            "Math operators",
+            "If/Else",
+            "Functions"
+          ]
+        }
+      ],
+      "question": [
+        {
+          "title": "Comments — quick post",
+          "author": "code_cass",
+          "topic": 0,
+          "section": 0,
+          "likes": 142,
+          "comments": [
+            {
+              "author": "dev_dan",
+              "likes": 12,
+              "content": "wait so // works in Python? rn i'm confused 😂"
+            },
+            {
+              "author": "py_noob",
+              "likes": 8,
+              "content": "triple quotes are comments tho, right? 🤔"
+            },
+            {
+              "author": "syntax_sam",
+              "likes": 4,
+              "content": "you can use # for single line, triple quotes are strings used as docstrings usually"
+            }
+          ],
+          "question": "📌 Comments in Python — what to remember?",
+          "choices": [
+            "Use // for single-line comments",
+            "Use # for single-line comments",
+            "Use <!-- --> for comments",
+            "Comments execute like code"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "title": "Comments — quiz",
+          "author": "quiz_bot",
+          "topic": 0,
+          "section": 0,
+          "likes": 47,
+          "comments": [
+            {
+              "author": "confused_cat",
+              "likes": 5,
+              "content": "I always forget if triple quotes are comments or not :sob:"
+            },
+            {
+              "author": "fast_fix",
+              "likes": 3,
+              "content": "Pro tip: triple quotes are strings; use them for docstrings"
+            }
+          ],
+          "question": "📝 Which of the following is a valid single-line comment in Python?",
+          "choices": [
+            "/* comment */",
+            "# this is a comment",
+            "// this is a comment",
+            "<!-- comment -->"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "title": "Printing — quick post",
+          "author": "print_pat",
+          "topic": 0,
+          "section": 1,
+          "likes": 210,
+          "comments": [
+            {
+              "author": "oldschool_dev",
+              "likes": 10,
+              "content": "print 'hello' was a thing in Python2, cringe 🧓"
+            },
+            {
+              "author": "newb_alert",
+              "likes": 6,
+              "content": "so parentheses always? even for single word?"
+            },
+            {
+              "author": "pat_explains",
+              "likes": 5,
+              "content": "yes, Python3 requires print(...). f-strings are spicy for formatting 🔥"
+            }
+          ],
+          "question": "🖨️ Printing basics — short guide",
+          "choices": [
+            "print \"Hello\"  # same as Python3",
+            "print( \"Hello\" )",
+            "echo(\"Hello\")",
+            "cout << \"Hello\""
+          ],
+          "correct_idx": 1
+        },
+        {
+          "title": "Printing — quiz",
+          "author": "quiz_bot",
+          "topic": 0,
+          "section": 1,
+          "likes": 59,
+          "comments": [
+            {
+              "author": "js_dev_here",
+              "likes": 4,
+              "content": "I keep typing console.log out of habit 😂"
+            },
+            {
+              "author": "format_fan",
+              "likes": 2,
+              "content": "remember f\"{var}\" for inline vars"
+            }
+          ],
+          "question": "🖨️ Which line correctly prints Hello in Python 3?",
+          "choices": [
+            "print Hello",
+            "print('Hello')",
+            "println('Hello')",
+            "echo 'Hello'"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "title": "Variables — quick post",
+          "author": "var_victor",
+          "topic": 0,
+          "section": 2,
+          "likes": 188,
+          "comments": [
+            {
+              "author": "name_thief",
+              "likes": 7,
+              "content": "can var names start with numbers? i tried 2cool once lol"
+            },
+            {
+              "author": "py_snob",
+              "likes": 5,
+              "content": "avoid reserved words like 'class' or 'def' as variable names"
+            },
+            {
+              "author": "underscore_gal",
+              "likes": 3,
+              "content": "use snake_case for Pythonic vibes 🐍"
+            }
+          ],
+          "question": "🔤 Variables — what’s allowed?",
+          "choices": [
+            "2cool = 5",
+            "cool_2 = 5",
+            "cool-2 = 5",
+            "class = 5"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "title": "Variables — quiz",
+          "author": "quiz_bot",
+          "topic": 0,
+          "section": 2,
+          "likes": 36,
+          "comments": [
+            {
+              "author": "beginner_bean",
+              "likes": 3,
+              "content": "I always wanna use camelCase, is that bad?"
+            },
+            {
+              "author": "py_style",
+              "likes": 2,
+              "content": "camelCase is fine but PEP8 prefers snake_case"
+            }
+          ],
+          "question": "🔤 Which of these is a valid Python variable name?",
+          "choices": [
+            "2nd_place",
+            "my-var",
+            "my_var",
+            "def"
+          ],
+          "correct_idx": 2
+        },
+        {
+          "title": "Math operators — quick post",
+          "author": "ops_olivia",
+          "topic": 0,
+          "section": 3,
+          "likes": 165,
+          "comments": [
+            {
+              "author": "calc_kid",
+              "likes": 6,
+              "content": "why is // different from / tho 🤯"
+            },
+            {
+              "author": "floors_r_us",
+              "likes": 4,
+              "content": "// is floor division, % is remainder"
+            }
+          ],
+          "question": "➗ Operators cheat-sheet",
+          "choices": [
+            "/  -> division (float)",
+            "// -> floor division (int if inputs int)",
+            "%  -> modulus (remainder)",
+            "All of the above"
+          ],
+          "correct_idx": 3
+        },
+        {
+          "title": "Math operators — quiz",
+          "author": "quiz_bot",
+          "topic": 0,
+          "section": 3,
+          "likes": 41,
+          "comments": [
+            {
+              "author": "maths_mike",
+              "likes": 5,
+              "content": "I keep mixing // and % lol"
+            },
+            {
+              "author": "clarity_queen",
+              "likes": 2,
+              "content": "// gives integer floor, % gives remainder"
+            }
+          ],
+          "question": "🧮 What is the result of 7 // 2 in Python?",
+          "choices": [
+            "3.5",
+            "3",
+            "4",
+            "3.0"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "title": "If/Else — quick post",
+          "author": "branch_bry",
+          "topic": 0,
+          "section": 4,
+          "likes": 199,
+          "comments": [
+            {
+              "author": "indent_initiate",
+              "likes": 9,
+              "content": "tabs vs spaces war begins 😵‍💫"
+            },
+            {
+              "author": "py_mentor",
+              "likes": 6,
+              "content": "pick one and stay consistent — PEP8 prefers 4 spaces"
+            }
+          ],
+          "question": "🔀 Conditionals in a nutshell",
+          "choices": [
+            "Use braces {} like Java",
+            "Indentation defines blocks in Python",
+            "You need ; after if lines",
+            "if statements run in parallel"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "title": "If/Else — quiz",
+          "author": "quiz_bot",
+          "topic": 0,
+          "section": 4,
+          "likes": 50,
+          "comments": [
+            {
+              "author": "edge_case_eli",
+              "likes": 4,
+              "content": "what if multiple ifs true? order matters"
+            },
+            {
+              "author": "short_and_sweet",
+              "likes": 3,
+              "content": "elif saves you from nested if hell"
+            }
+          ],
+          "question": "❓ Which block runs when all above conditions are false?",
+          "choices": [
+            "if:",
+            "elif:",
+            "else:",
+            "then:"
+          ],
+          "correct_idx": 2
+        },
+        {
+          "title": "Functions — quick post",
+          "author": "func_fu",
+          "topic": 0,
+          "section": 5,
+          "likes": 231,
+          "comments": [
+            {
+              "author": "return_ron",
+              "likes": 7,
+              "content": "forgot return once and cried for 2 hours 😭"
+            },
+            {
+              "author": "param_pam",
+              "likes": 5,
+              "content": "default args are life-savers"
+            }
+          ],
+          "question": "🔁 Functions — key pieces",
+          "choices": [
+            "def name(params): -> defines a function",
+            "Use return to send a value back",
+            "You can have default parameters",
+            "All of the above"
+          ],
+          "correct_idx": 3
+        },
+        {
+          "title": "Functions — quiz",
+          "author": "quiz_bot",
+          "topic": 0,
+          "section": 5,
+          "likes": 63,
+          "comments": [
+            {
+              "author": "lambda_lover",
+              "likes": 3,
+              "content": "anonymous functions when??"
+            },
+            {
+              "author": "practical_pete",
+              "likes": 2,
+              "content": "use def for normal funcs, lambda for tiny one-liners"
+            }
+          ],
+          "question": "🔧 How do you define a function that doubles its input?",
+          "choices": [
+            "function double(x): return x*2",
+            "def double(x): return x * 2",
+            "double(x) => x*2",
+            "create double(x) { return x*2 }"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "title": "Comments — mythbuster post",
+          "author": "myth_slayer",
+          "topic": 0,
+          "section": 0,
+          "likes": 86,
+          "comments": [
+            {
+              "author": "lazy_learner",
+              "likes": 4,
+              "content": "I comment nothing, code speaks for itself 🤷"
+            },
+            {
+              "author": "doc_dr",
+              "likes": 6,
+              "content": "comments + docstrings = team-saver, not lazy-boxing"
+            }
+          ],
+          "question": "💬 Quick mythbusting: Are comments ignored by Python at runtime?",
+          "choices": [
+            "No — they run like code",
+            "Yes — Python ignores them at execution",
+            "Only comments with TODO run",
+            "They convert to docstrings automatically"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "title": "Printing — formatting post",
+          "author": "fstring_frida",
+          "topic": 0,
+          "section": 1,
+          "likes": 157,
+          "comments": [
+            {
+              "author": "format_fiend",
+              "likes": 8,
+              "content": "f-strings > .format() fight me 😤"
+            },
+            {
+              "author": "legacy_larry",
+              "likes": 3,
+              "content": "I still see % formatting and cry"
+            }
+          ],
+          "question": "✨ Quick tip: Which prints variable name x inline?",
+          "choices": [
+            "print(\"x = {}\".format(x))",
+            "print(f\"x = {x}\")",
+            "print('x = %s' % x)",
+            "All of the above"
+          ],
+          "correct_idx": 3
+        }
+      ],
+      "reels": [
+        {
+          "title": "Print Tricks — 12s madness",
+          "author": "skate_and_code",
+          "topic": 0,
+          "section": 1,
+          "likes": 402,
+          "comments": [
+            {
+              "author": "vid_viewer",
+              "likes": 45,
+              "content": "this had me laughing and learning, chef's kiss 🤌"
+            },
+            {
+              "author": "skeptical_sal",
+              "likes": 6,
+              "content": "skateboard cameo was so random but iconic"
+            }
+          ],
+          "video_prompt": "Title: \"Print Tricks in 12s (skate or print?)\" — Gen-Z, chaotic energy. Scene plan (12 seconds):\n0-1s: Quick jump cut — skateboarder rolls in, does a tiny ollie (not main focus), hands a neon sticky note to speaker.\n1-3s: Speaker (character A, hyperfast) holds paper that says print(\"Hello\") and says: \"Print in Py3? Parens are mandatory. Say it with me: print(...)\"\n3-6s: Quick split-screen: left shows outdated print 'Hello' (big red X), right shows print('Hello') with green check. Speaker B (deadpan) says: \"Python2 vibes? Cancelled.\"\n6-9s: Rapid visual montage of formatting: f\"Hi {name}\" popping like a meme, then .format() vs % with comedic ding/dong sounds. Voiceover: \"f-strings = flex.\" \n9-11s: Quick tip overlay: \"use f-strings for fast formatting\" while skateboarder rolls past holding a giant emoji sticker.\n11-12s: Punchline: someone eats a sandwich labeled 'Syntax' and says: \"Snack on this syntax!\" Freeze-frame, bold text: \"print smart, not hard.\" \nInclude speaking outlines, quick captions for each visual, upbeat hyperpop track, jump cuts, and irreverent humor. Make sure a skateboard appears briefly but is not the focus.",
+          "video_id": "video_68f4576d00808198a15d54d7fd26511c09c51f991eae8b42",
+          "video_status": "success",
+          "video_file": "data/video_68f4576d00808198a15d54d7fd26511c09c51f991eae8b42.mp4"
+        },
+        {
+          "title": "Functions — 12s sketch",
+          "author": "funky_funcs",
+          "topic": 0,
+          "section": 5,
+          "likes": 379,
+          "comments": [
+            {
+              "author": "teach_trott",
+              "likes": 29,
+              "content": "omg the person who returns a pizza is genius 😂"
+            },
+            {
+              "author": "lambda_lenny",
+              "likes": 7,
+              "content": "seriously short and stuck in my head now"
+            }
+          ],
+          "video_prompt": "Title: \"Defining Functions: Return My Pizza\" — 12s, absurd & clear. Scene plan:\n0-1s: Quick intro: two characters (A: frantic, B: chill) in a tiny kitchen. Skateboard rests against counter.\n1-3s: A: \"I need my doubled pizza!\" B: holds a mock 'def' sign and says: \"I got a function for that.\" \n3-6s: Visual: On-screen code appears as B speaks: def double(pizza): return pizza*2 — B says each token in funky rhythm: \"def — name — params — return.\" \n6-9s: Cut to comedic visual: one pizza -> copy machine -> two pizzas (over-the-top special effect). B says: \"Call it: double(my_pizza)\" \n9-11s: Quick contrast: anonymous lambda appears as a tiny rude sprite that steals a slice, voiceover: \"lambda is for tiny snaccs.\" \n11-12s: Endcard: \"Functions: package behavior, return the goods.\" Upbeat lo-fi beat, jump cuts, captions for code, a skateboard cameo, and a silly pizza gag.",
+          "video_id": "video_68f4576e8a8c81908d540d5d8966b80406ebb29ab4a42b81",
+          "video_status": "success",
+          "video_file": "data/video_68f4576e8a8c81908d540d5d8966b80406ebb29ab4a42b81.mp4"
+        }
+      ]
+    }
+  ]
+}
