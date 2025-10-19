@@ -748,6 +748,744 @@
           "file": "ca0bbdaf-657a-461b-a244-079bdc16494c.png"
         }
       ]
+    },
+    {
+      "id": "6fc40731-73be-4120-89bb-f3a490fd49ce",
+      "status": "ready",
+      "prompt": "I would like to learn about newtonian physics, for the reels, please show cool physics experiments!",
+      "title": "Newtonian physics",
+      "topics": [
+        {
+          "title": "Newtonian physics",
+          "sections": [
+            "Kinematics",
+            "Forces",
+            "Newton's Laws",
+            "Friction",
+            "Circular Motion",
+            "Energy & Work"
+          ]
+        }
+      ],
+      "question": [
+        {
+          "id": 1,
+          "title": "Velocity vs Speed",
+          "author": "quizzy_phys",
+          "author_pfp_emoji": "❓",
+          "topic": 0,
+          "section": 0,
+          "likes": 84,
+          "background": "linear-gradient(135deg, #00b4db 0%, #0083b0 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "calc_cat",
+              "pfp_emoji": "🐱",
+              "likes": 9,
+              "content": "Speed is scalar, velocity is vector. Not the same thing unless direction stays the same."
+            },
+            {
+              "id": 2,
+              "author": "meme_engine",
+              "pfp_emoji": "😂",
+              "likes": 3,
+              "content": "So velocity is like 'I went fast *that way*', speed is 'I went fast' — direction matters. Dramatic, I know."
+            },
+            {
+              "id": 3,
+              "author": "street_physics",
+              "pfp_emoji": "🛹",
+              "likes": 5,
+              "content": "Common trap: average speed != magnitude of average velocity if directions change."
+            }
+          ],
+          "question": "Which statement is true about speed and velocity?",
+          "choices": [
+            "Speed includes direction but velocity does not",
+            "Velocity includes direction but speed does not",
+            "Speed and velocity are always numerically equal",
+            "Velocity is always positive while speed can be negative"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 2,
+          "title": "Net force calculation",
+          "author": "force_field101",
+          "author_pfp_emoji": "💪",
+          "topic": 0,
+          "section": 1,
+          "likes": 156,
+          "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "lab_rat",
+              "pfp_emoji": "🧪",
+              "likes": 12,
+              "content": "Remember to add vectors, not just magnitudes. Directions matter!"
+            },
+            {
+              "id": 2,
+              "author": "sheldon_lite",
+              "pfp_emoji": "🤓",
+              "likes": 6,
+              "content": "If forces are opposite, subtract magnitudes. If perpendicular, use Pythagorean theorem."
+            },
+            {
+              "id": 3,
+              "author": "jokes_on_you",
+              "pfp_emoji": "😅",
+              "likes": 2,
+              "content": "If net force = 0, object's not lazy, it's in equilibrium. Chill mode: ON."
+            }
+          ],
+          "question": "If a 5 N force east and a 12 N force north act on an object, what is the magnitude of the net force?",
+          "choices": [
+            "7 N",
+            "13 N",
+            "17 N",
+            "√169 N"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 3,
+          "title": "Third Law trap",
+          "author": "newtonfan",
+          "author_pfp_emoji": "🍏",
+          "topic": 0,
+          "section": 2,
+          "likes": 210,
+          "background": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "mom_says",
+              "pfp_emoji": "🧑‍🏫",
+              "likes": 18,
+              "content": "Action and reaction act on different objects — they don't cancel on the same object."
+            },
+            {
+              "id": 2,
+              "author": "meme_master",
+              "pfp_emoji": "🤡",
+              "likes": 4,
+              "content": "Newton: 'you push me, I push you back' — still our best friendship contract."
+            },
+            {
+              "id": 3,
+              "author": "confused_student",
+              "pfp_emoji": "😵",
+              "likes": 1,
+              "content": "Wait but if I step on the floor and it pushes back, why do I move? (Answer: because forces on you and floor are on different bodies)"
+            }
+          ],
+          "question": "Which of these best expresses Newton's third law?",
+          "choices": [
+            "For every force, there is an equal and opposite force acting on the same object",
+            "For every force, there is an equal and opposite force acting on a different object",
+            "Every object resists changes to its motion",
+            "Net force equals mass times acceleration"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 4,
+          "title": "Friction direction",
+          "author": "rough_surface",
+          "author_pfp_emoji": "🪵",
+          "topic": 0,
+          "section": 3,
+          "likes": 63,
+          "background": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "physics_maven",
+              "pfp_emoji": "🔭",
+              "likes": 7,
+              "content": "Friction opposes relative motion (or impending motion) at the contact surface, not necessarily 'opposite the applied force'."
+            },
+            {
+              "id": 2,
+              "author": "sassy_student",
+              "pfp_emoji": "🙄",
+              "likes": 2,
+              "content": "So friction is like that clingy friend that always resists your moves."
+            },
+            {
+              "id": 3,
+              "author": "clarity_bot",
+              "pfp_emoji": "🤖",
+              "likes": 5,
+              "content": "Static friction ≤ μsN and can adjust to match applied forces up to its max."
+            }
+          ],
+          "question": "If you push a box rightward slowly and it doesn't move, what can be said about static friction?",
+          "choices": [
+            "Static friction is zero",
+            "Static friction equals the applied push and points left",
+            "Static friction equals the applied push and points right",
+            "Static friction equals μkN"
+          ],
+          "correct_idx": 1
+        },
+        {
+          "id": 5,
+          "title": "Work sign convention",
+          "author": "joule_jane",
+          "author_pfp_emoji": "⚡",
+          "topic": 0,
+          "section": 5,
+          "likes": 97,
+          "background": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "energy_guy",
+              "pfp_emoji": "🔋",
+              "likes": 11,
+              "content": "Work positive if force has a component along displacement. If force opposes displacement, work is negative."
+            },
+            {
+              "id": 2,
+              "author": "sneaky_memer",
+              "pfp_emoji": "😹",
+              "likes": 3,
+              "content": "So lifting = positive. Dropping = negative? (Depends who did the work lol)"
+            },
+            {
+              "id": 3,
+              "author": "lab_rat",
+              "pfp_emoji": "🧪",
+              "likes": 2,
+              "content": "Common error: thinking that force and displacement must be same direction; only component matters."
+            }
+          ],
+          "question": "A constant force of 10 N acts horizontally on an object that moves 3 m horizontally. How much work does the force do?",
+          "choices": [
+            "30 J",
+            "0 J",
+            "3 J",
+            "10 J"
+          ],
+          "correct_idx": 0
+        }
+      ],
+      "reels": [
+        {
+          "id": 1,
+          "title": "Tablecloth Inertia Trick — Instant Chaos",
+          "author": "experiment_ella",
+          "author_pfp_emoji": "🧪",
+          "topic": 0,
+          "section": 2,
+          "likes": 1840,
+          "background": "linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "sk8r_boi",
+              "pfp_emoji": "🛹",
+              "likes": 120,
+              "content": "That glass survived better than my last relationship 😭"
+            },
+            {
+              "id": 2,
+              "author": "safety_officer",
+              "pfp_emoji": "🦺",
+              "likes": 32,
+              "content": "Pro tip: use heavy flatware and a smooth cloth; demo works because of low friction and object inertia."
+            },
+            {
+              "id": 3,
+              "author": "the_real_nerd",
+              "pfp_emoji": "🤓",
+              "likes": 45,
+              "content": "Common misconception: 'tablecloth = magic' — it's just inertia + short, fast pull = low horizontal impulse to objects."
+            },
+            {
+              "id": 4,
+              "author": "meme_lord",
+              "pfp_emoji": "🤡",
+              "likes": 9,
+              "content": "Me trying to remove responsibilities from my life like *pulls cloth slowly*... nope"
+            }
+          ],
+          "video_prompt": "12s energetic reel: Title 'Tablecloth Inertia Trick — Instant Chaos'. Scene 1 (0–1s): quick jump-cut neon intro card with bass hit: text overlay 'Inertia IRL' (vibe: chaotic-study-buddy). Scene 2 (1–4s): wide shot of a kitchen table with dishes, someone in hoodie (Ella) grabs a colorful tablecloth; a skater in the background cruises across the frame on a skateboard for 0.5s (not main focus). Voice over (fast, playful): 'Watch this — physics will do the heavy lifting.' Scene 3 (4–8s): slow-mo as Ella yanks the cloth — show plates barely move. Quick on-screen arrows showing 'inertia' on plates. Overlay caption: 'Objects resist change in motion.' Scene 4 (8–11s): cut to cartoonish reaction of a friend (overacted) pretending glass almost fell; quick text bullet: 'low friction + quick pull = objects stay put'. Closing 11–12s: Ella does a dramatic mic drop (literal spoon) and wink. Visually include brief pop-up of simple equation 'F = ma' with animation pointing to 'a ≈ 0' during pull. Tone: loud, silly, surprising. Include caption voice lines: one-liners explaining inertia and why quick pull works. End with call-to-action: 'Try safe demo with plasticware only.'",
+          "video_id": "video_68f51748e47c8193873773820740427c0d1d6247a817e665",
+          "video_status": "success",
+          "video_file": "video_68f51748e47c8193873773820740427c0d1d6247a817e665.mp4"
+        },
+        {
+          "id": 2,
+          "title": "Skateboard vs Ball — Momentum Clash",
+          "author": "collision_crew",
+          "author_pfp_emoji": "🛹",
+          "topic": 0,
+          "section": 2,
+          "likes": 1420,
+          "background": "linear-gradient(135deg, #43cea2 0%, #185a9d 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "physics_ally",
+              "pfp_emoji": "🔁",
+              "likes": 67,
+              "content": "Nice visual for conservation of momentum. People forget momentum is vector — direction matters."
+            },
+            {
+              "id": 2,
+              "author": "slapstick_sam",
+              "pfp_emoji": "🤣",
+              "likes": 14,
+              "content": "Skateboard cameo steals the show. 10/10 would collide again."
+            },
+            {
+              "id": 3,
+              "author": "safety_first",
+              "pfp_emoji": "🧤",
+              "likes": 5,
+              "content": "Reminder: do collisions on soft mats and wear helmets. Physics > faceplants."
+            }
+          ],
+          "video_prompt": "12s comedic reel: Title 'Skateboard vs Ball — Momentum Clash'. Scene 1 (0–1s): quick neon intro with staccato synth. Scene 2 (1–3s): two characters — 'Riley' on a skateboard (briefly visible doing a trick across background) and 'Cam' holding a heavy medicine ball on a gym floor. VO: 'Conservation of momentum — but make it dramatic.' Scene 3 (3–7s): Cam rolls the medicine ball toward Riley's skateboard carrying a small clay ball; collision happens. Split-screen visuals: before/after momentum vectors drawn (arrow size = momentum). Quick caption: 'm_initial = m_final'. Scene 4 (7–10s): comedic reaction: skateboarder gets gently pushed, exaggerated hair float, text 'same momentum, different speeds'. Scene 5 (10–12s): short explainer bubble: show equation p = mv and a 2-line voiceover: 'Big mass → small speed change; small mass → big speed change.' Tone: playful, loud, slightly absurd; include skateboard cameo for cool factor and quick close-ups of vectors and slow-mo impact.",
+          "video_id": "video_68f5174ab5608193b4473d7d4718222f089ab546271ac33a",
+          "video_status": "success",
+          "video_file": "video_68f5174ab5608193b4473d7d4718222f089ab546271ac33a.mp4"
+        },
+        {
+          "id": 3,
+          "title": "Projectile Popcorn Launch",
+          "author": "launch_lab",
+          "author_pfp_emoji": "🍿",
+          "topic": 0,
+          "section": 0,
+          "likes": 920,
+          "background": "linear-gradient(135deg, #f7971e 0%, #ffd200 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "trajectory_tim",
+              "pfp_emoji": "📈",
+              "likes": 22,
+              "content": "Nice parabola! People trip up forgetting horizontal and vertical motion are independent."
+            },
+            {
+              "id": 2,
+              "author": "snack_attack",
+              "pfp_emoji": "🍿",
+              "likes": 6,
+              "content": "Popcorn physics? Sign me up. Also: the landing snack count = 0 because we ate them."
+            },
+            {
+              "id": 3,
+              "author": "safety_officer",
+              "pfp_emoji": "🛑",
+              "likes": 3,
+              "content": "Use soft projectiles and goggles. We're learning, not eye-surgery-ing."
+            }
+          ],
+          "video_prompt": "12s playful reel: Title 'Projectile Popcorn Launch'. Scene 1 (0–1s): snappy title card 'Parabolas IRL' with upbeat pop beat. Scene 2 (1–4s): wide shot: someone on a skateboard casually rolls across behind a small catapult launching popcorn (skateboard isn't main focus, just cameo). VO: 'Horizontal velocity and gravity are vibing separately.' Scene 3 (4–8s): slow-mo popcorn arc, overlayed grid showing equal-time vertical drops; show equations vx = constant, y = 1/2 g t^2 in quick captions. Scene 4 (8–11s): compare two launches: steeper vs flatter, show range differences. Quick comedic beat: popcorn narrowly misses a friend. Scene 5 (11–12s): punchline tagline: 'Gravity doesn't care if you're dramatic.' Include quick closing line: 'Predict where it lands — it's just math + chaos.'",
+          "video_id": "video_68f5174ce53c8191abefbd17422c59f6026246a050f4486d",
+          "video_status": "success",
+          "video_file": "video_68f5174ce53c8191abefbd17422c59f6026246a050f4486d.mp4"
+        }
+      ],
+      "posts": [
+        {
+          "id": 1,
+          "title": "Motion basics",
+          "author": "physics_maven",
+          "author_pfp_emoji": "🔭",
+          "topic": 0,
+          "section": 0,
+          "likes": 423,
+          "background": "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "speedy_gonz",
+              "pfp_emoji": "💨",
+              "likes": 14,
+              "content": "So does constant speed mean constant velocity? (Nope, direction can change!)"
+            },
+            {
+              "id": 2,
+              "author": "meme_engine",
+              "pfp_emoji": "😂",
+              "likes": 5,
+              "content": "If distance is a gossip and displacement is the tea, I'm here for the drama ☕️"
+            },
+            {
+              "id": 3,
+              "author": "clarity_bot",
+              "pfp_emoji": "🤖",
+              "likes": 9,
+              "content": "Tip: v = Δx/Δt for average velocity; instantaneous uses derivatives."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "📍",
+              "content": "Position vs time: position = where you are on a chosen coordinate axis."
+            },
+            {
+              "icon": "➡️",
+              "content": "Displacement = change in position (vector). Distance = total path (scalar)."
+            },
+            {
+              "icon": "⏱️",
+              "content": "Velocity = displacement / time. Speed = distance / time. Direction matters for velocity."
+            },
+            {
+              "icon": "📈",
+              "content": "Acceleration = change in velocity / time. Can be from speed or direction change (think turning)."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "What is a force?",
+          "author": "force_field101",
+          "author_pfp_emoji": "💪",
+          "topic": 0,
+          "section": 1,
+          "likes": 512,
+          "background": "linear-gradient(135deg, #7f00ff 0%, #e100ff 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "street_physics",
+              "pfp_emoji": "🛹",
+              "likes": 20,
+              "content": "Force = push or pull, but don't forget contact vs field forces (like gravity)."
+            },
+            {
+              "id": 2,
+              "author": "nitpicker",
+              "pfp_emoji": "🤏",
+              "likes": 4,
+              "content": "Vector alert: you must specify direction when adding forces."
+            },
+            {
+              "id": 3,
+              "author": "meme_lord",
+              "pfp_emoji": "🤡",
+              "likes": 2,
+              "content": "Me trying to add forces: *adds like groceries* 'one bag left or right?'"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧲",
+              "content": "Types: contact (push/pull, friction, tension) and field (gravity, electrostatic)."
+            },
+            {
+              "icon": "📐",
+              "content": "Forces are vectors: add them tip-to-tail or break into components."
+            },
+            {
+              "icon": "⚖️",
+              "content": "Normal force is perpendicular to contact surface; it adjusts based on other vertical forces."
+            },
+            {
+              "icon": "📌",
+              "content": "Weight is gravitational force: W = mg. Mass ≠ weight."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Newton's laws — cheat sheet",
+          "author": "newtonfan",
+          "author_pfp_emoji": "🍏",
+          "topic": 0,
+          "section": 2,
+          "likes": 1345,
+          "background": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "history_buff",
+              "pfp_emoji": "📜",
+              "likes": 18,
+              "content": "1st: inertia. 2nd: F=ma. 3rd: action-reaction pairs. So iconic."
+            },
+            {
+              "id": 2,
+              "author": "confused_student",
+              "pfp_emoji": "😵",
+              "likes": 6,
+              "content": "Why doesn't the 3rd law cancel forces? (Because they act on different bodies, duh.)"
+            },
+            {
+              "id": 3,
+              "author": "meme_engine",
+              "pfp_emoji": "😂",
+              "likes": 3,
+              "content": "Newton: 'no acceleration? you're lazy.'"
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🛌",
+              "content": "1st law (inertia): Objects keep their state of motion unless net force acts."
+            },
+            {
+              "icon": "⚖️",
+              "content": "2nd law: F_net = m a. Acceleration proportional to net force and inversely to mass."
+            },
+            {
+              "icon": "🤝",
+              "content": "3rd law: For every force there is an equal/opposite force on a different object."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Friction & Normal Force",
+          "author": "lab_rat",
+          "author_pfp_emoji": "🧪",
+          "topic": 0,
+          "section": 3,
+          "likes": 278,
+          "background": "linear-gradient(135deg, #f857a6 0%, #ff5858 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "traction_king",
+              "pfp_emoji": "👑",
+              "likes": 13,
+              "content": "Static friction stops motion up to μsN, kinetic friction = μkN once sliding starts."
+            },
+            {
+              "id": 2,
+              "author": "sassy_student",
+              "pfp_emoji": "🙄",
+              "likes": 4,
+              "content": "So rough = more μ. Shocking."
+            },
+            {
+              "id": 3,
+              "author": "safety_first",
+              "pfp_emoji": "🦺",
+              "likes": 2,
+              "content": "Remember: friction direction is opposite relative motion or impending motion."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧷",
+              "content": "Normal force (N) is perpendicular to the contact surface. On flat ground, N ≈ mg if no vertical acceleration."
+            },
+            {
+              "icon": "🧱",
+              "content": "Static friction prevents motion up to its max: f_s ≤ μ_s N."
+            },
+            {
+              "icon": "🏂",
+              "content": "Kinetic friction acts during sliding: f_k = μ_k N (usually less than μ_s)."
+            },
+            {
+              "icon": "⚠️",
+              "content": "Common mistake: assuming friction always equals μN — static friction can be less depending on applied force."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Circular motion essentials",
+          "author": "orbit_gal",
+          "author_pfp_emoji": "🌀",
+          "topic": 0,
+          "section": 4,
+          "likes": 341,
+          "background": "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "centripetal_claire",
+              "pfp_emoji": "🔁",
+              "likes": 11,
+              "content": "Centripetal force points toward center, not some spooky outward force."
+            },
+            {
+              "id": 2,
+              "author": "wild_memer",
+              "pfp_emoji": "🤪",
+              "likes": 3,
+              "content": "Centrifugal: the fake force your brain invents when you spin."
+            },
+            {
+              "id": 3,
+              "author": "explain_it",
+              "pfp_emoji": "🧠",
+              "likes": 5,
+              "content": "a_c = v^2/r. If v increases, centripetal force must increase a lot."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔄",
+              "content": "Centripetal acceleration points to center: a_c = v^2 / r or ω^2 r."
+            },
+            {
+              "icon": "🧲",
+              "content": "Centripetal force is sum of real forces causing circular motion (tension, friction, normal)."
+            },
+            {
+              "icon": "🚗",
+              "content": "Watch units: faster speed or smaller radius → much larger centripetal acceleration."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Work & Energy (short)",
+          "author": "joule_jane",
+          "author_pfp_emoji": "⚡",
+          "topic": 0,
+          "section": 5,
+          "likes": 652,
+          "background": "linear-gradient(135deg, #00f260 0%, #0575e6 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "energy_guy",
+              "pfp_emoji": "🔋",
+              "likes": 20,
+              "content": "Work = F · d (dot product). Kinetic energy = 1/2 mv^2. Energy conserved unless non-conservative forces do work."
+            },
+            {
+              "id": 2,
+              "author": "lazy_student",
+              "pfp_emoji": "😴",
+              "likes": 3,
+              "content": "So pushing a wall and it doesn't move = zero work. Sad but true."
+            },
+            {
+              "id": 3,
+              "author": "clarity_bot",
+              "pfp_emoji": "🤖",
+              "likes": 6,
+              "content": "Potential energy depends on reference level — choose one and be consistent."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🏋️‍♀️",
+              "content": "Work (W) = force × displacement × cosθ. Only the force component along displacement does work."
+            },
+            {
+              "icon": "⚡",
+              "content": "Kinetic energy KE = 1/2 m v^2. Work-energy theorem: W_net = ΔKE."
+            },
+            {
+              "icon": "🪜",
+              "content": "Gravitational potential energy near Earth: U = m g h (choose h = 0 reference)."
+            },
+            {
+              "icon": "♻️",
+              "content": "Total mechanical energy conserved if no friction or non-conservative work."
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "title": "Free-body diagram — box on incline",
+          "author": "diagram_dave",
+          "author_pfp_emoji": "📐",
+          "topic": 0,
+          "section": 1,
+          "likes": 210,
+          "background": "linear-gradient(135deg, #3a1c71 0%, #d76d77 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "teacher_tom",
+              "pfp_emoji": "🧑‍🏫",
+              "likes": 12,
+              "content": "Image shows weight mg down, normal N perpendicular, friction along surface. Resolve mg into components parallel and perpendicular to slope."
+            },
+            {
+              "id": 2,
+              "author": "memebot",
+              "pfp_emoji": "🤖",
+              "likes": 3,
+              "content": "Incline: the OG party for vectors."
+            }
+          ],
+          "image_prompt": "Realistic diagram: a small block on an inclined plane set at 30°, with arrows showing forces: weight vector straight down (mg), normal perpendicular to plane, friction along plane opposing motion. Clean white background, labeled arrows (no heavy text), soft shadows, pastel color palette.",
+          "description": "Diagram of a block on a 30° incline with arrows for weight, normal force, and friction; the weight vector is resolved into components parallel and perpendicular to the plane.",
+          "caption": "Free-body diagram for an incline: resolve weight into mg sinθ (parallel) and mg cosθ (perpendicular). Normal force balances mg cosθ if no vertical acceleration.",
+          "file": "1c0332e8-2d0c-4d22-b2f5-fa2df00bfd0c.png"
+        },
+        {
+          "id": 2,
+          "title": "Tablecloth trick in mid-pull",
+          "author": "experiment_ella",
+          "author_pfp_emoji": "🧪",
+          "topic": 0,
+          "section": 2,
+          "likes": 1460,
+          "background": "linear-gradient(135deg, #ff5f6d 0%, #ffc371 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "safety_first",
+              "pfp_emoji": "🛡️",
+              "likes": 21,
+              "content": "Beautiful capture. Reminder: use plasticware in demos to avoid shards."
+            },
+            {
+              "id": 2,
+              "author": "inertia_infantry",
+              "pfp_emoji": "🪖",
+              "likes": 8,
+              "content": "Great shot showing objects barely move — classic inertia demo."
+            }
+          ],
+          "image_prompt": "Photorealistic photo: someone sharply pulling a colorful tablecloth from under plates and cups; capture the instant with plates almost stationary, slight motion blur on cloth, bright kitchen lighting, casual people in background (one on a skateboard passing by briefly, blurred). Emphasize motion and surprised expressions.",
+          "description": "Photo of a person pulling a tablecloth rapidly while plates on top remain nearly in place; background shows a skateboard passing briefly.",
+          "caption": "Tablecloth inertia demo: a quick pull minimizes horizontal impulse to the plates, so they remain roughly at rest due to inertia and low friction.",
+          "file": "374edc62-dff7-431b-954e-d4a41470ad21.png"
+        },
+        {
+          "id": 3,
+          "title": "Projectile trajectory (popcorn arc)",
+          "author": "launch_lab",
+          "author_pfp_emoji": "🍿",
+          "topic": 0,
+          "section": 0,
+          "likes": 730,
+          "background": "linear-gradient(135deg, #00b09b 0%, #96c93d 100%)",
+          "comments": [
+            {
+              "id": 1,
+              "author": "trajectory_tim",
+              "pfp_emoji": "📈",
+              "likes": 9,
+              "content": "Nice parabola — horizontal motion unaffected by gravity (aside from initial vertical component)."
+            },
+            {
+              "id": 2,
+              "author": "snack_attack",
+              "pfp_emoji": "🍿",
+              "likes": 4,
+              "content": "This is an edible science lesson. Love it."
+            }
+          ],
+          "image_prompt": "High-speed photo of a small projectile (like a popcorn kernel) in mid-air following a parabolic arc, with a faint grid overlay to hint at trajectory. Bright background, sharp focus on kernel, blurred background.",
+          "description": "High-speed image capturing a popcorn kernel in mid-flight tracing a curved parabolic path, with background blur to emphasize motion.",
+          "caption": "Projectile motion: the path is parabolic because horizontal velocity is constant while vertical motion accelerates downward at g.",
+          "file": "cf393a57-8941-46f4-8825-a605e2bc5e56.png"
+        }
+      ]
     }
   ]
 }
