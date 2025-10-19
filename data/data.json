@@ -7,30 +7,26 @@
   ],
   "studysets": [
     {
-      "id": "477fedb5-ba7b-498b-881d-8ab1a54828c4",
+      "id": "0bbd8e01-6717-4d56-b4a8-a1053e1dfc43",
       "status": "ready",
       "prompt": "I would like to learn about common polyatomic ions and their charges, acid-base reactions, and combustion reactions.",
-      "title": "Common reactions & ions",
+      "title": "Stoichi-Scroll: Reactions & Ions",
       "topics": [
         {
           "title": "Polyatomic ions",
           "sections": [
             "Common ions",
-            "Sulfates",
-            "Nitrates & Nitrites",
-            "Carbonates & Phosphates",
-            "Hydroxide & Ammonium",
-            "Chlorates"
+            "Nomenclature",
+            "Charge patterns"
           ]
         },
         {
           "title": "Acid-base reactions",
           "sections": [
-            "Bronsted-Lowry",
+            "Definitions",
             "Strong vs weak",
             "Neutralization",
-            "Conjugate pairs",
-            "pH basics"
+            "pH"
           ]
         },
         {
@@ -38,622 +34,745 @@
           "sections": [
             "Complete combustion",
             "Incomplete combustion",
-            "Hydrocarbon types",
-            "Balancing combustion"
+            "Balancing combustion reactions"
           ]
         }
       ],
       "question": [
         {
           "id": 1,
-          "title": "🧾 Charge check",
-          "author": "chem_bites",
+          "title": "Ion ID quiz",
+          "author": "chem_clutch",
           "topic": 0,
           "section": 0,
-          "likes": 152,
-          "background": "linear-gradient(135deg, #ff8a00 0%, #e52e71 100%)",
+          "likes": 142,
+          "background": "linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%)",
           "comments": [
             {
               "id": 1,
-              "author": "lab_rat_99",
+              "author": "ion_nerd99",
               "pfp_emoji": "🧪",
-              "likes": 12,
-              "content": "Wait is nitrate NO3- or NO2-? I'm always mixing them 😭"
+              "likes": 8,
+              "content": "Remember: SO4 is sulfate not sulfite — that -ate has more oxygens 🙃"
             },
             {
               "id": 2,
-              "author": "periodic_pepe",
-              "pfp_emoji": "🧾",
-              "likes": 5,
-              "content": "Nitrate is NO3- (three oxygens). Nitrite is NO2- — literally one less O = different charge vibes."
+              "author": "memechemist",
+              "pfp_emoji": "😂",
+              "likes": 3,
+              "content": "If you mix PO4 and pizza you get phosphate? asking for a friend"
+            },
+            {
+              "id": 3,
+              "author": "study_sis",
+              "pfp_emoji": "✨",
+              "likes": 12,
+              "content": "Tip: memorize common ones as pairs: nitrate NO3- and nitrite NO2-"
             }
           ],
-          "question": "Which of the following is the correct charge for sulfate (SO4)?",
+          "question": "Which of these is the correct charge for the sulfate ion?",
           "choices": [
-            "0",
-            "-1",
-            "-2",
-            "+2"
+            "SO4(2-)",
+            "SO4(-)",
+            "SO4(2+)",
+            "SO4(0)"
           ],
-          "correct_idx": 2
+          "correct_idx": 0
         },
         {
           "id": 2,
-          "title": "🔥 Combustion product",
-          "author": "stoich_sam",
-          "topic": 2,
-          "section": 0,
-          "likes": 98,
-          "background": "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
+          "title": "Acid strength check",
+          "author": "labcoat_lex",
+          "topic": 1,
+          "section": 1,
+          "likes": 97,
+          "background": "linear-gradient(135deg, #FBD786 0%, #f7797d 100%)",
           "comments": [
             {
-              "id": 1,
-              "author": "flame_check",
-              "pfp_emoji": "🔥",
-              "likes": 8,
-              "content": "So complete combustion = CO2 + H2O right? not CO??"
+              "id": 4,
+              "author": "pH_problems",
+              "pfp_emoji": "🧴",
+              "likes": 4,
+              "content": "Strong acids fully dissociate — so HCl in water = H+ + Cl- ✅"
             },
             {
-              "id": 2,
-              "author": "ash_on_toast",
-              "pfp_emoji": "💨",
-              "likes": 3,
-              "content": "Yes for complete. Incomplete gives CO or soot. Context matters lol."
+              "id": 5,
+              "author": "random_reviewer",
+              "pfp_emoji": "🤡",
+              "likes": 1,
+              "content": "wait so lemon juice is strong? no babe that's weak acid territory 🍋"
+            },
+            {
+              "id": 6,
+              "author": "chemexplain",
+              "pfp_emoji": "🔬",
+              "likes": 9,
+              "content": "Remember: strong vs weak is about dissociation, not how corrosive it feels"
             }
           ],
-          "question": "What are the main products of complete combustion of a hydrocarbon?",
+          "question": "Which of the following is a strong acid?",
           "choices": [
-            "CO and H2O",
-            "CO2 and H2O",
-            "CO2 and O2",
-            "C and H2O"
+            "HCl",
+            "CH3COOH",
+            "HF",
+            "H2CO3"
           ],
-          "correct_idx": 1
+          "correct_idx": 0
         },
         {
           "id": 3,
-          "title": "🧂 Neutralization check",
-          "author": "pH_pal",
+          "title": "Neutralization product",
+          "author": "titration_tim",
           "topic": 1,
           "section": 2,
-          "likes": 210,
-          "background": "linear-gradient(135deg, #a8ff78 0%, #78ffd6 100%)",
+          "likes": 63,
+          "background": "linear-gradient(135deg, #43cea2 0%, #185a9d 100%)",
           "comments": [
             {
-              "id": 1,
-              "author": "titration_tim",
-              "pfp_emoji": "⚗️",
-              "likes": 21,
-              "content": "Neutralization always gives salt + water, right??"
+              "id": 7,
+              "author": "salt_savant",
+              "pfp_emoji": "🧂",
+              "likes": 6,
+              "content": "Neutralization makes salt + water. Not always 'salt' like table salt though!"
             },
             {
-              "id": 2,
-              "author": "acidic_ally",
-              "pfp_emoji": "🍋",
-              "likes": 7,
-              "content": "Yup, but watch conjugates and spectator ions — sometimes reaction looks the same but net ionic is just H+ + OH- -> H2O"
+              "id": 8,
+              "author": "lolchemist",
+              "pfp_emoji": "😹",
+              "likes": 2,
+              "content": "Me trying to neutralize my mood with coffee = not a chemistry reaction ☕️"
+            },
+            {
+              "id": 9,
+              "author": "teachertim",
+              "pfp_emoji": "📚",
+              "likes": 11,
+              "content": "A strong acid + strong base gives neutral pH ~7 (if equimolar)."
             }
           ],
-          "question": "What is the net ionic equation for the neutralization of HCl by NaOH?",
+          "question": "What are the typical products of a neutralization between HCl and NaOH?",
           "choices": [
-            "HCl + NaOH -> NaCl + H2O",
-            "H+ + OH- -> H2O",
-            "Cl- + Na+ -> NaCl",
-            "H+ + Cl- + Na+ + OH- -> Na+ + Cl- + H2O"
+            "NaCl and H2O",
+            "NaH and Cl2",
+            "NaOH and HCl (unchanged)",
+            "H2 and O2"
           ],
-          "correct_idx": 1
+          "correct_idx": 0
         },
         {
           "id": 4,
-          "title": "⚖️ Balancing vibe",
-          "author": "balance_queen",
+          "title": "Combustion basics",
+          "author": "burn_balance",
           "topic": 2,
-          "section": 3,
-          "likes": 64,
-          "background": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+          "section": 0,
+          "likes": 58,
+          "background": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
           "comments": [
             {
-              "id": 1,
-              "author": "coeff_master",
-              "pfp_emoji": "📐",
-              "likes": 4,
-              "content": "Tip: balance C first, then H, then O. It saves brain cells 🙏"
+              "id": 10,
+              "author": "oxygenfan",
+              "pfp_emoji": "🔥",
+              "likes": 5,
+              "content": "Complete combustion => CO2 + H2O. If you see CO, it's incomplete and sus 🚨"
             },
             {
-              "id": 2,
-              "author": "burn_it_down",
-              "pfp_emoji": "🔥",
-              "likes": 2,
-              "content": "Also remember oxygen often comes from O2 gas — don't forget that 2 in diatomic!"
+              "id": 11,
+              "author": "balancing_queen",
+              "pfp_emoji": "🧮",
+              "likes": 7,
+              "content": "Low O2 = CO and soot. High O2 = CO2. Also heat and light obvs."
+            },
+            {
+              "id": 12,
+              "author": "memelord",
+              "pfp_emoji": "💀",
+              "likes": 1,
+              "content": "Me trying to balance equations like: 2 H2 + O2 -> 2 H2O (finally) 😩"
             }
           ],
-          "question": "When burning C3H8 (propane) completely, what is the coefficient in front of O2 in the balanced equation: C3H8 + ? O2 -> 3 CO2 + 4 H2O ?",
+          "question": "What is a common product of complete combustion of a hydrocarbon?",
           "choices": [
-            "5",
-            "4",
-            "7",
-            "10"
+            "CO2 and H2O",
+            "CO and C",
+            "H2 only",
+            "O2 and N2"
           ],
-          "correct_idx": 2
+          "correct_idx": 0
         },
         {
           "id": 5,
-          "title": "🧾 Ion ID trap",
-          "author": "ion_ivy",
+          "title": "Identify the ion",
+          "author": "anion_ally",
           "topic": 0,
-          "section": 4,
-          "likes": 85,
-          "background": "linear-gradient(135deg, #c6ffdd 0%, #fbd786 100%)",
+          "section": 2,
+          "likes": 44,
+          "background": "linear-gradient(135deg, #C9FFBF 0%, #FFAFBD 100%)",
           "comments": [
             {
-              "id": 1,
-              "author": "hydro_head",
-              "pfp_emoji": "💧",
+              "id": 13,
+              "author": "spot_on",
+              "pfp_emoji": "✅",
+              "likes": 2,
+              "content": "Charge patterns: -ate usually more oxygens than -ite"
+            },
+            {
+              "id": 14,
+              "author": "skeptical_sam",
+              "pfp_emoji": "🤔",
+              "likes": 1,
+              "content": "But what about per- and hypo- prefixes? yeah still sigh more memorization"
+            },
+            {
+              "id": 15,
+              "author": "ionic_ivy",
+              "pfp_emoji": "💡",
               "likes": 6,
-              "content": "Ammonium is NH4+ right? not NH3??"
-            },
-            {
-              "id": 2,
-              "author": "chem_mom",
-              "pfp_emoji": "👩‍🔬",
-              "likes": 9,
-              "content": "Correct: NH4+ is ammonium (ion). NH3 is ammonia (neutral). Big difference in reactions."
+              "content": "Sulfate is 2- and nitrate is 1- — common pattern to remember"
             }
           ],
-          "question": "What is the charge of the ammonium ion (NH4)?",
+          "question": "What is the charge on the nitrate ion (NO3)?",
           "choices": [
-            "-1",
-            "0",
-            "+1",
-            "+2"
+            "1-",
+            "2-",
+            "1+",
+            "0"
           ],
-          "correct_idx": 2
-        },
-        {
-          "id": 6,
-          "title": "🧪 Acid strength quickie",
-          "author": "pKa_pat",
-          "topic": 1,
-          "section": 1,
-          "likes": 177,
-          "background": "linear-gradient(135deg, #f43b47 0%, #453a94 100%)",
-          "comments": [
-            {
-              "id": 1,
-              "author": "strong_or_no",
-              "pfp_emoji": "⚡",
-              "likes": 10,
-              "content": "So HCl is always strong in water but HF is weak, right??"
-            },
-            {
-              "id": 2,
-              "author": "solvent_sally",
-              "pfp_emoji": "💧",
-              "likes": 5,
-              "content": "HCl strong in water, HF is weak because F- holds onto H tighter. Also solvent matters!"
-            }
-          ],
-          "question": "Which of the following is a strong acid in water?",
-          "choices": [
-            "HF",
-            "HNO3",
-            "CH3COOH",
-            "H2CO3"
-          ],
-          "correct_idx": 1
+          "correct_idx": 0
         }
       ],
       "reels": [
         {
-          "id": 1,
-          "title": "Polyatomic ions speedrun",
-          "author": "mnemonic_maya",
-          "topic": 0,
-          "section": 0,
-          "likes": 1024,
-          "background": "linear-gradient(135deg, #ff7eb3 0%, #65d6ff 100%)",
-          "comments": [
-            {
-              "id": 1,
-              "author": "shorts_nerd",
-              "pfp_emoji": "🎬",
-              "likes": 120,
-              "content": "This got me to stop mixing nitrate & nitrite. Thanks lol"
-            },
-            {
-              "id": 2,
-              "author": "memory_mic",
-              "pfp_emoji": "🧠",
-              "likes": 33,
-              "content": "Skateboard cameo lowkey made it iconic 😂"
-            }
-          ],
-          "video_prompt": "Video title: \"Polyatomic ions speedrun\" — Author: mnemonic_maya. Duration 12s. Style: fast-cut, hyperpop, unpredictable humor. Cast: 2 characters (a confident chem-nerd and a dramatic skeptic) plus a skateboarder who zooms through frame at 2s and 8s (not the focus, just cameo). Opening (0-2s): quick neon title splash: \"Polyatomic ions — 12s cheat\". Scene 1 (2-5s): chem-nerd holds flashcards: show SO4²⁻ (emoji 💥) and says lines: \"Sulfate: SO four oxygens, -2 charge — think 'SO 4 two'\" with a goofy wink. Visual: animated 2⁻ popping next to formula. Skateboarder rolls by and does a tiny trick, knocks a flashcard that reveals NO3⁻. Scene 2 (5-8s): skeptic gasps, chem-nerd: \"Nitrate = NO3⁻, nitrite = NO2⁻ (one less O, same mood but less oxygen)\" Quick visual: compare NO3⁻ vs NO2⁻ with highlight. Scene 3 (8-11s): rapid 3-panel flash of common ions: CO3²⁻ (carbonate), PO4³⁻ (phosphate), NH4⁺ (ammonium), OH⁻ (hydroxide) — each with a one-word mnemonic under it (e.g., \"CO3: cake (2 layers)\" silly). Final beat (11-12s): punchline: skateboarder returns with a giant foam Periodic Table and says offscreen, \"Keep the charges, ditch the panic.\" Quick on-screen text: \"Save this 🎯\". Speaking outline: short punchy lines only; emphasize charges audibly (\"minus two\", \"plus one\"). Visuals: bold colored gradients, emoji overlays, quick formula animations, a tiny particle burst when charges appear. Make it unexpected and funny; skateboard cameo present but not main."
-        },
-        {
-          "id": 2,
-          "title": "Neutralization in 12s (with drama)",
-          "author": "pH_pixie",
+          "id": 6,
+          "title": "Neutralization: Soda vs Vinegar (12s chaos)",
+          "author": "skate_lab",
           "topic": 1,
           "section": 2,
-          "likes": 660,
-          "background": "linear-gradient(135deg, #ffd3a5 0%, #fd6585 100%)",
+          "likes": 302,
+          "background": "linear-gradient(135deg, #FEE140 0%, #FA709A 100%)",
           "comments": [
             {
-              "id": 1,
-              "author": "net_ionic_nate",
-              "pfp_emoji": "🧾",
-              "likes": 75,
-              "content": "Net ionic explained simply — actually useful for labs 🔥"
+              "id": 16,
+              "author": "viral_vinnie",
+              "pfp_emoji": "🛹",
+              "likes": 20,
+              "content": "skateboard cameo = chef's kiss. science content + chaos, love it 😂"
             },
             {
-              "id": 2,
-              "author": "miss_titration",
-              "pfp_emoji": "🎯",
-              "likes": 18,
-              "content": "The dramatic gasp was my energy lol"
+              "id": 17,
+              "author": "sane_sally",
+              "pfp_emoji": "🧪",
+              "likes": 9,
+              "content": "Good to show gas evolution and salt + water produced. Nice visuals."
+            },
+            {
+              "id": 18,
+              "author": "noisy_neil",
+              "pfp_emoji": "🥴",
+              "likes": 2,
+              "content": "Why is someone yelling 'neutralize the vibes'? iconic"
             }
           ],
-          "video_prompt": "Video title: \"Neutralization in 12s (with drama)\" — Author: pH_pixie. Duration 12s. Style: comedic mini-skit, quick captions, over-the-top acting. Cast: acid (character in red hoodie), base (character in blue cap), plus skateboarder crossing behind the scene at 4s doing a tiny ollie. Opening (0-2s): dramatic close-up on a droplet labeled H+. Scene 1 (2-6s): acid pours a tiny animated H+ into a cup, base throws an OH- like a confetti pop; they do a melodramatic handshake. Voice lines: Acid: \"I bring H+\", Base: \"I got OH-\". Scene 2 (6-9s): both gasp as H+ + OH- collide and create H2O — show a big water droplet animation and fireworks. Quick caption: \"Net ionic: H+ + OH- -> H2O\". Scene 3 (9-12s): cut to a table where spectator ions (Na+, Cl-) are chilling on the sidelines with sunglasses labeled 'spectators' — a tiny mic drop. End text: \"Salt + Water? Yeah. But net ionic = H2O.\" Speaking outline: emphasize the simplicity: \"H plus plus OH equals water\"; comedic pause for spectator ions. Visuals: pop-up captions, neon outlines, sudden skateboard cameo, background hyperpop beat."
+          "video_prompt": "12-second reel — Title card (0.5s): 'Neutralization: Soda vs Vinegar' (fast zoom). Scene 1 (1.5s): two friends in lab goggles (one on a skateboard rolling in for a goofy entrance) hold a bottle of baking soda and a shot of vinegar — quick close-up of labels. Voiceover (energetic Gen-Z): 'Acid + base = salt + water (and bubbles)!' Scene 2 (2.5s): pour vinegar into cup, add baking soda — foam explodes theatrically, someone fake-panics and says 'we made salt, not chaos' — quick on-screen visual: chemistry equation HCl + NaOH -> NaCl + H2O but keep text minimal. Scene 3 (3s): cut to cartoon-ish graphics: 'neutralization = salt + water' with quick icons (🧂💧). Scene 4 (3s): three quick examples pop up as flashes: vinegar+baking soda (acetic acid+carbonate), HCl+NaOH, lemon+antacid. Closing (1.5s): skateboarder rides away with goggles, voiceover: 'Balance those moles, not your vibes.' Visual notes: fast jump cuts, punchy music, exaggerated reactions, bright neon color grading, quick captions highlighting products (salt, water), final shot freeze-frame with confetti. Include a quick frame showing pH moving toward 7 (simple bar)."
         },
         {
-          "id": 3,
-          "title": "Combustion: balance like a boss",
-          "author": "stoich_sue",
+          "id": 7,
+          "title": "Combustion: Propane vs The World (12s)",
+          "author": "flame_check",
           "topic": 2,
-          "section": 3,
-          "likes": 480,
-          "background": "linear-gradient(135deg, #ffd7ff 0%, #bde0fe 100%)",
+          "section": 2,
+          "likes": 401,
+          "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
           "comments": [
             {
-              "id": 1,
-              "author": "oxygen_ollie",
-              "pfp_emoji": "🛼",
-              "likes": 40,
-              "content": "Propane balancing in 12s? Respect."
+              "id": 19,
+              "author": "hotshot_harry",
+              "pfp_emoji": "🔥",
+              "likes": 34,
+              "content": "Skateboarder nearly ignites the crowd. This is educational AND chaotic — 10/10"
             },
             {
-              "id": 2,
-              "author": "carbon_claire",
-              "pfp_emoji": "🦴",
-              "likes": 9,
-              "content": "This made the 'balance C, H, O' order stick better ngl"
+              "id": 20,
+              "author": "safety_sue",
+              "pfp_emoji": "🚒",
+              "likes": 6,
+              "content": "Cool but pls don't actually set things on fire at home 🙏"
+            },
+            {
+              "id": 21,
+              "author": "chem_explains",
+              "pfp_emoji": "📘",
+              "likes": 12,
+              "content": "Nice quick breakdown of complete vs incomplete: CO2 vs CO + soot."
             }
           ],
-          "video_prompt": "Video title: \"Combustion: balance like a boss\" — Author: stoich_sue. Duration 12s. Style: energetic rapid-fire tutorial with comedic non-sequiturs. Cast: one chill host, one overexcited assistant, skateboarder zips through at 3s and 9s. Opening (0-2s): text: \"Balance combustion in 12s\". Scene 1 (2-5s): host writes C3H8 + O2 -> CO2 + H2O. Host: \"C first: 3 CO2\" — big flash of '3'. Scene 2 (5-8s): assistant counts H: \"8 H -> 4 H2O\" (flash '4'). Scene 3 (8-11s): host solves O: tally O atoms (3*2 + 4*1 = 10) -> O2 coefficient 5. Visuals: tally marks, quick animation converting atoms to oxygen molecules. Final beat (11-12s): assistant throws confetti; text: \"C3H8 + 5 O2 -> 3 CO2 + 4 H2O\". Speaking outline: narrate steps fast and loud: \"C, H, then O — boom.\" Include skateboard cameo for comedic choreography."
+          "video_prompt": "12-second reel — Title card (0.5s): 'Combustion: Propane vs The World.' Scene 1 (1.5s): quick POV: skateboarder rolls past a backyard grill with a small propane tank, someone asks 'what happens if it's low on O2?' Voiceover (sassy Gen-Z narrator): 'Less oxygen = incomplete, say hello to CO and soot.' Scene 2 (3s): split-screen: left full O2 flame (blue) -> CO2 + H2O; right limited O2 (yellow/orange smoke) -> CO + C (soot). Overlay small chemical formulas but keep them readable: C3H8 + 5O2 -> 3CO2 + 4H2O. Scene 3 (3s): quick dramatized test: candle flame shifts color when you smother it (fast cuts, comedic gasp). Scene 4 (3s): final tip pop: 'Complete = blue, Incomplete = yellow/soot/CO (danger).' Closing (1s): skateboarder gives thumbs up and mock-lectures 'Breathe safe, don't inhale CO.' Visuals: punchy edits, motion graphics showing molecules, one skateboard cameo not central, safety reminder flash."
         }
       ],
       "posts": [
         {
-          "id": 1,
-          "title": "Top common polyatomic ions",
-          "author": "ions_irl",
+          "id": 8,
+          "title": "Common polyatomic ions cheat-sheet",
+          "author": "ion_instinct",
           "topic": 0,
           "section": 0,
-          "likes": 430,
+          "likes": 521,
           "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
           "comments": [
             {
-              "id": 1,
-              "author": "chem_claire",
-              "pfp_emoji": "🧪",
-              "likes": 34,
-              "content": "Why is carbonate -2 again? I keep thinking -1 lol"
-            },
-            {
-              "id": 2,
-              "author": "memorize_me",
-              "pfp_emoji": "🧠",
-              "likes": 22,
-              "content": "Pro tip: learn a handful (SO4²⁻, NO3⁻, CO3²⁻, PO4³⁻, OH⁻, NH4⁺) and you cover like 80% of problems"
-            },
-            {
-              "id": 3,
-              "author": "panic_at_lab",
-              "pfp_emoji": "😅",
-              "likes": 5,
-              "content": "This actually helped me on the quiz fr"
-            }
-          ],
-          "slides": [
-            {
-              "icon": "📌",
-              "content": "SO4²⁻ sulfate — charge -2"
-            },
-            {
-              "icon": "📌",
-              "content": "NO3⁻ nitrate — charge -1 (NO2⁻ is nitrite: -1 with one less O)"
-            },
-            {
-              "icon": "📌",
-              "content": "CO3²⁻ carbonate — -2; PO4³⁻ phosphate — -3"
-            },
-            {
-              "icon": "📌",
-              "content": "OH⁻ hydroxide — -1; NH4⁺ ammonium — +1"
-            },
-            {
-              "icon": "💡",
-              "content": "Most polyatomic oxyanions have negative charges; memorize families, not every weird one"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "title": "Sulfates & sulfites quickguide",
-          "author": "sulfate_sam",
-          "topic": 0,
-          "section": 1,
-          "likes": 178,
-          "background": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
-          "comments": [
-            {
-              "id": 1,
-              "author": "sulfix",
-              "pfp_emoji": "🧾",
-              "likes": 10,
-              "content": "Sulfite vs sulfate always trips me up. Appreciate the side-by-side!"
-            },
-            {
-              "id": 2,
-              "author": "oxide_kid",
-              "pfp_emoji": "⚠️",
-              "likes": 3,
-              "content": "Remember -ite = one less oxygen than -ate"
-            }
-          ],
-          "slides": [
-            {
-              "icon": "🧩",
-              "content": "Sulfate: SO4²⁻ (common in salts like Na2SO4)"
-            },
-            {
-              "icon": "🧩",
-              "content": "Sulfite: SO3²⁻ (same -2 charge but one less O)"
-            },
-            {
-              "icon": "🧠",
-              "content": "Tip: -ate usually has more oxygens than -ite"
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "title": "Nitrate vs Nitrite: don't panic",
-          "author": "no3pro",
-          "topic": 0,
-          "section": 2,
-          "likes": 142,
-          "background": "linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%)",
-          "comments": [
-            {
-              "id": 1,
-              "author": "confused_cory",
-              "pfp_emoji": "🤔",
-              "likes": 6,
-              "content": "I always forget which has 3 O's — this stuck"
-            },
-            {
-              "id": 2,
-              "author": "nitro_nick",
-              "pfp_emoji": "💥",
-              "likes": 2,
-              "content": "Nitrate = NO3⁻, nitrite = NO2⁻. memorize that tiny difference = huge consequences"
-            }
-          ],
-          "slides": [
-            {
-              "icon": "🔍",
-              "content": "Nitrate: NO3⁻ (common in fertilizers)"
-            },
-            {
-              "icon": "🔍",
-              "content": "Nitrite: NO2⁻ (one less oxygen; watch reactivity)"
-            },
-            {
-              "icon": "⚖️",
-              "content": "Both usually carry -1 charge in salts"
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "title": "Hydroxide & ammonium — opposites attract",
-          "author": "base_beth",
-          "topic": 0,
-          "section": 4,
-          "likes": 200,
-          "background": "linear-gradient(135deg, #b2fefa 0%, #0ed2f7 100%)",
-          "comments": [
-            {
-              "id": 1,
-              "author": "ammonia_amy",
-              "pfp_emoji": "🧴",
-              "likes": 18,
-              "content": "NH4+ vs NH3 saved my lab day — thanks!!"
-            },
-            {
-              "id": 2,
-              "author": "oh_snap",
-              "pfp_emoji": "🌀",
+              "id": 22,
+              "author": "quick_memer",
+              "pfp_emoji": "📎",
               "likes": 14,
-              "content": "OH- is basic, NH4+ is acidic-ish when donating H+ (as conjugate acid of NH3)"
+              "content": "This should be a flashcard set ngl 🔥"
+            },
+            {
+              "id": 23,
+              "author": "chem_vibes",
+              "pfp_emoji": "🧠",
+              "likes": 9,
+              "content": "Nitrate NO3- / Nitrite NO2- — pairing saved my life on tests"
+            },
+            {
+              "id": 24,
+              "author": "oxygen_overlord",
+              "pfp_emoji": "💨",
+              "likes": 3,
+              "content": "Phosphate PO4(3-) = big one for bio peeps"
+            },
+            {
+              "id": 25,
+              "author": "meme_machine",
+              "pfp_emoji": "😹",
+              "likes": 2,
+              "content": "me memorizing SO4 like it's my ex's phone number 😩"
             }
           ],
           "slides": [
             {
-              "icon": "⚖️",
-              "content": "OH⁻ = hydroxide, common strong base component"
-            },
-            {
-              "icon": "⚖️",
-              "content": "NH4⁺ = ammonium, conjugate acid of NH3, charge +1"
-            },
-            {
-              "icon": "💡",
-              "content": "NH3 is neutral gas; NH4+ is the ion — different behavior in solution"
-            }
-          ]
-        },
-        {
-          "id": 5,
-          "title": "Bronsted-Lowry in one slide",
-          "author": "bronsted_bro",
-          "topic": 1,
-          "section": 0,
-          "likes": 300,
-          "background": "linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%)",
-          "comments": [
-            {
-              "id": 1,
-              "author": "philosophy_phil",
-              "pfp_emoji": "📚",
-              "likes": 20,
-              "content": "So acids donate H+, bases accept H+ — simple but gets messy with conjugates"
-            },
-            {
-              "id": 2,
-              "author": "titr8er",
-              "pfp_emoji": "🧪",
-              "likes": 6,
-              "content": "This is the one I actually use in solving problems"
-            }
-          ],
-          "slides": [
-            {
-              "icon": "🧪",
-              "content": "Acid: proton (H+) donor"
-            },
-            {
-              "icon": "🧪",
-              "content": "Base: proton (H+) acceptor"
+              "icon": "🧾",
+              "content": "Key anions to memorize: NO3- (nitrate), NO2- (nitrite), SO4(2-) (sulfate), SO3(2-) (sulfite), PO4(3-) (phosphate), CO3(2-) (carbonate)"
             },
             {
               "icon": "🔁",
-              "content": "Conjugate acid/base pairs: HA <-> H+ + A-"
+              "content": "Common cations: NH4+ (ammonium) — behaves like a positive polyatomic ion you see often"
+            },
+            {
+              "icon": "⚖️",
+              "content": "Charge reminders: Many O-rich ions carry negative charges (oxyanions). Learn charges alongside the formula."
+            },
+            {
+              "icon": "🧠",
+              "content": "Mnemonic idea: 'Naughty Nitrates, Sulfur Sometimes' — pair NO3/NO2 and SO4/SO3 to recall -ate vs -ite"
             }
           ]
         },
         {
-          "id": 6,
-          "title": "Strong vs weak acids — real talk",
-          "author": "pKa_pal",
-          "topic": 1,
+          "id": 9,
+          "title": "Nomenclature: -ate vs -ite vs per-/hypo-",
+          "author": "naming_nora",
+          "topic": 0,
           "section": 1,
-          "likes": 255,
-          "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+          "likes": 287,
+          "background": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
           "comments": [
             {
-              "id": 1,
-              "author": "weakling",
-              "pfp_emoji": "🥺",
-              "likes": 11,
-              "content": "So strong = fully dissociate in water? that seems binary but ok"
+              "id": 26,
+              "author": "prefix_prince",
+              "pfp_emoji": "👑",
+              "likes": 7,
+              "content": "per- = MORE oxygens, hypo- = LESS oxygens. Simple once you see pattern."
             },
             {
-              "id": 2,
-              "author": "chem_cliff",
-              "pfp_emoji": "📈",
-              "likes": 9,
-              "content": "Yep. HCl, HBr, HI, HNO3, H2SO4 (first H) are common strong acids"
+              "id": 27,
+              "author": "panic_pat",
+              "pfp_emoji": "😵",
+              "likes": 2,
+              "content": "I always confuse -ite vs -ate during exams. Same 🙃"
+            },
+            {
+              "id": 28,
+              "author": "chemcoach",
+              "pfp_emoji": "🏋️",
+              "likes": 11,
+              "content": "Tip: visual table helps. Write a small table while memorizing."
+            },
+            {
+              "id": 29,
+              "author": "that_guy",
+              "pfp_emoji": "🧃",
+              "likes": 1,
+              "content": "perchlorate > chlorate > chlorite > hypochlorite — trust the ladder"
             }
           ],
           "slides": [
             {
-              "icon": "⚡",
-              "content": "Strong acids: almost complete dissociation in water (e.g., HCl, HNO3)"
+              "icon": "📊",
+              "content": "-ate vs -ite: -ate has one more O than -ite (example: sulfate SO4(2-) vs sulfite SO3(2-))"
             },
             {
-              "icon": "🧊",
-              "content": "Weak acids: partial dissociation (e.g., CH3COOH, HF). Use Ka or pH to quantify"
+              "icon": "⬆️",
+              "content": "per- prefix: one more O than -ate (ex: perchlorate ClO4-)"
             },
             {
-              "icon": "💡",
-              "content": "If a problem says 'strong acid', treat it as full H+ source"
+              "icon": "⬇️",
+              "content": "hypo- prefix: one less O than -ite (ex: hypochlorite ClO-)"
+            },
+            {
+              "icon": "🧩",
+              "content": "Practice with chlorine family: ClO-, ClO2-, ClO3-, ClO4- = hypo-, -ite, -ate, per- order"
             }
           ]
         },
         {
-          "id": 7,
-          "title": "Complete vs incomplete combustion",
-          "author": "combustion_ko",
-          "topic": 2,
-          "section": 1,
-          "likes": 190,
-          "background": "linear-gradient(135deg, #ffb347 0%, #ffcc33 100%)",
+          "id": 10,
+          "title": "Acid vs Base: quick defs",
+          "author": "pH_pals",
+          "topic": 1,
+          "section": 0,
+          "likes": 412,
+          "background": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
           "comments": [
             {
-              "id": 1,
-              "author": "sooty_sam",
-              "pfp_emoji": "🪵",
-              "likes": 7,
-              "content": "I forgot CO is a product of incomplete — almost died in chem lab lol"
+              "id": 30,
+              "author": "definition_dan",
+              "pfp_emoji": "📘",
+              "likes": 5,
+              "content": "Bronsted: acid donates H+, base accepts H+. Lewis is broader though."
             },
             {
-              "id": 2,
-              "author": "safety_sue",
-              "pfp_emoji": "🚨",
-              "likes": 12,
-              "content": "CO is toxic and colorless — know the difference for real-world contexts"
+              "id": 31,
+              "author": "overachiever",
+              "pfp_emoji": "🤓",
+              "likes": 6,
+              "content": "Lewis acid/base is helpful for organic chem — electrons, not protons"
+            },
+            {
+              "id": 32,
+              "author": "snarky_sam",
+              "pfp_emoji": "😏",
+              "likes": 2,
+              "content": "Acid: gives H+. Base: takes H+. Simple. Like drama but with protons."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🧪",
+              "content": "Bronsted-Lowry: Acid = proton (H+) donor. Base = proton acceptor."
+            },
+            {
+              "icon": "⚖️",
+              "content": "Conjugate pairs: HA <-> H+ + A-. When HA loses H+, it becomes A- (the conjugate base)."
+            },
+            {
+              "icon": "🧭",
+              "content": "Lewis perspective: acid accepts an electron pair; base donates an electron pair."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Strong vs weak acids: who's who?",
+          "author": "titration_teacher",
+          "topic": 1,
+          "section": 1,
+          "likes": 333,
+          "background": "linear-gradient(135deg, #FBD786 0%, #f7797d 100%)",
+          "comments": [
+            {
+              "id": 33,
+              "author": "salty_sam",
+              "pfp_emoji": "🧂",
+              "likes": 4,
+              "content": "Strong acids: HCl, HBr, HI, HNO3, H2SO4 (first proton). Memorize list!"
+            },
+            {
+              "id": 34,
+              "author": "weakling_wanda",
+              "pfp_emoji": "🍋",
+              "likes": 3,
+              "content": "Acetic acid is weak — kitchen chemistry moment 🍽️"
+            },
+            {
+              "id": 35,
+              "author": "chemclarity",
+              "pfp_emoji": "🧠",
+              "likes": 10,
+              "content": "Reminder: 'strong' = fully dissociate in water, not necessarily concentrated."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "📋",
+              "content": "Common strong acids: HCl, HBr, HI, HNO3, HClO4, (and H2SO4 for the first H+)"
+            },
+            {
+              "icon": "⚗️",
+              "content": "Weak acids: partially dissociate (example: CH3COOH, H2CO3). Equilibrium arrows!"
+            },
+            {
+              "icon": "🔁",
+              "content": "In titrations strong acid vs weak base curves differ — endpoint pH differs."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "pH quick calc (strong acid)",
+          "author": "log_larry",
+          "topic": 1,
+          "section": 3,
+          "likes": 193,
+          "background": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+          "comments": [
+            {
+              "id": 36,
+              "author": "calc_claire",
+              "pfp_emoji": "🧮",
+              "likes": 6,
+              "content": "If 0.01 M HCl, [H+] ≈ 0.01 → pH = 2. Easy when strong acid!"
+            },
+            {
+              "id": 37,
+              "author": "too_caffeinated",
+              "pfp_emoji": "☕",
+              "likes": 2,
+              "content": "What about dilution? that's when molarity changes, same calc tho"
+            },
+            {
+              "id": 38,
+              "author": "teacher_tess",
+              "pfp_emoji": "📏",
+              "likes": 9,
+              "content": "Remember pH = -log10[H+]. For strong acids assume complete dissociation."
+            }
+          ],
+          "slides": [
+            {
+              "icon": "🔢",
+              "content": "Strong acid: [H+] equals initial acid concentration (ignoring autoionization of water)."
+            },
+            {
+              "icon": "📉",
+              "content": "pH formula: pH = -log10([H+]). Example: 0.001 M HCl → pH = 3"
+            },
+            {
+              "icon": "⚠️",
+              "content": "For weak acids use ICE tables and Ka — not covered in this quick slide."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Complete vs incomplete combustion",
+          "author": "combustion_cat",
+          "topic": 2,
+          "section": 0,
+          "likes": 454,
+          "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+          "comments": [
+            {
+              "id": 39,
+              "author": "smoke_signs",
+              "pfp_emoji": "🌫️",
+              "likes": 8,
+              "content": "CO is sneaky bc it's colorless+odorless. Incomplete combustion = danger!"
+            },
+            {
+              "id": 40,
+              "author": "balancer_bob",
+              "pfp_emoji": "⚖️",
+              "likes": 5,
+              "content": "Learn to spot products then balance eqn. Start with C, then H, then O"
+            },
+            {
+              "id": 41,
+              "author": "mild_meme",
+              "pfp_emoji": "😹",
+              "likes": 1,
+              "content": "flame color indicates plenty of oxygen: blue = flex 🔵"
             }
           ],
           "slides": [
             {
               "icon": "🔥",
-              "content": "Complete combustion of hydrocarbon -> CO2 + H2O"
+              "content": "Complete combustion (enough O2): hydrocarbon + O2 -> CO2 + H2O"
             },
             {
               "icon": "⚠️",
-              "content": "Incomplete combustion -> CO, C (soot), sometimes H2O + less CO2"
+              "content": "Incomplete combustion (limited O2): hydrocarbon -> CO, C (soot), sometimes CO2 and H2O"
             },
             {
-              "icon": "🎯",
-              "content": "O2 availability controls completeness — limited O2 = incomplete"
+              "icon": "🧯",
+              "content": "Safety note: CO produced in incomplete combustion is toxic — ventilation matters."
             }
           ]
         },
         {
-          "id": 8,
-          "title": "Balancing a hydrocarbon combustion quickly",
-          "author": "coeff_king",
+          "id": 14,
+          "title": "Balancing: propane combustion example",
+          "author": "stoich_stan",
           "topic": 2,
-          "section": 3,
-          "likes": 310,
-          "background": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
+          "section": 2,
+          "likes": 278,
+          "background": "linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)",
           "comments": [
             {
-              "id": 1,
-              "author": "panic_balancer",
-              "pfp_emoji": "😵",
-              "likes": 25,
-              "content": "That C,H,O order saved my exam ngl"
+              "id": 42,
+              "author": "step_by_step",
+              "pfp_emoji": "🧮",
+              "likes": 10,
+              "content": "C3H8 + 5O2 -> 3CO2 + 4H2O. Do C then H then O. Classic."
             },
             {
-              "id": 2,
-              "author": "half_done",
-              "pfp_emoji": "🙃",
-              "likes": 4,
-              "content": "Just remember to multiply H2O count ×1 for O total — saved me mistakes"
+              "id": 43,
+              "author": "panic_pat",
+              "pfp_emoji": "😱",
+              "likes": 2,
+              "content": "I always forget to multiply H2O by 2 when balancing hydrogen 😅"
+            },
+            {
+              "id": 44,
+              "author": "cool_chem",
+              "pfp_emoji": "😎",
+              "likes": 6,
+              "content": "Pro-tip: balance carbons first, hydrogens next, oxygens last."
+            },
+            {
+              "id": 45,
+              "author": "mcdoodle",
+              "pfp_emoji": "🎨",
+              "likes": 1,
+              "content": "Who knew balancing could be so aesthetic? color coding helps"
             }
           ],
           "slides": [
             {
-              "icon": "1️⃣",
-              "content": "Step 1: Balance C — set coefficient of CO2 = # of C in fuel"
+              "icon": "🧾",
+              "content": "Equation: C3H8 + O2 -> CO2 + H2O"
             },
             {
-              "icon": "2️⃣",
-              "content": "Step 2: Balance H — set coefficient of H2O = (# H in fuel)/2"
+              "icon": "🔁",
+              "content": "Step 1: Balance C: C3H8 -> 3 CO2"
             },
             {
-              "icon": "3️⃣",
-              "content": "Step 3: Balance O — count total O on product side, divide by 2 for O2"
+              "icon": "➕",
+              "content": "Step 2: Balance H: C3H8 -> 4 H2O (8 H total)"
             },
             {
-              "icon": "💡",
-              "content": "If O2 coefficient is fractional, multiply whole equation to clear fractions"
+              "icon": "⚖️",
+              "content": "Step 3: Count O: right side has 3*2 + 4*1 = 10 O atoms → need 5 O2 on left. Final: C3H8 + 5O2 -> 3CO2 + 4H2O"
             }
           ]
+        }
+      ],
+      "images": [
+        {
+          "id": 15,
+          "title": "Oxyanion family diagram",
+          "author": "diagram_dex",
+          "topic": 0,
+          "section": 1,
+          "likes": 211,
+          "background": "linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)",
+          "comments": [
+            {
+              "id": 46,
+              "author": "visual_vin",
+              "pfp_emoji": "🖼️",
+              "likes": 7,
+              "content": "Love a tidy visual that shows perchlorate->hypochlorite ladder"
+            },
+            {
+              "id": 47,
+              "author": "mindmap_maya",
+              "pfp_emoji": "🧩",
+              "likes": 5,
+              "content": "This alt-text saved me from flipping pages in my notes."
+            },
+            {
+              "id": 48,
+              "author": "nitpick_ned",
+              "pfp_emoji": "🔍",
+              "likes": 1,
+              "content": "Make sure symbols are clear, no tiny text pls"
+            }
+          ],
+          "image_prompt": "A clean infographic-style diagram showing a vertical ladder of oxyanions for chlorine: at top ClO4- (perchlorate) with the most oxygens, then ClO3- (chlorate), ClO2- (chlorite), ClO- (hypochlorite). Use colored nodes and arrows indicating 'more O' downward to 'less O'. Minimal text, clear chemistry symbols, pastel gradient background, flat vector style, no tiny text blocks.",
+          "description": "Infographic vector diagram showing the perchlorate → chlorate → chlorite → hypochlorite ladder with arrows, each node labeled with formula and charge.",
+          "caption": "Oxyanion naming ladder: per- = most oxygens (ClO4-), -ate = typical (ClO3-), -ite = one less oxygen (ClO2-), hypo- = least oxygens (ClO-). Useful pattern for chlorine family and others.",
+          "file": "fc2a0464-ea50-4c92-a8df-ac56a3c3daab.png"
+        },
+        {
+          "id": 16,
+          "title": "Vinegar + baking soda fizz (neutralization demo)",
+          "author": "demo_delilah",
+          "topic": 1,
+          "section": 2,
+          "likes": 346,
+          "background": "linear-gradient(135deg, #FEE140 0%, #FA709A 100%)",
+          "comments": [
+            {
+              "id": 49,
+              "author": "kitchen_chemist",
+              "pfp_emoji": "🍽️",
+              "likes": 11,
+              "content": "Classic demo: acetic acid + bicarbonate -> CO2 gas + sodium acetate + water"
+            },
+            {
+              "id": 50,
+              "author": "lol_learner",
+              "pfp_emoji": "🤣",
+              "likes": 2,
+              "content": "This is the party trick of chemistry class 🎉"
+            },
+            {
+              "id": 51,
+              "author": "safety_first",
+              "pfp_emoji": "🧯",
+              "likes": 3,
+              "content": "Fun but do it in a sink — foamy chaos incoming"
+            }
+          ],
+          "image_prompt": "Photorealistic close-up of a clear cup with fizzing foam from a vinegar and baking soda reaction, bubbles overflowing slightly, bright kitchen lighting, shallow depth of field. Focus on visible CO2 bubbles and fizz, no text overlays, natural colors.",
+          "description": "Close-up photo of a cup fizzing with foam from a vinegar and baking soda neutralization, showing bubbles and overflow.",
+          "caption": "Vinegar (acetic acid) + baking soda (carbonate/bicarbonate) produces CO2 gas, water, and a salt (sodium acetate). This is an acid-base reaction with gas evolution — classic classroom demo.",
+          "file": "f707f69a-1d52-4869-8d6c-e6fb2085350b.png"
+        },
+        {
+          "id": 17,
+          "title": "Flame colors: complete vs incomplete",
+          "author": "spectrum_sam",
+          "topic": 2,
+          "section": 0,
+          "likes": 189,
+          "background": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+          "comments": [
+            {
+              "id": 52,
+              "author": "safety_sally",
+              "pfp_emoji": "🚨",
+              "likes": 6,
+              "content": "Yellow/orange = incomplete combustion & soot. Blue = hotter + more O2."
+            },
+            {
+              "id": 53,
+              "author": "lab_larry",
+              "pfp_emoji": "🔬",
+              "likes": 5,
+              "content": "Color is a quick diagnostic but not definitive for CO presence — always be cautious."
+            },
+            {
+              "id": 54,
+              "author": "flame_fan",
+              "pfp_emoji": "🔥",
+              "likes": 2,
+              "content": "Pretty photo but also educational fr"
+            }
+          ],
+          "image_prompt": "Side-by-side photo: (left) a bright blue propane/CH4 flame on a burner, (right) a yellow/orange sooty flame with visible smoke. High contrast, clear colors, no text. Show flame tips and slight motion blur for realism.",
+          "description": "Two-panel image showing a blue flame (complete combustion) and a yellow/orange flame with smoke (incomplete combustion).",
+          "caption": "Blue flames indicate sufficient oxygen and typically complete combustion (CO2 + H2O). Yellow smoldering flames show incomplete combustion (CO, soot). Visual clue but always combine with ventilation/sensors for safety.",
+          "file": "170798cb-0052-4f7c-8f1a-4d853f5bb013.png"
         }
       ]
     }
